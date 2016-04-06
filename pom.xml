@@ -17,6 +17,16 @@
 			<version>1.7</version>
 		</dependency>
 		<dependency>
+			<groupId>com.google.maps</groupId>
+			<artifactId>google-maps-services</artifactId>
+			<version>0.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.3</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka_2.9.2</artifactId>
 			<version>0.8.1.1</version>
@@ -35,7 +45,16 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
+		<dependency>
+			<groupId>org.kairosdb</groupId>
+			<artifactId>kairosdb</artifactId>
+			<version>1.0.0-1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.kairosdb</groupId>
+			<artifactId>client</artifactId>
+			<version>2.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -61,6 +80,53 @@
 					</execution>
 				</executions>
 			</plugin>
+						<!-- Create RPM. Run "mvn rpm:rpm" -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>rpm-maven-plugin</artifactId>
+				<version>2.1-alpha-2</version>
+				<executions>
+					<execution>
+						<id>generate-rpm</id>
+						<phase>package</phase>
+						<goals>
+							<goal>rpm</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<name>kairos-kafka</name>
+					<copyright>2014, DataStax Inc.</copyright>
+					<distribution>Kafka plugin for KairosDB</distribution>
+					<group>System Environment/Daemons</group>
+					<packager>DataStax Inc.</packager>
+					<requires>
+						<require>kairosdb &gt;= 0.9.4</require>
+					</requires>
+					<mappings>
+						<mapping>
+							<directory>/opt/kairosdb/lib</directory>
+							<dependency>
+							</dependency>
+							<artifact>
+								<classifiers>
+									<classifier/>
+								</classifiers>
+							</artifact>
+						</mapping>
+						<mapping>
+							<directory>/opt/kairosdb/conf</directory>
+							<configuration>true</configuration>
+							<sources>
+								<source>
+									<location>src/main/resources/kairos-kafka.properties</location>
+								</source>
+							</sources>
+						</mapping>
+					</mappings>
+				</configuration>
+			</plugin>
+			<!-- End Create RPM -->
 		</plugins>
 	</build>
 </project>
