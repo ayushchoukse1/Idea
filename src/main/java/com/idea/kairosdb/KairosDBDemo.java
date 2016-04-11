@@ -20,6 +20,7 @@ public class KairosDBDemo {
 		HttpClient myClient = null;
 		try {
 			myClient = new HttpClient("http://localhost:8080/");
+			
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
@@ -34,15 +35,28 @@ public class KairosDBDemo {
 		} catch (JSONException e1) {
 			e1.printStackTrace();
 		}
-		
+		System.out.println(System.currentTimeMillis());
 		MetricBuilder builder = MetricBuilder.getInstance();
-		builder.addMetric("metric67")
+		builder.addMetric("metric90")
         .addTag("host", "server1")
-		.addTag("value","OFF").addTag("device","Upstairs").addTag("manufacturer","Honeywell")
-        .addTag("customer", "Acme").addDataPoint(1457700708000L, 19	);
+		//.addTag("value","OFF").addTag("device","Upstairs").addTag("manufacturer","Honeywell")
+        .addTag("customer", "Acme")
+        //.addDataPoint(1460175956, 10.30)
+        .addDataPoint(System.currentTimeMillis() + 10, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 110, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 120, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 130, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 140, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 150, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 160, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 170, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 180, Math.random())
+        .addDataPoint(System.currentTimeMillis() + 100, Math.random())
+        .addDataPoint(System.currentTimeMillis(), Math.random());
 		
  		try {
-			System.out.println(myClient.pushMetrics(builder).getStatusCode());
+ 			
+			System.out.println(KairosDBClient.getInstance().pushMetrics(builder));
 
 		} catch (URISyntaxException e) {
 			e.printStackTrace();

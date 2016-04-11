@@ -20,10 +20,9 @@ public class ForecastIOProducer {
 	public static void start() throws Exception {
 
 		String forecast = getForecastIO("1 Washington Sq, San Jose, CA 95192");
-		System.out.println(forecast);
 		KafkaProducer producer = new KafkaProducer();
 		
-		producer.initialize("active_temperature");
+		producer.initialize("mytopic");
 		producer.publishMessage(forecast);
 		producer.closeConnection();
 	}

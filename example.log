@@ -1,145 +1,369 @@
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2002 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2002 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2004 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2004 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2006 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2006 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2008 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2008 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2010 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2010 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2012 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2012 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2014 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2014 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2016 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2016 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2018 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2018 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2020 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2020 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2022 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2022 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2024 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2024 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2026 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2026 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2028 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2028 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2030 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2030 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2032 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2032 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2034 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2034 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2036 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2036 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2038 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2038 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2040 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2040 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
-DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
-DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
-DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
-DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2042 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
-DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2042 for topics [mytopic,0] to broker 1 on 10.0.0.238:9092
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 1ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms

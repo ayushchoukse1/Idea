@@ -50,6 +50,7 @@ public class KafkaConsumer {
 		Map<String, Integer> topicCount = new HashMap<String, Integer>();
 		//Key = topic name, Value = No. of thereads for topic
 		topicCount.put(topic, new Integer(1));
+		
 		//ConsumerConnector creates the message stream for each topic
 		Map<String, List<KafkaStream<byte[], byte[]>>> consumerStreams = consumerConnector.createMessageStreams(topicCount);
 		// Get Kafka stream for topic 'mytopic'

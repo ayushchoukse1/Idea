@@ -37,10 +37,15 @@ public class Idea {
 				}
 			}
 		});
+
+		//Start the mqtt listener
+		//t1.start();
 		
-		t1.start();
-		//t2.start();
-		//t3.start();
+		//start the kafka consumer
+		t2.start();
+
+		//start the active weather data collector
+		t3.start();
 		
 	}
 }

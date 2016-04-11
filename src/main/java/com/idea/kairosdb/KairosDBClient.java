@@ -14,22 +14,34 @@ import org.kairosdb.client.response.Response;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static org.kairosdb.client.util.Preconditions.checkNotNullOrEmpty;
 
-public class KairosDBClient{
-	private static HttpClient kairosClient = null;
-	protected KairosDBClient(){
-		
+public class KairosDBClient extends HttpClient{
+	public KairosDBClient(String url) throws MalformedURLException {
+		super(url);
+		// TODO Auto-generated constructor stub
 	}
+
+	private static KairosDBClient kairosClient = null;
 	
-	public static HttpClient getInstance(){
+	public static KairosDBClient getInstance(){
 		if(kairosClient == null){
 			try {
-				kairosClient = new HttpClient("http://localhost:8080/");
+				kairosClient = new KairosDBClient("http://localhost:8080/");
+				//kairosClient = new HttpClient("http://localhost:8080/");
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
 		return kairosClient;
+	}
+	
+	public void postNewData(String json, String url){
+		try {
+			System.out.println(postData(json, url));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }

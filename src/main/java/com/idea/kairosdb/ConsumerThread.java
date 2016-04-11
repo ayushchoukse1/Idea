@@ -55,9 +55,9 @@ public class ConsumerThread {
 				if(jsonObject.has("measure")){
 					//Process the json object with StringTopicParse
 					metric = new MeasureTemperaturePassiveTopicParser().parseTopic(m_topic, jsonObject);
-				}else if(m_topic == "active_temperature"){
+				}else if(jsonObject.has("latitude") && jsonObject.has("offset")){
 					//Ignore the message for now
-					metric = new MeasureTemperatureActiveTopicParser().parseTopic(m_topic, jsonObject);
+					new MeasureTemperatureActiveTopicParser().parseTopic(m_topic, jsonObject);
 				}else if(jsonObject.has("deviceId")){
 					metric = MetricBuilder.getInstance();
 					String deviceId = jsonObject.getString("deviceId");
@@ -97,7 +97,7 @@ public class ConsumerThread {
 					}else{
 						//No action
 					}
-				}else if(jsonObject.getString("client").equals("I.D.E.A. Lighting")){
+				}else if(jsonObject.has("client") && jsonObject.getString("client").equals("I.D.E.A. Lighting")){
 					/*
 					 *  Message : {"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green"}
 						Message : {"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green"}
@@ -127,7 +127,7 @@ public class ConsumerThread {
 					  .addTag("state", jsonObject.getString("state"))
 				      .addDataPoint(timestamp, state);
 
-				}else if(jsonObject.getString("manufacturer").equals("Honeywell") && jsonObject.getString("client").equals("IDEA Thermostat")){
+				}else if(jsonObject.has("manufacturer") && jsonObject.getString("manufacturer").equals("Honeywell") && jsonObject.getString("client").equals("IDEA Thermostat")){
 						/*
 						 * Message : {"client":"IDEA Thermostat","measure":"sys.thermostat.temp","value":"70.0","timestamp":1459256714,"device":"Downstairs","manufacturer":"Honeywell"}
 						Message : {"client":"IDEA Thermostat","measure":"sys.thermostat.OPERATING_MODE","value":"HEAT","timestamp":1459256714,"device":"Downstairs","manufacturer":"Honeywell"}
@@ -175,15 +175,10 @@ public class ConsumerThread {
 			if(metric != null){
 				Response resp = m_kairosClient.pushMetrics(metric);
 				System.out.println(resp.getStatusCode() + " --- " + resp.getErrors());
-				
 			}
-		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		} catch (Exception e) {
+			System.out.println("Error while storing data : " + e.getMessage());
+		} 
 		
 	}
 
