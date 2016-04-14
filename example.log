@@ -1,369 +1,294 @@
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 1ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/rdd/json,null} - org.spark-project.jetty.servlet.ServletHandler@452e26d0 as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@e6516e
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@e6516e
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@7e70bd39
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/storage/rdd,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3670f00
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3670f00
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-319dead1
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-319dead1
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3670f00
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/storage/rdd,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/rdd,null} - org.spark-project.jetty.servlet.ServletHandler@3670f00 as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/storage/rdd,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@7e70bd39
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@7e70bd39
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@61d9efe0
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/storage/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@579d011c
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@579d011c
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-523424b5
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-523424b5
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@579d011c
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/storage/json,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/json,null} - org.spark-project.jetty.servlet.ServletHandler@579d011c as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/storage/json,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@61d9efe0
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@61d9efe0
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@2f4854d6
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/storage,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3546d80f
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3546d80f
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-3bde62ff
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-3bde62ff
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3546d80f
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/storage,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage,null} - org.spark-project.jetty.servlet.ServletHandler@3546d80f as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/storage,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@2f4854d6
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@2f4854d6
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@7eb01b12
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3d3f761a
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3d3f761a
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-b91d8c4
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-b91d8c4
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3d3f761a
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/pool/json,null} - org.spark-project.jetty.servlet.ServletHandler@3d3f761a as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@7eb01b12
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@7eb01b12
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@2a76b80a
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/pool,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@10b892d5
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@10b892d5
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-7807ac2c
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-7807ac2c
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@10b892d5
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/pool,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/pool,null} - org.spark-project.jetty.servlet.ServletHandler@10b892d5 as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/pool,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@2a76b80a
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@2a76b80a
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@7a56812e
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3a4b0e5d
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3a4b0e5d
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-4089713
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-4089713
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3a4b0e5d
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/stage/json,null} - org.spark-project.jetty.servlet.ServletHandler@3a4b0e5d as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@7a56812e
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@7a56812e
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@44a2b17b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/stage,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@1c32886a
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@1c32886a
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-62923ee6
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-62923ee6
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@1c32886a
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/stage,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/stage,null} - org.spark-project.jetty.servlet.ServletHandler@1c32886a as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/stage,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@44a2b17b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@44a2b17b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@7db534f2
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@5aceec94
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@5aceec94
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-7cbee484
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-7cbee484
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@5aceec94
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/json,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/json,null} - org.spark-project.jetty.servlet.ServletHandler@5aceec94 as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/json,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@7db534f2
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@7db534f2
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@7cc586a8
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@60094a13
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@60094a13
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-7bb3a9fe
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-7bb3a9fe
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@60094a13
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages,null} - org.spark-project.jetty.servlet.ServletHandler@60094a13 as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@7cc586a8
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@7cc586a8
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@459f7aa3
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@46cc127b
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@46cc127b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-532a02d9
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-532a02d9
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@46cc127b
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/jobs/job/json,null} - org.spark-project.jetty.servlet.ServletHandler@46cc127b as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@459f7aa3
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@459f7aa3
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@4e4efc1b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/jobs/job,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@6815c5f2
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@6815c5f2
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-644c78d4
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-644c78d4
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@6815c5f2
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/jobs/job,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/jobs/job,null} - org.spark-project.jetty.servlet.ServletHandler@6815c5f2 as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/jobs/job,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@4e4efc1b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@4e4efc1b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@2c95ac9e
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/jobs/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@407cf41
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@407cf41
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-770d4269
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-770d4269
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@407cf41
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/jobs/json,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/jobs/json,null} - org.spark-project.jetty.servlet.ServletHandler@407cf41 as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/jobs/json,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@2c95ac9e
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@2c95ac9e
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@4a9e6faf
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/jobs,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@1cf2fed4
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@1cf2fed4
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-f9b7332
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-f9b7332
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@1cf2fed4
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/jobs,null}
+INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/jobs,null} - org.spark-project.jetty.servlet.ServletHandler@1cf2fed4 as handler
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/jobs,null}
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@4a9e6faf
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@4a9e6faf
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.ContextHandlerCollection@538613b3
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.Server@4940809c
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.ErrorHandler@aa22f1c
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.ErrorHandler@aa22f1c
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.ErrorHandler@aa22f1c
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping qtp373437697{8<=8<=8/254,0}
+DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604909200
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED qtp373437697{8<=0<=0/254,4}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.Server@4940809c
+INFO Thread-0 org.apache.spark.ui.SparkUI - Stopped Spark web UI at http://10.229.228.223:4040
+INFO Thread-0 org.apache.spark.scheduler.DAGScheduler - Stopping DAGScheduler
+INFO Thread-0 org.apache.spark.scheduler.DAGScheduler - ResultStage 3 (start at SparkProcess.java:116) failed in 11.003 s
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopExecutor,true) from Actor[akka://sparkDriver/temp/$D]
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopExecutor,true)
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (2.571187 ms) AkkaMessage(StopExecutor,true) from Actor[akka://sparkDriver/temp/$D]
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.Server@53812a9b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping SocketConnector@0.0.0.0:49671
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED null/null
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED SocketConnector@0.0.0.0:0
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.HandlerList@2b491fee
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.HandlerList@2b491fee
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.DefaultHandler@1c55f277
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.DefaultHandler@1c55f277
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.DefaultHandler@1c55f277
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.ResourceHandler@3f1c5af9
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.ResourceHandler@3f1c5af9
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.ResourceHandler@3f1c5af9
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.HandlerList@2b491fee
+DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.Server@53812a9b
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping qtp582300198{8<=8<=8/254,0}
+DEBUG Executor task launch worker-0 org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x0
+INFO Executor task launch worker-0 org.apache.zookeeper.ZooKeeper - Session: 0x0 closed
+INFO Executor task launch worker-0-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+DEBUG Executor task launch worker-0 org.I0Itec.zkclient.ZkClient - Closing ZkClient...done
+INFO Executor task launch worker-0 org.apache.spark.streaming.receiver.ReceiverSupervisorImpl - Stopping receiver with message: Error starting receiver 0: org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 10000
+INFO Executor task launch worker-0 org.apache.spark.streaming.receiver.ReceiverSupervisorImpl - Called receiver onStop
+INFO Executor task launch worker-0 org.apache.spark.streaming.receiver.ReceiverSupervisorImpl - Deregistering receiver 0
+WARN Executor task launch worker-0 org.apache.spark.rpc.akka.AkkaRpcEndpointRef - Error sending message [message = DeregisterReceiver(0,Error starting receiver 0,org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 10000
+	at org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:880)
+	at org.I0Itec.zkclient.ZkClient.<init>(ZkClient.java:98)
+	at org.I0Itec.zkclient.ZkClient.<init>(ZkClient.java:84)
+	at kafka.consumer.ZookeeperConsumerConnector.connectZk(ZookeeperConsumerConnector.scala:171)
+	at kafka.consumer.ZookeeperConsumerConnector.<init>(ZookeeperConsumerConnector.scala:126)
+	at kafka.consumer.ZookeeperConsumerConnector.<init>(ZookeeperConsumerConnector.scala:143)
+	at kafka.consumer.Consumer$.create(ConsumerConnector.scala:94)
+	at org.apache.spark.streaming.kafka.KafkaReceiver.onStart(KafkaInputDStream.scala:100)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:148)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.start(ReceiverSupervisor.scala:130)
+	at org.apache.spark.streaming.scheduler.ReceiverTracker$ReceiverTrackerEndpoint$$anonfun$9.apply(ReceiverTracker.scala:542)
+	at org.apache.spark.streaming.scheduler.ReceiverTracker$ReceiverTrackerEndpoint$$anonfun$9.apply(ReceiverTracker.scala:532)
+	at org.apache.spark.SparkContext$$anonfun$37.apply(SparkContext.scala:1984)
+	at org.apache.spark.SparkContext$$anonfun$37.apply(SparkContext.scala:1984)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:66)
+	at org.apache.spark.scheduler.Task.run(Task.scala:88)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+)] in 1 attempts
+org.apache.spark.rpc.RpcTimeoutException: Recipient[Actor[akka://sparkDriver/user/ReceiverTracker#388881992]] had already been terminated.. This timeout is controlled by spark.rpc.askTimeout
+	at org.apache.spark.rpc.RpcTimeout.org$apache$spark$rpc$RpcTimeout$$createRpcTimeoutException(RpcEnv.scala:214)
+	at org.apache.spark.rpc.RpcTimeout$$anonfun$addMessageIfTimeout$1.applyOrElse(RpcEnv.scala:229)
+	at org.apache.spark.rpc.RpcTimeout$$anonfun$addMessageIfTimeout$1.applyOrElse(RpcEnv.scala:225)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33)
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:185)
+	at scala.util.Try$.apply(Try.scala:161)
+	at scala.util.Failure.recover(Try.scala:185)
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324)
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32)
+	at org.spark-project.guava.util.concurrent.MoreExecutors$SameThreadExecutorService.execute(MoreExecutors.java:293)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$1.execute(ExecutionContextImpl.scala:133)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40)
+	at scala.concurrent.impl.Promise$DefaultPromise.scala$concurrent$impl$Promise$DefaultPromise$$dispatchOrAddCallback(Promise.scala:280)
+	at scala.concurrent.impl.Promise$DefaultPromise.onComplete(Promise.scala:270)
+	at scala.concurrent.Future$class.recover(Future.scala:324)
+	at scala.concurrent.impl.Promise$DefaultPromise.recover(Promise.scala:153)
+	at org.apache.spark.rpc.akka.AkkaRpcEndpointRef.ask(AkkaRpcEnv.scala:319)
+	at org.apache.spark.rpc.RpcEndpointRef.askWithRetry(RpcEndpointRef.scala:100)
+	at org.apache.spark.rpc.RpcEndpointRef.askWithRetry(RpcEndpointRef.scala:77)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisorImpl.onReceiverStop(ReceiverSupervisorImpl.scala:189)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.stopReceiver(ReceiverSupervisor.scala:171)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.stop(ReceiverSupervisor.scala:136)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.startReceiver(ReceiverSupervisor.scala:156)
+	at org.apache.spark.streaming.receiver.ReceiverSupervisor.start(ReceiverSupervisor.scala:130)
+	at org.apache.spark.streaming.scheduler.ReceiverTracker$ReceiverTrackerEndpoint$$anonfun$9.apply(ReceiverTracker.scala:542)
+	at org.apache.spark.streaming.scheduler.ReceiverTracker$ReceiverTrackerEndpoint$$anonfun$9.apply(ReceiverTracker.scala:532)
+	at org.apache.spark.SparkContext$$anonfun$37.apply(SparkContext.scala:1984)
+	at org.apache.spark.SparkContext$$anonfun$37.apply(SparkContext.scala:1984)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:66)
+	at org.apache.spark.scheduler.Task.run(Task.scala:88)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:214)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: akka.pattern.AskTimeoutException: Recipient[Actor[akka://sparkDriver/user/ReceiverTracker#388881992]] had already been terminated.
+	at akka.pattern.AskableActorRef$.ask$extension(AskSupport.scala:132)
+	at org.apache.spark.rpc.akka.AkkaRpcEndpointRef.ask(AkkaRpcEnv.scala:307)
+	... 17 more
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED qtp582300198{8<=0<=0/254,5}
+DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.Server@53812a9b
+DEBUG sparkDriver-akka.actor.default-dispatcher-15 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopMapOutputTracker,true) from Actor[akka://sparkDriver/temp/$E]
+DEBUG sparkDriver-akka.actor.default-dispatcher-15 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopMapOutputTracker,true)
+INFO sparkDriver-akka.actor.default-dispatcher-15 org.apache.spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+DEBUG sparkDriver-akka.actor.default-dispatcher-15 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (1.393364 ms) AkkaMessage(StopMapOutputTracker,true) from Actor[akka://sparkDriver/temp/$E]
+INFO Thread-0 org.apache.spark.storage.MemoryStore - MemoryStore cleared
+INFO Thread-0 org.apache.spark.storage.BlockManager - BlockManager stopped
+DEBUG sparkDriver-akka.actor.default-dispatcher-15 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopBlockManagerMaster,true) from Actor[akka://sparkDriver/temp/$F]
+DEBUG sparkDriver-akka.actor.default-dispatcher-15 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopBlockManagerMaster,true)
+DEBUG sparkDriver-akka.actor.default-dispatcher-15 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (0.297653 ms) AkkaMessage(StopBlockManagerMaster,true) from Actor[akka://sparkDriver/temp/$F]
+INFO Thread-0 org.apache.spark.storage.BlockManagerMaster - BlockManagerMaster stopped
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopCoordinator,false) from Actor[akka://sparkDriver/deadLetters]
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopCoordinator,false)
+INFO sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+INFO Thread-0 org.apache.spark.SparkContext - Successfully stopped SparkContext
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (1.003508 ms) AkkaMessage(StopCoordinator,false) from Actor[akka://sparkDriver/deadLetters]
+INFO Thread-0 org.apache.spark.util.ShutdownHookManager - Shutdown hook called
+INFO Thread-0 org.apache.spark.util.ShutdownHookManager - Deleting directory /private/var/folders/2x/jlp8m86j2_l3yfbbmt_5lv3r0000gn/T/spark-73f1ea3a-04cc-48b0-80e8-bacfec585cb1
