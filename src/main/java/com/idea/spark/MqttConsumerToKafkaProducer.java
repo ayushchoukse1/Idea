@@ -229,7 +229,7 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 
 				KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>(message.getTopic(),
 						jobj.toString());
-				writer.println(kafkaMessage.message());
+				//System.out.println(kafkaMessage.message());
 				producer.send(kafkaMessage);
 			} while (!exit);
 
