@@ -1,10 +1,10 @@
 package com.idea.spark;
 
-import java.sql.Timestamp;
-import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.concurrent.atomic.AtomicLong;
 
 import org.apache.spark.SparkConf;
@@ -16,12 +16,9 @@ import org.apache.spark.streaming.api.java.JavaDStream;
 import org.apache.spark.streaming.api.java.JavaPairReceiverInputDStream;
 import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import org.apache.spark.streaming.kafka.KafkaUtils;
-import org.codehaus.jettison.json.JSONArray;
-import org.codehaus.jettison.json.JSONObject;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.idea.adapters.weather.forecastio.service.ForecastIOService;
 
 import scala.Tuple2;
 
@@ -78,33 +75,17 @@ public final class BreakInputLines {
 			}
 		});
 
-		// tempLines.print();
-		readLightRDD(lightLines);
-		//readTempRDD(tempLines);
+		Timer timer = new Timer();
+		TimerTask hourlyTask = new TimerTask() {
+
+			@Override
+			public void run() {
+				PersistData.persistLightData();
+			}
+		};
+		timer.schedule(hourlyTask, 0l, 1000 * 15);
 		jssc.start();
 		jssc.awaitTermination();
-		// ProcessLightLines.readLightRDD(lightLines);
-
-		// JavaDStream<String> lightsOnLines = lightLines.filter(new
-		// Function<String, Boolean>() {
-		// public Boolean call(String messages) {
-		// return messages.contains("Green");
-		// }
-
-		// });
-
-		// Timer timer = new Timer();
-		// TimerTask hourlyTask = new TimerTask() {
-		//
-		// @Override
-		// public void run() {
-		// PersistData.persistLightData();
-		// }
-		// };
-		// timer.schedule (hourlyTask, 0l, 1000*15);
-
-		// jssc.start();
-		// jssc.awaitTermination();
 
 	}
 
@@ -124,35 +105,15 @@ public final class BreakInputLines {
 						return string;
 					}
 				});
-
-				/*
-				 * //print objecHashmap for (Map.Entry<String, Lighting> entry :
-				 * objectHashmap.entrySet()) { System.out.println(
-				 * "Priting objectHashmap"); System.out.println(entry.getKey()+
-				 * " : "+entry.getValue()); }
-				 */
 				List<String> ls = rowRDD.collect();
 				ObjectMapper mapper = new ObjectMapper();
-				/*
-				 * for (int i = 0; i < ls.size(); i++) {
-				 * 
-				 * 
-				 * Printing the RDD's as JSON Object
-				 * 
-				 * 
-				 * Object json = mapper.readValue(ls.get(i), Object.class);
-				 * mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
-				 * //System.out.println(mapper.writerWithDefaultPrettyPrinter().
-				 * writeValueAsString(json)); }
-				 */
 				return null;
 			}
 		});
 
 	}
-	
-	public static void readLightRDD(JavaDStream<String> dStream) {
 
+	public static void readLightRDD(JavaDStream<String> dStream) {
 
 		dStream.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
@@ -167,11 +128,6 @@ public final class BreakInputLines {
 						return string;
 					}
 				});
-				
-				//print objecHashmap
-				/*for (Map.Entry<String, Lighting> entry : objectHashmap.entrySet()) {
-				    System.out.println(entry.getKey()+" : "+entry.getValue());
-				}*/
 				List<String> ls = rowRDD.collect();
 				ObjectMapper mapper = new ObjectMapper();
 				for (int i = 0; i < ls.size(); i++) {
@@ -182,7 +138,7 @@ public final class BreakInputLines {
 					 */
 					Object json = mapper.readValue(ls.get(i), Object.class);
 					mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
-					//System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(json));
+					// System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(json));
 				}
 				return null;
 			}
