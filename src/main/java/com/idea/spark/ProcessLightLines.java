@@ -13,6 +13,8 @@ import org.codehaus.jettison.json.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
+import scala.tools.asm.tree.IntInsnNode;
+
 public class ProcessLightLines implements java.io.Serializable {
 	
 	public void processLightString(String string) throws Exception {
@@ -106,10 +108,12 @@ public class ProcessLightLines implements java.io.Serializable {
 		temp.set(Calendar.SECOND, 0);
 		temp.set(Calendar.MILLISECOND, 0);
 		Timestamp onTime = new Timestamp(temp.getTimeInMillis());
+		Timestamp wasteTime = new Timestamp(temp.getTimeInMillis());
 		if (!ProcessUtility.lightsMap.containsKey(name)) {
 			Lighting light = new Lighting();
 			light.setName(name);
 			light.setOnTime(onTime);
+			light.setWasteTime(wasteTime);
 			light.setTimestamp(timestamp);
 			light.setIntialState(currentState);
 			ProcessUtility.lightsMap.put(name, light);
@@ -137,15 +141,39 @@ public class ProcessLightLines implements java.io.Serializable {
 					 */
 
 					// The total time for which the light was on.
-					long diff = light.getTimestamp().getTime() - timestamp.getTime();
+					long currentTime = (light.getTimestamp().getTime());
+					long initialTime = timestamp.getTime();
+					long diff = currentTime - initialTime;
 					long oldTimeInMilli = light.getOnTime().getTime();
 					oldTimeInMilli = oldTimeInMilli + diff;
-
 					light.setOnTime(new Timestamp(oldTimeInMilli));
-					System.out.println(
-							"New Updated onTime for " + light.getName() + " is " + light.getOnTime().getTime());
+					System.out.println("New Updated onTime for " + light.getName() + " is " + light.getOnTime().getTime());
 					light.setTimestamp(timestamp);
 					light.setIntialState(currentState);
+					
+					//calculating waste
+					long sunriseTime = ExternalData.getSunriseTime();
+					long sunsetTime = ExternalData.getSunsetTime();
+					long oldWasteTime = light.getWasteTime().getTime();
+					
+					if(initialTime>sunriseTime && currentTime<sunsetTime)
+					{
+						oldWasteTime += diff;
+					}
+					else if(initialTime<sunriseTime && currentTime >sunsetTime)
+					{
+						oldWasteTime = oldWasteTime + (currentTime - sunriseTime);
+					}
+					else if(initialTime>sunriseTime && currentTime < sunsetTime)
+					{
+						oldWasteTime = oldWasteTime + (sunsetTime - initialTime);
+					}
+					else if(initialTime>sunriseTime && currentTime > sunsetTime)
+					{
+						oldWasteTime = oldWasteTime + (sunsetTime - sunriseTime);
+					}
+					light.setWasteTime(new Timestamp(oldWasteTime));
+						
 				}
 
 			}

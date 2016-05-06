@@ -1,6 +1,7 @@
 package com.idea.spark;
 
 import java.net.UnknownHostException;
+import java.sql.Timestamp;
 import java.util.Iterator;
 import java.util.Map;
 
@@ -68,6 +69,42 @@ public class PersistData {
 			}
 		}
 		
+	}
+	
+	public static void persistTempRecomm(String recomm, String deviceID, String location, Double diff){
+		try {
+			ProcessUtility.mongo = new MongoClient( "localhost" , 27017 );
+			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
+			ProcessUtility.table = ProcessUtility.db.getCollection("tempRecomms");
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+		
+		BasicDBObject newDoc = new BasicDBObject();
+		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
+		newDoc.put("Timestamp", currentTime);
+		newDoc.put("DeviceID", deviceID);
+		newDoc.put("Location", location);
+		newDoc.put("Diff", diff);
+		newDoc.put("Recommendation", recomm);
+		ProcessUtility.table.insert(newDoc);
+	}
+	
+	public static void persistTempAction(String action, String deviceID){
+		try {
+			ProcessUtility.mongo = new MongoClient( "localhost" , 27017 );
+			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
+			ProcessUtility.table = ProcessUtility.db.getCollection("tempActions");
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+		
+		BasicDBObject newDoc = new BasicDBObject();
+		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
+		newDoc.put("Timestamp", currentTime);
+		newDoc.put("DeviceID", deviceID);
+		newDoc.put("Action", action);
+		ProcessUtility.table.insert(newDoc);
 	}
 	
 

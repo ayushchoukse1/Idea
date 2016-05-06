@@ -21,43 +21,75 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.idea.adapters.weather.forecastio.service.ForecastIOService;
 
 public class ProcessTempLines implements Serializable {
-	double forecastTemp;
-
-	public double getForecastTemp() {
-		ForecastIOService fs = new ForecastIOService();
-		Double forecastTemp = 0.0;
-		try {
-			String forecast = fs.getWeatherForecast("1600+Amphitheatre+Parkway,+Mountain+View,+CA");
-			JSONObject jsonObj = new JSONObject(forecast);
-			jsonObj = jsonObj.getJSONObject("hourly");
-			JSONArray arr = jsonObj.getJSONArray("data");
-			forecastTemp = arr.getJSONObject(3).getDouble("temperature");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return forecastTemp;
-	}
+	
+	
 
 	public void readTempRDD(String string) throws Exception {
 		System.out.println("Checking temperature line....");
 		JSONObject jsonObj = new JSONObject(string);
 		String deviceID = jsonObj.getString("deviceId");
-		System.out.print("Reading data for device: " + deviceID);
+		//System.out.print("Reading data for device: " + deviceID);
 		String location = ProcessUtility.thermostatLocator.get(deviceID);
-		System.out.println(" at location: " + location);
-		Double currentTemp = jsonObj.getDouble("temperature");
-		System.out.println("Current Temperature: " + currentTemp);
+		//System.out.println(" at location: " + location);
+		Double currentTemp = jsonObj.getDouble("temperature"); // thermostat temperature
+		//System.out.println("Current Temperature: " + currentTemp);
+		Double forecastTemp = ExternalData.getForecastTemp();
 		System.out.println("Forecasted Temperature: " + forecastTemp);
 		Double tempDiff = forecastTemp - currentTemp;
+		String recomm = null;
 		if (tempDiff < 0) {
 			// its becoming cold so increase the temperature
-			System.out.println("Device at " + location + " should increase the temperature by " + tempDiff + "F");
+			recomm = "should decrease the temperature by";
+			System.out.println("Device: " + location +" is at: " + currentTemp +"F should decrease the temperature by " + Math.abs(tempDiff) + "F");
 		} else if (tempDiff > 0) {
 			// its becoming hotter
-			System.out.println("Device at " + location + " should decrease the temperature by " + tempDiff + "F");
+			recomm = "should increase the temperature by";
+			System.out.println("Device at " + location +" is at: " + currentTemp +"F should increase the temperature by " + Math.abs(tempDiff) + "F");
 		} else {
-			System.out.println("Tempaerature remains same");
+			System.out.println("Temperature remains same");
 		}
+		
+		if(recomm != null)
+		{
+			PersistData.persistTempRecomm(recomm, deviceID, location, Math.abs(tempDiff));
+		}
+		
+		//find the difference between outdoors thermostat temp and the actual current temp
+		//This give us the difference in temperature between city and mountain temp
+		Double diffAccuracy = 0.0;
+		Double currentExternalTemp = ExternalData.getCurrentExternalTemp(); // temp obtained from API
+		Double forcastAccurate = 0.0;
+		Double pipeLowerThreshold = 60.0;
+		//Double pipeUpperThreshold = 60.0;
+		if(location == "Cottage - Outdoors")
+		{
+			diffAccuracy = currentExternalTemp - currentTemp;
+			forcastAccurate = forecastTemp - diffAccuracy;
+			System.out.println("Water Heater CurTemp: " + currentTemp + " CurExtTemp: "+ currentExternalTemp + " forecastTemp: "+ forecastTemp + " ForAccTemp: " + forcastAccurate );
+			String action = null;
+			if(forcastAccurate <= pipeLowerThreshold && (!ProcessUtility.heater.isState()))
+			{
+				action = "Water heater is switched on";
+				ProcessUtility.heater.setState(true);
+				
+				//System.out.println("Forecasted Temp: " + forcastAccurate + " Switching heater on...");
+			}
+			else if(forcastAccurate >= pipeLowerThreshold && ProcessUtility.heater.isState())
+			{
+				 action = "Water heater is switched off";
+				 ProcessUtility.heater.setState(false);
+			}
+			
+			if(action != null)
+			{
+				System.out.println(action);
+				PersistData.persistTempAction(action, deviceID);
+			}
+		}
+		
+		//set a temp limit for out pipes
+		
+		//check if the the forecasted temp would go out
 
 	}
 

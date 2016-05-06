@@ -1,863 +1,349 @@
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(UpdateBlockInfo(BlockManagerId(driver, localhost, 49672),broadcast_3_piece0,StorageLevel(false, true, false, false, 1),11229,0,0),true) from Actor[akka://sparkDriver/temp/$x]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(UpdateBlockInfo(BlockManagerId(driver, localhost, 49672),broadcast_3_piece0,StorageLevel(false, true, false, false, 1),11229,0,0),true)
-INFO sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.storage.BlockManagerInfo - Added broadcast_3_piece0 in memory on localhost:49672 (size: 11.0 KB, free: 983.0 MB)
-DEBUG dag-scheduler-event-loop org.apache.spark.storage.BlockManagerMaster - Updated info of block broadcast_3_piece0
-DEBUG dag-scheduler-event-loop org.apache.spark.storage.BlockManager - Told master about block broadcast_3_piece0
-DEBUG dag-scheduler-event-loop org.apache.spark.storage.BlockManager - Put block broadcast_3_piece0 locally took  3 ms
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (0.863715 ms) AkkaMessage(UpdateBlockInfo(BlockManagerId(driver, localhost, 49672),broadcast_3_piece0,StorageLevel(false, true, false, false, 1),11229,0,0),true) from Actor[akka://sparkDriver/temp/$x]
-DEBUG dag-scheduler-event-loop org.apache.spark.storage.BlockManager - Putting block broadcast_3_piece0 without replication took  3 ms
-INFO dag-scheduler-event-loop org.apache.spark.SparkContext - Created broadcast 3 from broadcast at DAGScheduler.scala:861
-INFO dag-scheduler-event-loop org.apache.spark.scheduler.DAGScheduler - Submitting 1 missing tasks from ResultStage 3 (Receiver 0 ParallelCollectionRDD[3] at start at SparkProcess.java:116)
-DEBUG dag-scheduler-event-loop org.apache.spark.scheduler.DAGScheduler - New pending tasks: Set(ResultTask(3, 0))
-INFO dag-scheduler-event-loop org.apache.spark.scheduler.TaskSchedulerImpl - Adding task set 3.0 with 1 tasks
-DEBUG dag-scheduler-event-loop org.apache.spark.scheduler.TaskSetManager - Epoch for TaskSet 3.0: 0
-DEBUG dag-scheduler-event-loop org.apache.spark.scheduler.TaskSetManager - Valid locality levels for TaskSet 3.0: ANY
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(ReviveOffers,false) from Actor[akka://sparkDriver/deadLetters]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(ReviveOffers,false)
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.scheduler.TaskSchedulerImpl - parentName: , name: TaskSet_3, runningTasks: 0
-INFO sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.scheduler.TaskSetManager - Starting task 0.0 in stage 3.0 (TID 3, localhost, ANY, 2987 bytes)
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (1.332202 ms) AkkaMessage(ReviveOffers,false) from Actor[akka://sparkDriver/deadLetters]
-INFO Executor task launch worker-0 org.apache.spark.executor.Executor - Running task 0.0 in stage 3.0 (TID 3)
-DEBUG Executor task launch worker-0 org.apache.spark.executor.Executor - Task 3's epoch is 0
-DEBUG Executor task launch worker-0 org.apache.spark.storage.BlockManager - Getting local block broadcast_3
-DEBUG Executor task launch worker-0 org.apache.spark.storage.BlockManager - Level for block broadcast_3 is StorageLevel(true, true, false, true, 1)
-DEBUG Executor task launch worker-0 org.apache.spark.storage.BlockManager - Getting block broadcast_3 from memory
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StatusUpdate(3,RUNNING,java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]),false) from Actor[akka://sparkDriver/deadLetters]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StatusUpdate(3,RUNNING,java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]),false)
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (0.297651 ms) AkkaMessage(StatusUpdate(3,RUNNING,java.nio.HeapByteBuffer[pos=0 lim=0 cap=0]),false) from Actor[akka://sparkDriver/deadLetters]
-INFO Executor task launch worker-0 org.apache.spark.streaming.util.RecurringTimer - Started timer for BlockGenerator at time 1460604898400
-INFO Executor task launch worker-0 org.apache.spark.streaming.receiver.BlockGenerator - Started BlockGenerator
-INFO Thread-37 org.apache.spark.streaming.receiver.BlockGenerator - Started block pushing thread
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(RegisterReceiver(0,KafkaReceiver,localhost:49672,AkkaRpcEndpointRef(Actor[akka://sparkDriver/user/Receiver-0-1460604898251#-1457269798])),true) from Actor[akka://sparkDriver/temp/$y]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(RegisterReceiver(0,KafkaReceiver,localhost:49672,AkkaRpcEndpointRef(Actor[akka://sparkDriver/user/Receiver-0-1460604898251#-1457269798])),true)
-INFO sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.streaming.scheduler.ReceiverTracker - Registered receiver for stream 0 from 10.229.228.223:49670
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (0.757964 ms) AkkaMessage(RegisterReceiver(0,KafkaReceiver,localhost:49672,AkkaRpcEndpointRef(Actor[akka://sparkDriver/user/Receiver-0-1460604898251#-1457269798])),true) from Actor[akka://sparkDriver/temp/$y]
-INFO Executor task launch worker-0 org.apache.spark.streaming.receiver.ReceiverSupervisorImpl - Starting receiver
-INFO Executor task launch worker-0 org.apache.spark.streaming.kafka.KafkaReceiver - Starting Kafka Consumer Stream with group: testListener
-INFO Executor task launch worker-0 org.apache.spark.streaming.kafka.KafkaReceiver - Connecting to Zookeeper: localhost
-INFO Executor task launch worker-0 kafka.utils.VerifiableProperties - Verifying properties
-INFO Executor task launch worker-0 kafka.utils.VerifiableProperties - Property group.id is overridden to testListener
-INFO Executor task launch worker-0 kafka.utils.VerifiableProperties - Property zookeeper.connect is overridden to localhost
-INFO Executor task launch worker-0 kafka.utils.VerifiableProperties - Property zookeeper.connection.timeout.ms is overridden to 10000
-INFO Executor task launch worker-0 kafka.consumer.ZookeeperConsumerConnector - [testListener_Surbhis-MacBook-Pro.local-1460604898256-30bb8ef6], Connecting to zookeeper instance at localhost
-DEBUG Executor task launch worker-0 org.I0Itec.zkclient.ZkConnection - Creating new ZookKeeper instance to connect to localhost.
-INFO Executor task launch worker-0 org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@433ce23b
-INFO ZkClient-EventThread-101-localhost org.I0Itec.zkclient.ZkEventThread - Starting ZkClient event thread.
-DEBUG Executor task launch worker-0 org.I0Itec.zkclient.ZkClient - Awaiting connection to Zookeeper server
-DEBUG Executor task launch worker-0 org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338356 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338356 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338358 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338358 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338360 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338360 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338362 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338362 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338364 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338364 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338366 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338366 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338368 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338368 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338370 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338370 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338372 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338372 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338374 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338374 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338376 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338376 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338378 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338378 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338380 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338380 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338382 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338382 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338384 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338384 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338386 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338386 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338388 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338388 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338390 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338390 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338392 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338392 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338394 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338394 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338396 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338396 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338398 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338398 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338400 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338400 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338402 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338402 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338404 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338404 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338406 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338406 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338408 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338408 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338410 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338410 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338412 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338412 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338414 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338414 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338416 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338416 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338418 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338418 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338420 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338420 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338422 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338422 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338424 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338424 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338426 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338426 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338428 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 338428 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG main kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG main kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG main kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG main kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 338430 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG main kafka.producer.async.DefaultEventHandler - Producer sent mesINFO main kafka.producer.SyncProducer - Disconnecting from localhost:9092
+WARN main kafka.producer.async.DefaultEventHandler - Failed to send producer request with correlation id 338446 to broker 0 with data for partitions [mytopic,1]
+java.io.EOFException: Received -1 when reading from channel, socket has likely been closed.
+	at kafka.utils.Utils$.read(Utils.scala:381)
+	at kafka.network.BoundedByteBufferReceive.readFrom(BoundedByteBufferReceive.scala:54)
+	at kafka.network.Receive$class.readCompletely(Transmission.scala:56)
+	at kafka.network.BoundedByteBufferReceive.readCompletely(BoundedByteBufferReceive.scala:29)
+	at kafka.network.BlockingChannel.receive(BlockingChannel.scala:111)
+	at kafka.producer.SyncProducer.liftedTree1$1(SyncProducer.scala:75)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:72)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:103)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:103)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:103)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:101)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:226)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:39)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:98)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:77)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:39)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:68)
+	at com.idea.spark.BreakInputLines.main(BreakInputLines.java:34)
+INFO main kafka.producer.async.DefaultEventHandler - Back off for 100 ms before retrying send. Remaining retries = 3
+INFO main kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 338447 for 1 topic(s) Set(mytopic)
+INFO main kafka.producer.SyncProducer - Connected to localhost:9092 for producing
+INFO main kafka.producer.SyncProducer - Disconnecting from localhost:9092
+WARN main kafka.client.ClientUtils$ - Fetching topic metadata with correlation id 338447 for topics [Set(mytopic)] from broker [id:0,host:localhost,port:9092] failed
 java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604898400
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604898600
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604898800
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604899000
-INFO Thread-0 org.apache.spark.streaming.StreamingContext - Invoking stop(stopGracefully=false) from shutdown hook
-DEBUG Thread-0 org.apache.spark.streaming.scheduler.JobScheduler - Stopping JobScheduler
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopAllReceivers,true) from Actor[akka://sparkDriver/temp/$z]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopAllReceivers,true)
-DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(org.apache.spark.streaming.receiver.StopReceiver$@734335bb,false) from Actor[akka://sparkDriver/deadLetters]
-DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(org.apache.spark.streaming.receiver.StopReceiver$@734335bb,false)
-INFO sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.streaming.scheduler.ReceiverTracker - Sent stop signal to all 1 receivers
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (3.312913 ms) AkkaMessage(StopAllReceivers,true) from Actor[akka://sparkDriver/temp/$z]
-INFO sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.streaming.receiver.ReceiverSupervisorImpl - Received stop signal
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604899200
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604899400
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604899600
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604899800
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604900000
-DEBUG RecurringTimer - JobGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for JobGenerator called at time 1460604900000
-DEBUG JobGenerator org.apache.spark.streaming.scheduler.JobGenerator - Got event GenerateJobs(1460604900000 ms)
-DEBUG JobGenerator org.apache.spark.streaming.DStreamGraph - Generating jobs for time 1460604900000 ms
-DEBUG JobGenerator org.apache.spark.streaming.dstream.FilteredDStream - Time 1460604900000 ms is valid
-DEBUG JobGenerator org.apache.spark.streaming.dstream.MappedDStream - Time 1460604900000 ms is valid
-DEBUG JobGenerator org.apache.spark.streaming.kafka.KafkaInputDStream - Time 1460604900000 ms is valid
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner - +++ Cleaning closure <function1> (org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1) +++
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + declared fields: 2
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -      public static final long org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1.serialVersionUID
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -      private final org.apache.spark.api.java.function.Function org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1.fun$1
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + declared methods: 1
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -      public final java.lang.Object org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1.apply(java.lang.Object)
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + inner classes: 0
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + outer classes: 0
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + outer objects: 0
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + populating accessed fields because this is the starting closure
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + fields accessed by starting closure: 0
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + there are no enclosing objects!
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  +++ closure <function1> (org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1) is now cleaned +++
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner - +++ Cleaning closure <function1> (org.apache.spark.streaming.api.java.JavaDStream$$anonfun$filter$1) +++
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + declared fields: 2
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -      public static final long org.apache.spark.streaming.api.java.JavaDStream$$anonfun$filter$1.serialVersionUID
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -      private final org.apache.spark.api.java.function.Function org.apache.spark.streaming.api.java.JavaDStream$$anonfun$filter$1.f$1
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + declared methods: 2
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -      public final java.lang.Object org.apache.spark.streaming.api.java.JavaDStream$$anonfun$filter$1.apply(java.lang.Object)
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -      public final boolean org.apache.spark.streaming.api.java.JavaDStream$$anonfun$filter$1.apply(java.lang.Object)
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + inner classes: 0
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + outer classes: 0
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + outer objects: 0
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + populating accessed fields because this is the starting closure
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + fields accessed by starting closure: 0
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  + there are no enclosing objects!
-DEBUG JobGenerator org.apache.spark.util.ClosureCleaner -  +++ closure <function1> (org.apache.spark.streaming.api.java.JavaDStream$$anonfun$filter$1) is now cleaned +++
-DEBUG JobGenerator org.apache.spark.streaming.DStreamGraph - Generated 1 jobs for time 1460604900000 ms
-INFO JobGenerator org.apache.spark.streaming.scheduler.JobScheduler - Added jobs for time 1460604900000 ms
-DEBUG JobGenerator org.apache.spark.streaming.scheduler.JobGenerator - Got event DoCheckpoint(1460604900000 ms,false)
-INFO JobScheduler org.apache.spark.streaming.scheduler.JobScheduler - Starting job streaming job 1460604900000 ms.0 from job set of time 1460604900000 ms
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner - +++ Cleaning closure <function1> (org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1) +++
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + declared fields: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public static final long org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1.serialVersionUID
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      private final org.apache.spark.api.java.function.Function org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1.fun$1
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + declared methods: 1
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public final java.lang.Object org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1.apply(java.lang.Object)
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + inner classes: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outer classes: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outer objects: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + populating accessed fields because this is the starting closure
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + fields accessed by starting closure: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + there are no enclosing objects!
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  +++ closure <function1> (org.apache.spark.api.java.JavaPairRDD$$anonfun$toScalaFunction$1) is now cleaned +++
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner - +++ Cleaning closure <function1> (org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12) +++
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + declared fields: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public static final long org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.serialVersionUID
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      private final org.apache.spark.rdd.RDD$$anonfun$collect$1 org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.$outer
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + declared methods: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(java.lang.Object)
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12.apply(scala.collection.Iterator)
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + inner classes: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outer classes: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      org.apache.spark.rdd.RDD$$anonfun$collect$1
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      org.apache.spark.rdd.RDD
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outer objects: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      <function0>
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      MapPartitionsRDD[7] at foreachRDD at SparkProcess.java:188
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + populating accessed fields because this is the starting closure
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + fields accessed by starting closure: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      (class org.apache.spark.rdd.RDD,Set(org$apache$spark$rdd$RDD$$evidence$1))
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      (class org.apache.spark.rdd.RDD$$anonfun$collect$1,Set($outer))
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outermost object is not a closure, so do not clone it: (class org.apache.spark.rdd.RDD,MapPartitionsRDD[7] at foreachRDD at SparkProcess.java:188)
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + cloning the object <function0> of class org.apache.spark.rdd.RDD$$anonfun$collect$1
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + cleaning cloned closure <function0> recursively (org.apache.spark.rdd.RDD$$anonfun$collect$1)
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner - +++ Cleaning closure <function0> (org.apache.spark.rdd.RDD$$anonfun$collect$1) +++
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + declared fields: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public static final long org.apache.spark.rdd.RDD$$anonfun$collect$1.serialVersionUID
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      private final org.apache.spark.rdd.RDD org.apache.spark.rdd.RDD$$anonfun$collect$1.$outer
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + declared methods: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1.apply()
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public org.apache.spark.rdd.RDD org.apache.spark.rdd.RDD$$anonfun$collect$1.org$apache$spark$rdd$RDD$$anonfun$$$outer()
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + inner classes: 1
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outer classes: 1
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      org.apache.spark.rdd.RDD
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outer objects: 1
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      MapPartitionsRDD[7] at foreachRDD at SparkProcess.java:188
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + fields accessed by starting closure: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      (class org.apache.spark.rdd.RDD,Set(org$apache$spark$rdd$RDD$$evidence$1))
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      (class org.apache.spark.rdd.RDD$$anonfun$collect$1,Set($outer))
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outermost object is not a closure, so do not clone it: (class org.apache.spark.rdd.RDD,MapPartitionsRDD[7] at foreachRDD at SparkProcess.java:188)
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  +++ closure <function0> (org.apache.spark.rdd.RDD$$anonfun$collect$1) is now cleaned +++
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  +++ closure <function1> (org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$12) is now cleaned +++
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner - +++ Cleaning closure <function2> (org.apache.spark.SparkContext$$anonfun$runJob$5) +++
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + declared fields: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public static final long org.apache.spark.SparkContext$$anonfun$runJob$5.serialVersionUID
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      private final scala.Function1 org.apache.spark.SparkContext$$anonfun$runJob$5.cleanedFunc$1
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + declared methods: 2
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$runJob$5.apply(java.lang.Object,java.lang.Object)
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$runJob$5.apply(org.apache.spark.TaskContext,scala.collection.Iterator)
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + inner classes: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outer classes: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + outer objects: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + populating accessed fields because this is the starting closure
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + fields accessed by starting closure: 0
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  + there are no enclosing objects!
-DEBUG streaming-job-executor-0 org.apache.spark.util.ClosureCleaner -  +++ closure <function2> (org.apache.spark.SparkContext$$anonfun$runJob$5) is now cleaned +++
-INFO streaming-job-executor-0 org.apache.spark.SparkContext - Starting job: foreachRDD at SparkProcess.java:188
-INFO streaming-job-executor-0 org.apache.spark.scheduler.DAGScheduler - Job 4 finished: foreachRDD at SparkProcess.java:188, took 0.000426 s
-INFO JobScheduler org.apache.spark.streaming.scheduler.JobScheduler - Finished job streaming job 1460604900000 ms.0 from job set of time 1460604900000 ms
-DEBUG JobGenerator org.apache.spark.streaming.scheduler.JobGenerator - Got event ClearMetadata(1460604900000 ms)
-DEBUG JobGenerator org.apache.spark.streaming.DStreamGraph - Clearing metadata for time 1460604900000 ms
-INFO JobScheduler org.apache.spark.streaming.scheduler.JobScheduler - Total delay: 0.080 s for time 1460604900000 ms (execution: 0.035 s)
-DEBUG JobGenerator org.apache.spark.streaming.dstream.ForEachDStream - Clearing references to old RDDs: []
-DEBUG JobGenerator org.apache.spark.streaming.dstream.ForEachDStream - Unpersisting old RDDs: 
-DEBUG JobGenerator org.apache.spark.streaming.dstream.ForEachDStream - Cleared 0 RDDs that were older than 1460604840000 ms: 
-DEBUG JobGenerator org.apache.spark.streaming.dstream.FilteredDStream - Clearing references to old RDDs: []
-DEBUG JobGenerator org.apache.spark.streaming.dstream.FilteredDStream - Unpersisting old RDDs: 
-DEBUG JobGenerator org.apache.spark.streaming.dstream.FilteredDStream - Cleared 0 RDDs that were older than 1460604840000 ms: 
-DEBUG JobGenerator org.apache.spark.streaming.dstream.MappedDStream - Clearing references to old RDDs: []
-DEBUG JobGenerator org.apache.spark.streaming.dstream.MappedDStream - Unpersisting old RDDs: 
-DEBUG JobGenerator org.apache.spark.streaming.dstream.MappedDStream - Cleared 0 RDDs that were older than 1460604840000 ms: 
-DEBUG JobGenerator org.apache.spark.streaming.kafka.KafkaInputDStream - Clearing references to old RDDs: []
-DEBUG JobGenerator org.apache.spark.streaming.kafka.KafkaInputDStream - Unpersisting old RDDs: 
-DEBUG JobGenerator org.apache.spark.streaming.kafka.KafkaInputDStream - Cleared 0 RDDs that were older than 1460604840000 ms: 
-DEBUG JobGenerator org.apache.spark.streaming.DStreamGraph - Cleared old metadata for time 1460604900000 ms
-INFO JobGenerator org.apache.spark.streaming.scheduler.ReceivedBlockTracker - Deleting batches ArrayBuffer()
-INFO JobGenerator org.apache.spark.streaming.scheduler.InputInfoTracker - remove old batch metadata: 
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604900200
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604900400
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(Heartbeat(driver,[Lscala.Tuple2;@497517c5,BlockManagerId(driver, localhost, 49672)),true) from Actor[akka://sparkDriver/temp/$A]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(Heartbeat(driver,[Lscala.Tuple2;@497517c5,BlockManagerId(driver, localhost, 49672)),true)
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (0.324034 ms) AkkaMessage(Heartbeat(driver,[Lscala.Tuple2;@497517c5,BlockManagerId(driver, localhost, 49672)),true) from Actor[akka://sparkDriver/temp/$A]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(BlockManagerHeartbeat(BlockManagerId(driver, localhost, 49672)),true) from Actor[akka://sparkDriver/temp/$B]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(BlockManagerHeartbeat(BlockManagerId(driver, localhost, 49672)),true)
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (0.34924 ms) AkkaMessage(BlockManagerHeartbeat(BlockManagerId(driver, localhost, 49672)),true) from Actor[akka://sparkDriver/temp/$B]
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604900600
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604900800
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604901000
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604901200
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604901400
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604901600
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604901800
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604902000
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604902200
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604902400
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604902600
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604902800
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604903000
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604903200
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604903400
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604903600
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604903800
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604904000
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604904200
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604904400
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604904600
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604904800
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604905000
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604905200
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604905400
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604905600
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604905800
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604906000
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604906200
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604906400
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604906600
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604906800
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604907000
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604907200
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604907400
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604907600
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604907800
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604908000
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
-WARN Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.ConnectException: Connection refused
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604908200
-DEBUG Executor task launch worker-0 org.I0Itec.zkclient.ZkClient - Closing ZkClient...
-INFO ZkClient-EventThread-101-localhost org.I0Itec.zkclient.ZkEventThread - Terminate ZkClient event thread.
-DEBUG Executor task launch worker-0 org.I0Itec.zkclient.ZkConnection - Closing ZooKeeper connected to localhost
-DEBUG Executor task launch worker-0 org.apache.zookeeper.ZooKeeper - Closing session: 0x0
-DEBUG Executor task launch worker-0 org.apache.zookeeper.ClientCnxn - Closing client for session: 0x0
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604908400
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604908600
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604908800
-DEBUG RecurringTimer - BlockGenerator org.apache.spark.streaming.util.RecurringTimer - Callback for BlockGenerator called at time 1460604909000
-INFO Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(AllReceiverIds,true) from Actor[akka://sparkDriver/temp/$C]
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(AllReceiverIds,true)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - An exception was thrown while closing send thread for session 0x0 : Connection refused
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1109)
-DEBUG Executor task launch worker-0-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.nio.channels.ClosedChannelException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1109)
-DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (1.934026 ms) AkkaMessage(AllReceiverIds,true) from Actor[akka://sparkDriver/temp/$C]
-WARN Thread-0 org.apache.spark.streaming.scheduler.ReceiverTracker - Not all of the receivers have deregistered, ArrayBuffer(0)
-INFO Thread-0 org.apache.spark.streaming.scheduler.ReceiverTracker - ReceiverTracker stopped
-INFO Thread-0 org.apache.spark.streaming.scheduler.JobGenerator - Stopping JobGenerator immediately
-INFO Thread-0 org.apache.spark.streaming.util.RecurringTimer - Stopped timer for JobGenerator after time 1460604900000
-INFO Thread-0 org.apache.spark.streaming.scheduler.JobGenerator - Stopped JobGenerator
-DEBUG Thread-0 org.apache.spark.streaming.scheduler.JobScheduler - Stopping job executor
-DEBUG Thread-0 org.apache.spark.streaming.scheduler.JobScheduler - Stopped job executor
-INFO Thread-0 org.apache.spark.streaming.scheduler.JobScheduler - Stopped JobScheduler
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.server.handler.ContextHandlerCollection@538613b3 - o.s.j.s.ServletContextHandler{/streaming,null} as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/streaming,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@61dde151
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@61dde151
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-1c758545
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-1c758545
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@61dde151
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/streaming,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/streaming,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/streaming,null} - org.spark-project.jetty.servlet.ServletHandler@61dde151 as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/streaming,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.server.handler.ContextHandlerCollection@538613b3 - o.s.j.s.ServletContextHandler{/streaming/batch,null} as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/streaming/batch,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3f9270ed
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3f9270ed
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-1e530163
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-1e530163
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3f9270ed
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/streaming/batch,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/streaming/batch,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/streaming/batch,null} - org.spark-project.jetty.servlet.ServletHandler@3f9270ed as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/streaming/batch,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.server.handler.ContextHandlerCollection@538613b3 - o.s.j.s.ServletContextHandler{/static/streaming,null} as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/static/streaming,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3901f6af
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3901f6af
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.DefaultServlet-16eedaa6
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.DefaultServlet-16eedaa6
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3901f6af
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/static/streaming,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/static/streaming,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/static/streaming,null} - org.spark-project.jetty.servlet.ServletHandler@3901f6af as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/static/streaming,null}
-INFO Thread-0 org.apache.spark.streaming.StreamingContext - StreamingContext stopped successfully
-INFO Thread-0 org.apache.spark.SparkContext - Invoking stop() from shutdown hook
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.Server@4940809c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping SelectChannelConnector@0.0.0.0:4040
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@55e7a35c
-DEBUG qtp373437697-39 Selector0 org.spark-project.jetty.io.nio - Stopped Thread[qtp373437697-39 Selector0,5,main] on org.spark-project.jetty.io.nio.SelectorManager$1@41de68e7
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@55e7a35c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED null/null
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED SelectChannelConnector@0.0.0.0:4040
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.ContextHandlerCollection@538613b3
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.ContextHandlerCollection@538613b3
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/streaming/batch/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@93f432e
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@93f432e
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-14d8444b
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-14d8444b
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@93f432e
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/streaming/batch/json,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/streaming/batch/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/streaming/batch/json,null} - org.spark-project.jetty.servlet.ServletHandler@93f432e as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/streaming/batch/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/streaming/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@184fb68d
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@184fb68d
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-117bcfdc
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-117bcfdc
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@184fb68d
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/streaming/json,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/streaming/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/streaming/json,null} - org.spark-project.jetty.servlet.ServletHandler@184fb68d as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/streaming/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/metrics/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@1d207fad
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@1d207fad
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-5cbb84b1
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-5cbb84b1
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@1d207fad
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/metrics/json,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/metrics/json,null} - org.spark-project.jetty.servlet.ServletHandler@1d207fad as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/metrics/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@4de025bf
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@1b9ea3e3
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@1b9ea3e3
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$2-70fab835
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$2-70fab835
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@1b9ea3e3
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/stage/kill,null} - org.spark-project.jetty.servlet.ServletHandler@1b9ea3e3 as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@4de025bf
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@4de025bf
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@21d5c1a0
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/api,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@70925b45
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@70925b45
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping com.sun.jersey.spi.container.servlet.ServletContainer-c9413d8
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED com.sun.jersey.spi.container.servlet.ServletContainer-c9413d8
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@70925b45
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/api,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/api,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/api,null} - org.spark-project.jetty.servlet.ServletHandler@70925b45 as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/api,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@21d5c1a0
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@21d5c1a0
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@2e5c7f0b
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@4b629f13
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@4b629f13
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$2-5990e6c5
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$2-5990e6c5
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@4b629f13
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/,null} - org.spark-project.jetty.servlet.ServletHandler@4b629f13 as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@2e5c7f0b
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@2e5c7f0b
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@2187fff7
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/static,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@733c423e
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@733c423e
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.DefaultServlet-517bd097
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.DefaultServlet-517bd097
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@733c423e
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/static,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/static,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/static,null} - org.spark-project.jetty.servlet.ServletHandler@733c423e as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/static,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@2187fff7
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@2187fff7
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@6691490c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@1a2e2935
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@1a2e2935
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-49f5c307
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-49f5c307
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@1a2e2935
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/threadDump/json,null} - org.spark-project.jetty.servlet.ServletHandler@1a2e2935 as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@6691490c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@6691490c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@4da855dd
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/executors/threadDump,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@687a762c
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@687a762c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-21526f6c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-21526f6c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@687a762c
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/executors/threadDump,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/threadDump,null} - org.spark-project.jetty.servlet.ServletHandler@687a762c as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/executors/threadDump,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@4da855dd
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@4da855dd
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@a50b09c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/executors/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@7689ddef
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@7689ddef
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-5dcbb60
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-5dcbb60
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@7689ddef
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/executors/json,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/json,null} - org.spark-project.jetty.servlet.ServletHandler@7689ddef as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/executors/json,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@a50b09c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@a50b09c
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@388ffbc2
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/executors,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@42257bdd
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@42257bdd
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-7ef2d7a6
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-7ef2d7a6
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@42257bdd
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/executors,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors,null} - org.spark-project.jetty.servlet.ServletHandler@42257bdd as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/executors,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@388ffbc2
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@388ffbc2
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@43ed0ff3
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/environment/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@790174f2
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@790174f2
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-4cc76301
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-4cc76301
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@790174f2
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/environment/json,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/environment/json,null} - org.spark-project.jetty.servlet.ServletHandler@790174f2 as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/environment/json,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@43ed0ff3
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@43ed0ff3
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@6de54b40
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/environment,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@46ab18da
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@46ab18da
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-372ea2bc
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-372ea2bc
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@46ab18da
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/environment,null}
-INFO Thread-0 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/environment,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/environment,null} - org.spark-project.jetty.servlet.ServletHandler@46ab18da as handler
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/environment,null}
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@6de54b40
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@6de54b40
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@e6516e
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@452e26d0
-DEBUG Thread-0 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@452e26d0
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-791cbf87
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-791cbf87
-DEBUG Thread-0 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@452e26d0
+	at kafka.network.BlockingChannel.send(BlockingChannel.scala:100)
+	at kafka.producer.SyncProducer.liftedTree1$1(SyncProducer.scala:73)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:72)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:113)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:58)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82

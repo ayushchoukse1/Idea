@@ -168,7 +168,7 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 		options.addOption(MQTT_BROKER_HOST, true, "MQTT Broker Host");
 		options.addOption(MQTT_BROKER_PORT, true, "MQTT Broker Port");
 		options.addOption(MQTT_BROKER_TOPICS, true, "MQTT Broker Topics");
-		
+
 		CommandLineParser parser = new PosixParser();
 		CommandLine cmd;
 		try {
@@ -203,17 +203,17 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 			boolean exit = false;
 			int sec = 0;
 			do {
+				//System.out.println("in while...");
 				Message message = connection.receive();
 				byte[] payload = message.getPayload();
 				String strPayload = new String(payload);
-
+				// System.out.println(strPayload);
 				message.ack();
-
-				/*
-				 * Adding timestamp to the incoming messages by converting them
-				 * to Json and appending new field at the end.
-				 */
-
+				if (strPayload.charAt(0) != '{') {
+					//System.out.println("Removing message: " + strPayload);
+					continue;
+				}
+				//System.out.println("A***bc: " + strPayload.charAt(0));
 				JSONObject jobj = new JSONObject(strPayload);
 				Timestamp originalTimeStamp = new Timestamp(System.currentTimeMillis());
 				Calendar calender = Calendar.getInstance();
@@ -229,13 +229,22 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 
 				KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>(message.getTopic(),
 						jobj.toString());
-				//System.out.println(kafkaMessage.message());
 				producer.send(kafkaMessage);
+
+				/*
+				 * Adding timestamp to the incoming messages by converting them
+				 * to Json and appending new field at the end.
+				 */
+				// System.out.println("First element: " + strPayload.charAt(0)+
+				// strPayload.charAt(1) + strPayload.charAt(2));
+
+				// System.out.println(kafkaMessage.message());
+				//System.out.println("Last while...");
 			} while (!exit);
 
 			connection.disconnect();
 			producer.close();
-		
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
