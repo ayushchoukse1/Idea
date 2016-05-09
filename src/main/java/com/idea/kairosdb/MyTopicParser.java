@@ -78,7 +78,9 @@ public class MyTopicParser implements TopicParserMetric {
 				 */
 
 				String metricName = jsonObject.getString("client");
-				metricName = "IDEA Lighting".concat(" ").concat(jsonObject.getString("name"));
+				//metricName = "IDEA Lighting".concat(" ").concat(jsonObject.getString("name"));
+				metricName = jsonObject.getString("name").replaceAll(" ", "_").replace(" ", "_").toLowerCase();
+				
 				int state = 0;
 				if (jsonObject.getString("state") != null) {
 					if (jsonObject.getString("state").equals("Green"))
