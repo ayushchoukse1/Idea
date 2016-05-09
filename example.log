@@ -1,369 +1,867 @@
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 1ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
-DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154013257f80010 after 0ms
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1462335055536] Added fetcher for partitions ArrayBuffer()
+INFO Thread-0 kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 20557 for 1 topic(s) Set(mytopic)
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to localhost:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.client.ClientUtils$ - Fetching topic metadata with correlation id 20557 for topics [Set(mytopic)] from broker [id:0,host:localhost,port:9092] failed
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR Thread-0 kafka.utils.Utils$ - fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	... 12 more
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 20559 for topics [mytopic,0] to broker 1 on 10.0.0.173:9092
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to 10.0.0.173:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.producer.async.DefaultEventHandler - Failed to send producer request with correlation id 20559 to broker 1 with data for partitions [mytopic,0]
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+INFO Thread-0 kafka.producer.async.DefaultEventHandler - Back off for 100 ms before retrying send. Remaining retries = 1
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x15479ef5fb80003, packet:: clientPath:null serverPath:null finished:false header:: 3334,8  replyHeader:: 3334,10350,0  request:: '/brokers/ids,F  response:: v{} 
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Verifying properties
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property client.id is overridden to testgroup
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property request.timeout.ms is overridden to 30000
+WARN testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread], Failed to find leader for Set([mongoDB,0])
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mongoDB)] from broker [ArrayBuffer()] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:88)
+	at kafka.consumer.ConsumerFetcherManager$LeaderFinderThread.doWork(ConsumerFetcherManager.scala:66)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:51)
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1462335055634] Added fetcher for partitions ArrayBuffer()
+INFO Thread-0 kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 20560 for 1 topic(s) Set(mytopic)
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to localhost:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.client.ClientUtils$ - Fetching topic metadata with correlation id 20560 for topics [Set(mytopic)] from broker [id:0,host:localhost,port:9092] failed
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR Thread-0 kafka.utils.Utils$ - fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	... 12 more
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 20562 for topics [mytopic,0] to broker 1 on 10.0.0.173:9092
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to 10.0.0.173:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.producer.async.DefaultEventHandler - Failed to send producer request with correlation id 20562 to broker 1 with data for partitions [mytopic,0]
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+INFO Thread-0 kafka.producer.async.DefaultEventHandler - Back off for 100 ms before retrying send. Remaining retries = 0
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x15479ef5fb80001, packet:: clientPath:null serverPath:null finished:false header:: 3311,8  replyHeader:: 3311,10350,0  request:: '/brokers/ids,F  response:: v{} 
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.utils.VerifiableProperties - Verifying properties
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.utils.VerifiableProperties - Property client.id is overridden to testgroup
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.utils.VerifiableProperties - Property request.timeout.ms is overridden to 30000
+WARN testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread], Failed to find leader for Set([mytopic,0])
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer()] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:88)
+	at kafka.consumer.ConsumerFetcherManager$LeaderFinderThread.doWork(ConsumerFetcherManager.scala:66)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:51)
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1462335055277] Added fetcher for partitions ArrayBuffer()
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x15479ef5fb80002, packet:: clientPath:null serverPath:null finished:false header:: 2939,8  replyHeader:: 2939,10350,0  request:: '/brokers/ids,F  response:: v{} 
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.utils.VerifiableProperties - Verifying properties
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.utils.VerifiableProperties - Property client.id is overridden to testgroup
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.utils.VerifiableProperties - Property request.timeout.ms is overridden to 30000
+WARN testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread], Failed to find leader for Set([active-temperature,0])
+kafka.common.KafkaException: fetching topic metadata for topics [Set(active-temperature)] from broker [ArrayBuffer()] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:88)
+	at kafka.consumer.ConsumerFetcherManager$LeaderFinderThread.doWork(ConsumerFetcherManager.scala:66)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:51)
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1462335055536] Added fetcher for partitions ArrayBuffer()
+INFO Thread-0 kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 20563 for 1 topic(s) Set(mytopic)
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to localhost:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.client.ClientUtils$ - Fetching topic metadata with correlation id 20563 for topics [Set(mytopic)] from broker [id:0,host:localhost,port:9092] failed
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR Thread-0 kafka.utils.Utils$ - fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	... 12 more
+ERROR Thread-0 kafka.producer.async.DefaultEventHandler - Failed to send requests for topics mytopic with correlation ids in [20552,20563]
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Handling 1 events
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 20565 for topics [mytopic,0] to broker 1 on 10.0.0.173:9092
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to 10.0.0.173:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.producer.async.DefaultEventHandler - Failed to send producer request with correlation id 20565 to broker 1 with data for partitions [mytopic,0]
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+INFO Thread-0 kafka.producer.async.DefaultEventHandler - Back off for 100 ms before retrying send. Remaining retries = 3
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x15479ef5fb80003, packet:: clientPath:null serverPath:null finished:false header:: 3335,8  replyHeader:: 3335,10350,0  request:: '/brokers/ids,F  response:: v{} 
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Verifying properties
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property client.id is overridden to testgroup
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property request.timeout.ms is overridden to 30000
+WARN testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread], Failed to find leader for Set([mongoDB,0])
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mongoDB)] from broker [ArrayBuffer()] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:88)
+	at kafka.consumer.ConsumerFetcherManager$LeaderFinderThread.doWork(ConsumerFetcherManager.scala:66)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:51)
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1462335055634] Added fetcher for partitions ArrayBuffer()
+INFO Thread-0 kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 20566 for 1 topic(s) Set(mytopic)
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to localhost:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.client.ClientUtils$ - Fetching topic metadata with correlation id 20566 for topics [Set(mytopic)] from broker [id:0,host:localhost,port:9092] failed
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR Thread-0 kafka.utils.Utils$ - fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	... 12 more
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 20568 for topics [mytopic,0] to broker 1 on 10.0.0.173:9092
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to 10.0.0.173:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.producer.async.DefaultEventHandler - Failed to send producer request with correlation id 20568 to broker 1 with data for partitions [mytopic,0]
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+INFO Thread-0 kafka.producer.async.DefaultEventHandler - Back off for 100 ms before retrying send. Remaining retries = 2
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x15479ef5fb80001, packet:: clientPath:null serverPath:null finished:false header:: 3312,8  replyHeader:: 3312,10350,0  request:: '/brokers/ids,F  response:: v{} 
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.utils.VerifiableProperties - Verifying properties
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.utils.VerifiableProperties - Property client.id is overridden to testgroup
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.utils.VerifiableProperties - Property request.timeout.ms is overridden to 30000
+WARN testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread], Failed to find leader for Set([mytopic,0])
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer()] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:88)
+	at kafka.consumer.ConsumerFetcherManager$LeaderFinderThread.doWork(ConsumerFetcherManager.scala:66)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:51)
+INFO testgroup_changeme-mac-4.local-1462335055166-bd5271db-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1462335055277] Added fetcher for partitions ArrayBuffer()
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x15479ef5fb80002, packet:: clientPath:null serverPath:null finished:false header:: 2940,8  replyHeader:: 2940,10350,0  request:: '/brokers/ids,F  response:: v{} 
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.utils.VerifiableProperties - Verifying properties
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.utils.VerifiableProperties - Property client.id is overridden to testgroup
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.utils.VerifiableProperties - Property request.timeout.ms is overridden to 30000
+WARN testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread], Failed to find leader for Set([active-temperature,0])
+kafka.common.KafkaException: fetching topic metadata for topics [Set(active-temperature)] from broker [ArrayBuffer()] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:88)
+	at kafka.consumer.ConsumerFetcherManager$LeaderFinderThread.doWork(ConsumerFetcherManager.scala:66)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:51)
+INFO testgroup_changeme-mac-4.local-1462335055533-488d722f-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1462335055536] Added fetcher for partitions ArrayBuffer()
+INFO Thread-0 kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 20569 for 1 topic(s) Set(mytopic)
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to localhost:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.client.ClientUtils$ - Fetching topic metadata with correlation id 20569 for topics [Set(mytopic)] from broker [id:0,host:localhost,port:9092] failed
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR Thread-0 kafka.utils.Utils$ - fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mytopic)] from broker [ArrayBuffer(id:0,host:localhost,port:9092)] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.producer.BrokerPartitionInfo.updateInfo(BrokerPartitionInfo.scala:82)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$handle$2.apply$mcV$sp(DefaultEventHandler.scala:78)
+	at kafka.utils.Utils$.swallow(Utils.scala:167)
+	at kafka.utils.Logging$class.swallowError(Logging.scala:106)
+	at kafka.utils.Utils$.swallowError(Utils.scala:46)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:78)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:112)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:53)
+	... 12 more
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 1
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,0]
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 20571 for topics [mytopic,0] to broker 1 on 10.0.0.173:9092
+ERROR Thread-0 kafka.producer.SyncProducer - Producer connection to 10.0.0.173:9092 unsuccessful
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+WARN Thread-0 kafka.producer.async.DefaultEventHandler - Failed to send producer request with correlation id 20571 to broker 1 with data for partitions [mytopic,0]
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at kafka.network.BlockingChannel.connect(BlockingChannel.scala:57)
+	at kafka.producer.SyncProducer.connect(SyncProducer.scala:141)
+	at kafka.producer.SyncProducer.getOrMakeConnection(SyncProducer.scala:156)
+	at kafka.producer.SyncProducer.kafka$producer$SyncProducer$$doSend(SyncProducer.scala:68)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.producer.SyncProducer$$anonfun$send$1$$anonfun$apply$mcV$sp$1.apply(SyncProducer.scala:102)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply$mcV$sp(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.producer.SyncProducer$$anonfun$send$1.apply(SyncProducer.scala:101)
+	at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+	at kafka.producer.SyncProducer.send(SyncProducer.scala:100)
+	at kafka.producer.async.DefaultEventHandler.kafka$producer$async$DefaultEventHandler$$send(DefaultEventHandler.scala:255)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:106)
+	at kafka.producer.async.DefaultEventHandler$$anonfun$dispatchSerializedData$2.apply(DefaultEventHandler.scala:100)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:95)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:772)
+	at scala.collection.mutable.HashTable$$anon$1.foreach(HashTable.scala:157)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:190)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:45)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:95)
+	at kafka.producer.async.DefaultEventHandler.dispatchSerializedData(DefaultEventHandler.scala:100)
+	at kafka.producer.async.DefaultEventHandler.handle(DefaultEventHandler.scala:72)
+	at kafka.producer.Producer.send(Producer.scala:76)
+	at kafka.javaapi.producer.Producer.send(Producer.scala:33)
+	at com.idea.kafka.mqtt.bridge.KafkaProducer.publishMessage(KafkaProducer.java:50)
+	at com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer.start(MqttConsumerToKafkaProducer.java:70)
+	at com.idea.main.Idea$1.run(Idea.java:13)
+	at java.lang.Thread.run(Thread.java:745)
+INFO Thread-0 kafka.producer.async.DefaultEventHandler - Back off for 100 ms before retrying send. Remaining retries = 1
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x15479ef5fb80003, packet:: clientPath:null serverPath:null finished:false header:: 3336,8  replyHeader:: 3336,10350,0  request:: '/brokers/ids,F  response:: v{} 
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Verifying properties
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property client.id is overridden to testgroup
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to 
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.utils.VerifiableProperties - Property request.timeout.ms is overridden to 30000
+WARN testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread], Failed to find leader for Set([mongoDB,0])
+kafka.common.KafkaException: fetching topic metadata for topics [Set(mongoDB)] from broker [ArrayBuffer()] failed
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:67)
+	at kafka.client.ClientUtils$.fetchTopicMetadata(ClientUtils.scala:88)
+	at kafka.consumer.ConsumerFetcherManager$LeaderFinderThread.doWork(ConsumerFetcherManager.scala:66)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:51)
+INFO testgroup_changeme-mac-4.local-1462335055629-783bdd9a-leader-finder-thread kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1462335055634] Added fetcher for partitions ArrayBuffer()

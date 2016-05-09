@@ -8,24 +8,33 @@ import kafka.producer.ProducerConfig;
 
 public class KafkaProducer {
 
-	private static Producer<String, String> producer;
-	public String topic = "mytopic";
+	private final Producer<String, String> producer;
+	private String m_topic;
+
+	public void setTopic(String m_topic) {
+		this.m_topic = m_topic;
+	}
+
+	public KafkaProducer(){
+		ProducerConfig config = initializeProperties();
+		producer = new Producer<String, String>(config);
+	}
 	
 	/**
 	 * To initialize the producer, you need to define required properties. Properties are wrapped in ProducerConfig object.
 	 * Producer is initialized using ProducerConfig. On initializing Producer, connection is established between Producer and Kafka Broker. 
 	 * Broker is running on 'localhost:9092'
 	 */
-	public void initialize(String topic){
-		setTopic(topic);
+	public ProducerConfig initializeProperties(){
 		Properties producerProps = new Properties();
 		producerProps.put("metadata.broker.list", "localhost:9092");
 		producerProps.put("serializer.class", "kafka.serializer.StringEncoder");
+		//producerProps.put("partitioner.class", "test.kafka.SimplePartitioner");
+		//producerProps.put("partitioner.class", "com.idea.kairosdb.SimplePartitioner");
 		producerProps.put("request.required.acks", "1");
 		ProducerConfig producerConfig = new ProducerConfig(producerProps);
-		producer = new Producer<String, String>(producerConfig);
+		return producerConfig;
 	}
-	
 	
 	/**
 	 * In this method, string message is read from program passed as parameter.
@@ -34,9 +43,16 @@ public class KafkaProducer {
 	 * @param data
 	 * @throws Exception
 	 */
-	public void publishMessage(String messagePayload) throws Exception{
-		KeyedMessage<String, String> keyedMessage = new KeyedMessage<String, String>(getTopic(), messagePayload);
-		producer.send(keyedMessage);
+	public void publishMessage(String messagePayload) {
+		try {
+			KeyedMessage<String, String> keyedMessage = new KeyedMessage<String, String>(getTopic(), messagePayload);
+			if(producer != null){
+				producer.send(keyedMessage);
+				//System.out.println(keyedMessage.toString());
+			}
+		} catch (Exception e) {
+			System.out.println("Error in producer send : " + e.getMessage());
+		}
 	}
 
 	public void closeConnection(){
@@ -47,14 +63,8 @@ public class KafkaProducer {
 		}
 	}
 
-
 	public String getTopic() {
-		return topic;
-	}
-
-
-	public void setTopic(String topic) {
-		topic = topic;
+		return m_topic;
 	}
 	
 }

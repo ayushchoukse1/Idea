@@ -21,10 +21,16 @@ public class ForecastIOProducer {
 
 		String forecast = getForecastIO("1 Washington Sq, San Jose, CA 95192");
 		KafkaProducer producer = new KafkaProducer();
-		
-		producer.initialize("mytopic");
+		producer.setTopic("active-temperature");
 		producer.publishMessage(forecast);
-		producer.closeConnection();
+	}
+	public static void main(String args[]) throws Exception{
+		String forecast = getForecastIO("1 Washington Sq, San Jose, CA 95192");
+		System.out.println(forecast);
+		KafkaProducer producer = new KafkaProducer();
+		producer.setTopic("active-temperature");
+		producer.publishMessage(forecast);
 	}
 
 }
+

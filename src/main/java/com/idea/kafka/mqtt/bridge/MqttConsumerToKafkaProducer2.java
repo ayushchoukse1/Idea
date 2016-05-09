@@ -47,7 +47,8 @@ public class MqttConsumerToKafkaProducer2 {
 		CommandLine cmd = parser.parse(options, args);
 		
 		KafkaProducer kafkaProducer = new KafkaProducer();
-		kafkaProducer.initialize("mytopic"); //Initialize producer
+		kafkaProducer.setTopic("mytopic");
+		//kafkaProducer.initialize("mytopic"); //Initialize producer
 		
 		MQTT mqtt = new MQTT();
 		mqtt.setHost(cmd.getOptionValue(MQTT_BROKER_HOST, "whipple.dyndns-home.com"), Integer.parseInt(cmd.getOptionValue(MQTT_BROKER_PORT, "1883")));
@@ -75,9 +76,9 @@ public class MqttConsumerToKafkaProducer2 {
 			// process the message then:
 			message.ack();
 			//publish message
-			kafkaProducer.publishMessage(strPayload);
+			///kafkaProducer.publishMessage(strPayload);
 		}
-
+		System.out.println("Connection Disconnect---------------------------");
 		connection.disconnect();
 		kafkaProducer.closeConnection();
 	}
