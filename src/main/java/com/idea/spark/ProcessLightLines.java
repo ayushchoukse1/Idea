@@ -6,14 +6,6 @@ import java.util.Calendar;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
-<<<<<<< HEAD
-=======
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-
-import scala.tools.asm.tree.IntInsnNode;
-
->>>>>>> 440ae4d1d218aaf59dc34056e8f7fec8fcbca238
 public class ProcessLightLines implements java.io.Serializable {
 
 
@@ -86,53 +78,17 @@ public class ProcessLightLines implements java.io.Serializable {
 							+ light.getOnTime() + " with wasteTime: " + light.getWasteTime() + " with initialState: "
 							+ light.getIntialState() + " with timestamp: " + light.getTimestamp());
 					// The total time for which the light was on.
-<<<<<<< HEAD
 					long currentTime = timestamp.getTime();
 					long initialTime = (light.getTimestamp().getTime());
-=======
-					long currentTime = (light.getTimestamp().getTime());
-					long initialTime = timestamp.getTime();
->>>>>>> 440ae4d1d218aaf59dc34056e8f7fec8fcbca238
 					long diff = currentTime - initialTime;
 					long oldTimeInMilli = light.getOnTime().getTime();
 					oldTimeInMilli = oldTimeInMilli + diff;
 					light.setOnTime(new Timestamp(oldTimeInMilli));
-<<<<<<< HEAD
 
 					System.out
 							.println("LIGHTS : New Updated onTime for " + light.getName() + " is " + light.getOnTime());
 					light.setTimestamp(timestamp);
 					light.setIntialState(currentState);
-=======
-					System.out.println("New Updated onTime for " + light.getName() + " is " + light.getOnTime().getTime());
-					light.setTimestamp(timestamp);
-					light.setIntialState(currentState);
-					
-					//calculating waste
-					long sunriseTime = ExternalData.getSunriseTime();
-					long sunsetTime = ExternalData.getSunsetTime();
-					long oldWasteTime = light.getWasteTime().getTime();
-					
-					if(initialTime>sunriseTime && currentTime<sunsetTime)
-					{
-						oldWasteTime += diff;
-					}
-					else if(initialTime<sunriseTime && currentTime >sunsetTime)
-					{
-						oldWasteTime = oldWasteTime + (currentTime - sunriseTime);
-					}
-					else if(initialTime>sunriseTime && currentTime < sunsetTime)
-					{
-						oldWasteTime = oldWasteTime + (sunsetTime - initialTime);
-					}
-					else if(initialTime>sunriseTime && currentTime > sunsetTime)
-					{
-						oldWasteTime = oldWasteTime + (sunsetTime - sunriseTime);
-					}
-					light.setWasteTime(new Timestamp(oldWasteTime));
-						
-				}
->>>>>>> 440ae4d1d218aaf59dc34056e8f7fec8fcbca238
 
 					// calculating waste
 					long sunriseTime = ExternalData.getSunriseTime();
