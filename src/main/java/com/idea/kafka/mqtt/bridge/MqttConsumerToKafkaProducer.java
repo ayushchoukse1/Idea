@@ -60,7 +60,7 @@ public class MqttConsumerToKafkaProducer {
 			Message message = connection.receive();
 			byte[] payload = message.getPayload();
 			String strPayload = new String(payload);
-			System.out.println("Message : " + strPayload);
+			//System.out.println("Message : " + strPayload);
 			//logger.info("mqtt : " + strPayload);
 			// process the message then:
 			message.ack();

@@ -75,6 +75,7 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 			boolean exit = false;
 			int sec = 0;
 			do {
+<<<<<<< HEAD
 				JSONObject jobj;
 				Message message = connection.receive();
 				byte[] payload = message.getPayload();
@@ -96,6 +97,20 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 					jobj = new JSONObject(str);
 				}
 
+=======
+				//System.out.println("in while...");
+				Message message = connection.receive();
+				byte[] payload = message.getPayload();
+				String strPayload = new String(payload);
+				// System.out.println(strPayload);
+				message.ack();
+				if (strPayload.charAt(0) != '{') {
+					//System.out.println("Removing message: " + strPayload);
+					continue;
+				}
+				//System.out.println("A***bc: " + strPayload.charAt(0));
+				JSONObject jobj = new JSONObject(strPayload);
+>>>>>>> 440ae4d1d218aaf59dc34056e8f7fec8fcbca238
 				Timestamp originalTimeStamp = new Timestamp(System.currentTimeMillis());
 				Calendar calender = Calendar.getInstance();
 				calender.setTimeInMillis(originalTimeStamp.getTime());
@@ -111,9 +126,23 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 				KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>(message.getTopic(),
 						jobj.toString());
 				producer.send(kafkaMessage);
+
+				/*
+				 * Adding timestamp to the incoming messages by converting them
+				 * to Json and appending new field at the end.
+				 */
+				// System.out.println("First element: " + strPayload.charAt(0)+
+				// strPayload.charAt(1) + strPayload.charAt(2));
+
+				// System.out.println(kafkaMessage.message());
+				//System.out.println("Last while...");
 			} while (!exit);
 			connection.disconnect();
 			producer.close();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 440ae4d1d218aaf59dc34056e8f7fec8fcbca238
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
