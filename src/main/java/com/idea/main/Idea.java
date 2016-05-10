@@ -58,6 +58,7 @@ public class Idea {
 				}
 			}
 		});
+		
 		Thread t6 = new Thread(new Runnable() {
 			public void run() {
 				try {
