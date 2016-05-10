@@ -1,8 +1,5 @@
 package com.idea.spark;
 
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -15,6 +12,7 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.PosixParser;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 import org.fusesource.mqtt.client.BlockingConnection;
 import org.fusesource.mqtt.client.MQTT;
@@ -41,124 +39,6 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 	private static final String BROKER_LIST = "brokerlist";
 	private static final String[] args = null;
 
-	// public static void main(String[] args) throws Exception {
-	// Options options = new Options();
-	// Logger.getRootLogger().setLevel(Level.OFF);
-	// options.addOption(BROKER_LIST, true, "Kafka Brokers List");
-	// options.addOption(SERIALIZER_CLASS, true, "Kafka Serializer Class");
-	// options.addOption(MQTT_BROKER_HOST, true, "MQTT Broker Host");
-	// options.addOption(MQTT_BROKER_PORT, true, "MQTT Broker Port");
-	// options.addOption(MQTT_BROKER_TOPICS, true, "MQTT Broker Topics");
-	//
-	// CommandLineParser parser = new PosixParser();
-	// CommandLine cmd = parser.parse(options, args);
-	//
-	// Properties props = new Properties();
-	// props.put("metadata.broker.list", cmd.getOptionValue(BROKER_LIST,
-	// "localhost:9092"));
-	// props.put("serializer.class", cmd.getOptionValue(SERIALIZER_CLASS,
-	// "kafka.serializer.StringEncoder"));
-	//
-	// ProducerConfig config = new ProducerConfig(props);
-	//
-	// Producer<String, String> producer = new Producer<String, String>(config);
-	//
-	// MQTT mqtt = new MQTT();
-	// mqtt.setHost(cmd.getOptionValue(MQTT_BROKER_HOST,
-	// "whipple.dyndns-home.com"),
-	// Integer.parseInt(cmd.getOptionValue(MQTT_BROKER_PORT, "1883")));
-	//
-	// BlockingConnection connection = mqtt.blockingConnection();
-	// connection.connect();
-	//
-	// String topicsArg = cmd.getOptionValue(MQTT_BROKER_TOPICS, "topic");
-	// List<Topic> topicsList = new ArrayList<Topic>();
-	// String[] topics = topicsArg.split(",");
-	// for (String topic : topics) {
-	// topicsList.add(new Topic(topic, QoS.AT_LEAST_ONCE));
-	// }
-	//
-	// Topic[] mqttTopics = topicsList.toArray(new Topic[] {});
-	// byte[] qoses = connection.subscribe(mqttTopics);
-	//
-	// boolean exit = false;
-	//
-	// PrintWriter out = new PrintWriter(new BufferedWriter(new
-	// FileWriter("Output.txt")));
-	// while (!exit) {
-	// Message message = connection.receive();
-	// byte[] payload = message.getPayload();
-	// String strPayload = new String(payload);
-	// // process the message then:
-	// message.ack();
-	//
-	// JSONObject jobj = new JSONObject(strPayload);
-	// jobj.put("TimeStamp", Calendar.getInstance().getTime().getTime());
-	// KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String,
-	// String>(message.getTopic(),
-	// jobj.toString());
-	//
-	//
-	// producer.send(kafkaMessage);
-	//
-	// }
-	// out.close();
-	//
-	// connection.disconnect();
-	// producer.close();
-	// }
-	//
-	/*
-	 * public void run(String[] args) throws Exception{ Options options = new
-	 * Options(); Logger.getRootLogger().setLevel(Level.OFF);
-	 * options.addOption(BROKER_LIST, true, "Kafka Brokers List");
-	 * options.addOption(SERIALIZER_CLASS, true, "Kafka Serializer Class");
-	 * options.addOption(MQTT_BROKER_HOST, true, "MQTT Broker Host");
-	 * options.addOption(MQTT_BROKER_PORT, true, "MQTT Broker Port");
-	 * options.addOption(MQTT_BROKER_TOPICS, true, "MQTT Broker Topics");
-	 * 
-	 * CommandLineParser parser = new PosixParser(); CommandLine cmd =
-	 * parser.parse(options, args);
-	 * 
-	 * Properties props = new Properties(); props.put("metadata.broker.list",
-	 * cmd.getOptionValue(BROKER_LIST, "localhost:9092"));
-	 * props.put("serializer.class", cmd.getOptionValue(SERIALIZER_CLASS,
-	 * "kafka.serializer.StringEncoder"));
-	 * 
-	 * ProducerConfig config = new ProducerConfig(props);
-	 * 
-	 * Producer<String, String> producer = new Producer<String, String>(config);
-	 * 
-	 * MQTT mqtt = new MQTT(); mqtt.setHost(cmd.getOptionValue(MQTT_BROKER_HOST,
-	 * "whipple.dyndns-home.com"),
-	 * Integer.parseInt(cmd.getOptionValue(MQTT_BROKER_PORT, "1883")));
-	 * 
-	 * BlockingConnection connection = mqtt.blockingConnection();
-	 * connection.connect();
-	 * 
-	 * String topicsArg = cmd.getOptionValue(MQTT_BROKER_TOPICS, "topic");
-	 * List<Topic> topicsList = new ArrayList<Topic>(); String[] topics =
-	 * topicsArg.split(","); for(String topic:topics) { topicsList.add(new
-	 * Topic(topic, QoS.AT_LEAST_ONCE)); }
-	 * 
-	 * Topic[] mqttTopics = topicsList.toArray(new Topic[]{}); byte[] qoses =
-	 * connection.subscribe(mqttTopics);
-	 * 
-	 * 
-	 * boolean exit = false; //int n=0; PrintWriter out = new PrintWriter ( new
-	 * BufferedWriter( new FileWriter("Output.txt"))); while (!exit) { Message
-	 * message = connection.receive(); byte[] payload = message.getPayload();
-	 * String strPayload = new String(payload); // process the message then:
-	 * message.ack(); KeyedMessage<String, String> kafkaMessage = new
-	 * KeyedMessage<String, String>(message.getTopic() , strPayload);
-	 * System.out.println(kafkaMessage.message());
-	 * 
-	 * producer.send(kafkaMessage); //n++; } out.close();
-	 * 
-	 * connection.disconnect(); producer.close();
-	 * 
-	 * }
-	 */
 	@Override
 	public void run() {
 		Options options = new Options();
@@ -168,45 +48,37 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 		options.addOption(MQTT_BROKER_HOST, true, "MQTT Broker Host");
 		options.addOption(MQTT_BROKER_PORT, true, "MQTT Broker Port");
 		options.addOption(MQTT_BROKER_TOPICS, true, "MQTT Broker Topics");
-		
+
 		CommandLineParser parser = new PosixParser();
 		CommandLine cmd;
 		try {
-			PrintWriter writer = new PrintWriter("Stream.txt", "UTF-8");
 			cmd = parser.parse(options, args);
-
 			Properties props = new Properties();
 			props.put("metadata.broker.list", cmd.getOptionValue(BROKER_LIST, "localhost:9092"));
 			props.put("serializer.class", cmd.getOptionValue(SERIALIZER_CLASS, "kafka.serializer.StringEncoder"));
-
 			ProducerConfig config = new ProducerConfig(props);
-
 			Producer<String, String> producer = new Producer<String, String>(config);
 
 			MQTT mqtt = new MQTT();
 			mqtt.setHost(cmd.getOptionValue(MQTT_BROKER_HOST, "whipple.dyndns-home.com"),
 					Integer.parseInt(cmd.getOptionValue(MQTT_BROKER_PORT, "1883")));
-
 			BlockingConnection connection = mqtt.blockingConnection();
 			connection.connect();
-
 			String topicsArg = cmd.getOptionValue(MQTT_BROKER_TOPICS, "topic");
 			List<Topic> topicsList = new ArrayList<Topic>();
 			String[] topics = topicsArg.split(",");
 			for (String topic : topics) {
 				topicsList.add(new Topic(topic, QoS.AT_LEAST_ONCE));
 			}
-
 			Topic[] mqttTopics = topicsList.toArray(new Topic[] {});
 			byte[] qoses = connection.subscribe(mqttTopics);
-
 			boolean exit = false;
 			int sec = 0;
 			do {
+				JSONObject jobj;
 				Message message = connection.receive();
 				byte[] payload = message.getPayload();
 				String strPayload = new String(payload);
-
 				message.ack();
 
 				/*
@@ -214,7 +86,16 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 				 * to Json and appending new field at the end.
 				 */
 
-				JSONObject jobj = new JSONObject(strPayload);
+				try {
+					jobj = new JSONObject(strPayload);
+				} catch (JSONException e) {
+
+					// Convert the expection in to JSON String and publish to
+					// Kafka
+					String str = "{\"JSONExceptoion\":\"" + strPayload + "\"}";
+					jobj = new JSONObject(str);
+				}
+
 				Timestamp originalTimeStamp = new Timestamp(System.currentTimeMillis());
 				Calendar calender = Calendar.getInstance();
 				calender.setTimeInMillis(originalTimeStamp.getTime());
@@ -229,18 +110,13 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 
 				KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>(message.getTopic(),
 						jobj.toString());
-				//System.out.println(kafkaMessage.message());
 				producer.send(kafkaMessage);
 			} while (!exit);
-
 			connection.disconnect();
 			producer.close();
-		
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
 
 	public void start() {

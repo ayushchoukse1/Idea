@@ -3,8 +3,9 @@ package com.idea.spark;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
 import org.apache.spark.SparkConf;
@@ -30,7 +31,8 @@ public final class BreakInputLines {
 
 	public static void main(String[] argsold) throws Exception {
 		MqttConsumerToKafkaProducer obj = new MqttConsumerToKafkaProducer();
-		obj.start();
+		MqttConsumerToKafkaProducerTest obj1 = new MqttConsumerToKafkaProducerTest();
+		obj1.start();
 		ProcessUtility.fillLocator();
 		String zkHosts = "localhost";
 		String listenTopics = "topic";
@@ -63,36 +65,37 @@ public final class BreakInputLines {
 			}
 		});
 
+		// Separate Light lines from all the input messages
 		JavaDStream<String> lightLines = lines.filter(new Function<String, Boolean>() {
 			public Boolean call(String messages) {
 				return messages.contains("Lighting");
 			}
 		});
 
+		// Separate Temperature lines from all the input messages
 		JavaDStream<String> tempLines = lines.filter(new Function<String, Boolean>() {
 			public Boolean call(String messages) {
 				return messages.contains("temperature");
 			}
 		});
-
-		Timer timer = new Timer();
-		TimerTask hourlyTask = new TimerTask() {
-
+		readTempRDD(tempLines);
+		readLightRDD(lightLines);
+		ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
+		exec.scheduleAtFixedRate(new Runnable() {
 			@Override
 			public void run() {
+				System.out.println("TEST : persistLightData Running");
 				PersistData.persistLightData();
 			}
-		};
-		timer.schedule(hourlyTask, 0l, 1000 * 15);
+		}, 5, 15, TimeUnit.SECONDS);
 		jssc.start();
 		jssc.awaitTermination();
 
 	}
 
 	public static void readTempRDD(JavaDStream<String> dStream1) {
-
 		System.out.println("Analyzing Temperature data");
-		forecastTemp = processTempLinesObject.getForecastTemp();
+		forecastTemp = ExternalData.getForecastTemp();
 		System.out.println("Forecasted Temp: " + forecastTemp);
 		dStream1.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
@@ -110,11 +113,9 @@ public final class BreakInputLines {
 				return null;
 			}
 		});
-
 	}
 
 	public static void readLightRDD(JavaDStream<String> dStream) {
-
 		dStream.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
 			public Void call(JavaRDD<String> rdd) throws Exception {
@@ -131,18 +132,15 @@ public final class BreakInputLines {
 				List<String> ls = rowRDD.collect();
 				ObjectMapper mapper = new ObjectMapper();
 				for (int i = 0; i < ls.size(); i++) {
+
 					/*
-					 * 
 					 * Printing the RDD's as JSON Object
-					 * 
 					 */
 					Object json = mapper.readValue(ls.get(i), Object.class);
 					mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
-					// System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(json));
 				}
 				return null;
 			}
 		});
 	}
-
 }

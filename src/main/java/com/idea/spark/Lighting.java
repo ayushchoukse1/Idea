@@ -7,22 +7,30 @@ public class Lighting {
 
 	private Timestamp timestamp;
 	private Timestamp onTime;
+	private Timestamp wasteTime;
 	private String intialState;
 	private String name;
 
-	public Lighting(Timestamp timestamp, Timestamp onTime, String intialState, String name) {
+	public Lighting(Timestamp timestamp, Timestamp onTime, Timestamp wasteTime, String intialState, String name) {
 		super();
 		this.timestamp = timestamp;
 		this.onTime = onTime;
+		this.wasteTime = wasteTime;
 		this.intialState = intialState;
 		this.name = name;
 	}
 
-	
 	public Lighting() {
-		
+
 	}
 
+	public Timestamp getWasteTime() {
+		return wasteTime;
+	}
+
+	public void setWasteTime(Timestamp wasteTime) {
+		this.wasteTime = wasteTime;
+	}
 
 	public Timestamp getTimestamp() {
 		return timestamp;
