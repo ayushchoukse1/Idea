@@ -162,7 +162,7 @@ public final class BreakInputLines {
 	
 	public static void readTempRDD(JavaDStream<String> dStream1) {
 		System.out.println("Analyzing Temperature data");
-		forecastTemp = SparkProcess.getForecastTemp();
+		forecastTemp = ExternalData.getForecastTemp();
 		System.out.println("Forecasted Temp: " + forecastTemp);
 		dStream1.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override

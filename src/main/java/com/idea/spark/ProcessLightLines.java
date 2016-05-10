@@ -88,8 +88,8 @@ public class ProcessLightLines implements java.io.Serializable {
 					light.setIntialState(currentState);
 
 					// calculating waste
-					long sunriseTime = SparkProcess.getSunriseTime();
-					long sunsetTime = SparkProcess.getSunsetTime();
+					long sunriseTime = ExternalData.getSunriseTime();
+					long sunsetTime = ExternalData.getSunsetTime();
 					long oldWasteTime = light.getWasteTime().getTime();
 
 					System.out.println("LIGHTS : sunriseTime: " + new Timestamp(sunriseTime) + " sunsetTime : "
