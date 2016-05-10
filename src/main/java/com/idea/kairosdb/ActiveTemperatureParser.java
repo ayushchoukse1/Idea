@@ -1,25 +1,22 @@
 package com.idea.kairosdb;
 
-import java.net.MalformedURLException;
 import java.nio.charset.Charset;
 
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
-import org.eclipse.jetty.util.ajax.JSON;
-import org.kairosdb.client.builder.DataPoint;
 import org.kairosdb.client.builder.MetricBuilder;
-import org.kairosdb.core.DataPointSet;
-import org.kairosdb.core.datastore.DataPointGroup;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import com.codahale.metrics.Metric;
-
-public class MeasureTemperatureActiveTopicParser {
+public class ActiveTemperatureParser implements TopicParserMetric {
+	private static final Logger LOG = LoggerFactory.getLogger(ActiveTemperatureParser.class);
 	private String m_metricName;
 	private static final Charset UTF8 = Charset.forName("UTF-8");
 	private long timestamp;
-	
+
 	public void parseTopic(String topic, JSONObject jsonObject) {
+		LOG.debug("In topic ActiveTemperatureParser");
 		if(jsonObject != null){
 			try {
 				m_metricName = topic;
@@ -45,6 +42,7 @@ public class MeasureTemperatureActiveTopicParser {
 				for(int i = 0; i < daily.getJSONArray("data").length(); i++){
 					JSONObject data = daily.getJSONArray("data").getJSONObject(i);
 					JSONObject complexObject = new JSONObject();
+		
 					complexObject.put("summary", data.getString("summary"))
 								 .put("icon", data.getString("icon"))
 								 .put("temperatureMin", data.getLong("temperatureMin"))
@@ -55,11 +53,8 @@ public class MeasureTemperatureActiveTopicParser {
 				System.out.println(metricsJson.toString());
 				//POST the json data via REST API
 				try {
-					//KairosDBClient a = new KairosDBClient("http://localhost:8080/");
-					//a.postNewData(json, url);
-					KairosDBClient.getInstance().postNewData(metricsJson.toString(), "http://localhost:8080/api/v1/datapoints/");
+					KairosDBClient.getInstance().postNewData(metricsJson.toString(), "http://localhost:8888/api/v1/datapoints/");
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
 					System.out.println("Error in measure tem active parser : " + e.getMessage());
 					e.printStackTrace();
 				}
@@ -69,6 +64,9 @@ public class MeasureTemperatureActiveTopicParser {
 		}
 	}
 
+	public void setPropertyName(String name) {
+		// TODO Auto-generated method stub
 
+	}
 
 }

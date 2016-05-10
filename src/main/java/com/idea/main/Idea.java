@@ -19,6 +19,7 @@ public class Idea {
 				}
 			}
 		});
+
 		//start the kafka collector
 		Thread t2 = new Thread(new Runnable() {
 			public void run() {
@@ -69,16 +70,23 @@ public class Idea {
 			}
 		});
 		//Start the mqtt listener
-		//t1.start();
+		t1.start();
+
 		
 		//start the kafka consumer
 		t1.start();
 		t2.start();
+<<<<<<< HEAD
 		t3.start();
 		t4.start();
 
 		//start the active weather data collector
 		t6.start();
+=======
+>>>>>>> c830f277dc781cab965ddfb6f9c950cc42d430df
 		
+		//start the active weather data collector
+		t3.start();			
+
 	}
 }

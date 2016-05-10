@@ -35,8 +35,9 @@ public class MqttConsumerToKafkaProducer {
 
 	final static Logger logger = Logger.getLogger(MqttConsumerToKafkaProducer.class);
 	public static void start() throws Exception {
+		//Initialize producer
 		KafkaProducer kafkaProducer = new KafkaProducer();
-		kafkaProducer.initialize("mytopic"); //Initialize producer
+		kafkaProducer.setTopic("mytopic");
 		
 		MQTT mqtt = new MQTT();
 		mqtt.setHost("whipple.dyndns-home.com", 1883);
@@ -56,6 +57,7 @@ public class MqttConsumerToKafkaProducer {
 
 		
 		boolean exit = false;
+		
 		while (!exit) {
 			Message message = connection.receive();
 			byte[] payload = message.getPayload();
@@ -68,8 +70,8 @@ public class MqttConsumerToKafkaProducer {
 			kafkaProducer.publishMessage(strPayload);
 		}
 
-		connection.disconnect();
-		kafkaProducer.closeConnection();
+		//connection.disconnect();
+		//kafkaProducer.closeConnection();
 	}
 
 }

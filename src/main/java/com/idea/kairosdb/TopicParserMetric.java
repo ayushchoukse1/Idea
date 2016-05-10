@@ -4,8 +4,8 @@ import org.codehaus.jettison.json.JSONObject;
 import org.kairosdb.client.builder.MetricBuilder;
 import org.kairosdb.core.DataPointSet;
 
-public interface TopicParserMetrics
+public interface TopicParserMetric
 {
-	public MetricBuilder parseTopic(String topic, JSONObject jsonObject);
-	//public void setPropertyName(String name);
+	public void parseTopic(String topic, JSONObject jsonObject);
+	public void setPropertyName(String name);
 }
