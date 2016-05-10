@@ -5,6 +5,7 @@ import com.idea.adapters.weather.producers.weather.ForecastIOProducer;
 import com.idea.kafka.mqtt.bridge.KafkaConsumer;
 import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer;
 import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducerTest;
+import com.idea.spark.BreakInputLines;
 
 public class Idea {
 	public static void main(String[] args){
@@ -44,7 +45,16 @@ public class Idea {
 				try {
 					MqttConsumerToKafkaProducerTest.start();
 				} catch (Exception e) {
-					System.out.println("Error in MQttConsumerToKafkaProducer : " + e.getMessage());
+					System.out.println("Error in MQttConsumerToKafkaProducerTest : " + e.getMessage());
+				}
+			}
+		});
+		Thread t5 = new Thread(new Runnable() {
+			public void run() {
+				try {
+					BreakInputLines.start();
+				} catch (Exception e) {
+					System.out.println("Error in BreakInputLines : " + e.getMessage());
 				}
 			}
 		});
@@ -52,10 +62,10 @@ public class Idea {
 		//t1.start();
 		
 		//start the kafka consumer
-		t2.start();
+		t4.start();
 
 		//start the active weather data collector
-		t3.start();
+		t5.start();
 		
 	}
 }
