@@ -27,7 +27,7 @@ import kafka.producer.ProducerConfig;
  * @author shazin
  *
  */
-public class MqttConsumerToKafkaProducerTest implements Runnable {
+public class MqttConsumerToKafkaProducerTest {
 
 	private static final String MQTT_BROKER_TOPICS = "mqttbrokertopics";
 	private static final String MQTT_BROKER_PORT = "mqttbrokerport";
@@ -35,7 +35,7 @@ public class MqttConsumerToKafkaProducerTest implements Runnable {
 	private static final String SERIALIZER_CLASS = "serializerclass";
 	private static final String BROKER_LIST = "brokerlist";
 	private static final String[] args = null;
-	String[] type1 = {
+	private static String[] type1 = {
 			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch E\",\"state\":\"Red\"}",
 			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Aspen\",\"state\":\"Green\"}",
 			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family W\",\"state\":\"Red\"}",
@@ -52,7 +52,7 @@ public class MqttConsumerToKafkaProducerTest implements Runnable {
 					+ (new Random().nextInt((50 - 5) + 10) + 5) + ",\"temperature\":75.43}",
 			"{\"deviceId\":\"28:ff:2c:31:44:04:00:c2\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
 					+ (new Random().nextInt((50 - 5) + 15) + 5) + ",\"temperature\":75.43}" };
-	String[] type2 = {
+	private static String[] type2 = {
 			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch E\",\"state\":\"Green\"}",
 			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Aspen\",\"state\":\"Red\"}",
 			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family W\",\"state\":\"Green\"}",
@@ -69,11 +69,47 @@ public class MqttConsumerToKafkaProducerTest implements Runnable {
 					+ (new Random().nextInt((50 - 5) + 1) + 5) + ",\"temperature\":75.43}",
 			"{\"deviceId\":\"28:ff:2c:31:44:04:00:c2\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
 					+ (new Random().nextInt((50 - 5) + 1) + 5) + ",\"temperature\":75.43}", };
-	ProducerConfig config;
-	Producer<String, String> producer;
+	private static ProducerConfig config;
+	private static Producer<String, String> producer;
 
-	@Override
-	public void run() {
+//	@Override
+//	public void run() {
+//		Options options = new Options();
+//		Logger.getRootLogger().setLevel(Level.OFF);
+//		options.addOption(BROKER_LIST, true, "Kafka Brokers List");
+//		options.addOption(SERIALIZER_CLASS, true, "Kafka Serializer Class");
+//		options.addOption(MQTT_BROKER_HOST, true, "MQTT Broker Host");
+//		options.addOption(MQTT_BROKER_PORT, true, "MQTT Broker Port");
+//		options.addOption(MQTT_BROKER_TOPICS, true, "MQTT Broker Topics");
+//
+//		CommandLineParser parser = new PosixParser();
+//		CommandLine cmd;
+//		try {
+//			cmd = parser.parse(options, args);
+//			Properties props = new Properties();
+//			props.put("metadata.broker.list", cmd.getOptionValue(BROKER_LIST, "localhost:9092"));
+//			props.put("serializer.class", cmd.getOptionValue(SERIALIZER_CLASS, "kafka.serializer.StringEncoder"));
+//			config = new ProducerConfig(props);
+//			producer = new Producer<String, String>(config);
+//			String topicsArg = cmd.getOptionValue(MQTT_BROKER_TOPICS, "topic");
+//			List<Topic> topicsList = new ArrayList<Topic>();
+//			String[] topics = topicsArg.split(",");
+//			boolean exit = false;
+//			for (String topic : topics) {
+//				topicsList.add(new Topic(topic, QoS.AT_LEAST_ONCE));
+//			}
+//			do {
+//				printRed(type1, type2);
+//			} while (!exit);
+//
+//			producer.close();
+//		} catch (Exception e) {
+//
+//			e.printStackTrace();
+//		}
+//	}
+
+	public static void start() {
 		Options options = new Options();
 		Logger.getRootLogger().setLevel(Level.OFF);
 		options.addOption(BROKER_LIST, true, "Kafka Brokers List");
@@ -109,12 +145,7 @@ public class MqttConsumerToKafkaProducerTest implements Runnable {
 		}
 	}
 
-	public void start() {
-		Thread t = new Thread(this);
-		t.start();
-	}
-
-	public void printRed(String[] type1, String[] type2) throws Exception {
+	public static void printRed(String[] type1, String[] type2) throws Exception {
 		long startTimeRed = System.nanoTime();
 		// System.out.println("Type1");
 		int str1Random = new Random().nextInt((50 - 5) + 1) + 5;
@@ -163,7 +194,7 @@ public class MqttConsumerToKafkaProducerTest implements Runnable {
 		printGreen(type2, type1);
 	}
 
-	public void printGreen(String[] type2, String[] type1) throws Exception {
+	public static void printGreen(String[] type2, String[] type1) throws Exception {
 		long startTimeGreen = System.nanoTime();
 		// System.out.println("Type2");
 		int str1Random = new Random().nextInt((50 - 5) + 1) + 5;

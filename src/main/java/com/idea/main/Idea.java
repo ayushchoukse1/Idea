@@ -1,8 +1,10 @@
 package com.idea.main;
 
 import com.idea.adapters.weather.producers.weather.ForecastIOProducer;
+
 import com.idea.kafka.mqtt.bridge.KafkaConsumer;
 import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer;
+import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducerTest;
 
 public class Idea {
 	public static void main(String[] args){
@@ -37,7 +39,15 @@ public class Idea {
 				}
 			}
 		});
-
+		Thread t4 = new Thread(new Runnable() {
+			public void run() {
+				try {
+					MqttConsumerToKafkaProducerTest.start();
+				} catch (Exception e) {
+					System.out.println("Error in MQttConsumerToKafkaProducer : " + e.getMessage());
+				}
+			}
+		});
 		//Start the mqtt listener
 		//t1.start();
 		

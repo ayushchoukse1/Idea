@@ -32,8 +32,8 @@ public final class BreakInputLines {
 
 	public static void main(String[] argsold) throws Exception {
 		//MqttConsumerToKafkaProducer obj = new MqttConsumerToKafkaProducer();
-		MqttConsumerToKafkaProducerTest obj1 = new MqttConsumerToKafkaProducerTest();
-		obj1.start();
+//		MqttConsumerToKafkaProducerTest obj1 = new MqttConsumerToKafkaProducerTest();
+//		obj1.start();
 		ProcessUtility.fillLocator();
 		String zkHosts = "localhost";
 		String listenTopics = "topic";
