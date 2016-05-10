@@ -7,7 +7,7 @@ import org.codehaus.jettison.json.JSONObject;
 
 import com.idea.adapters.weather.forecastio.service.ForecastIOService;
 
-public class ExternalData {
+public class SparkProcess {
 
 	private static final String location = "1600+Amphitheatre+Parkway,+Mountain+View,+CA";
 	private static long sunriseTime;

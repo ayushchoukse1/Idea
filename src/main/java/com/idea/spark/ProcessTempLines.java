@@ -12,7 +12,7 @@ public class ProcessTempLines implements Serializable {
 		String deviceID = jsonObj.getString("deviceId");
 		String location = ProcessUtility.thermostatLocator.get(deviceID);
 		Double currentTemp = jsonObj.getDouble("temperature");
-		Double forecastTemp = ExternalData.getForecastTemp();
+		Double forecastTemp = SparkProcess.getForecastTemp();
 		System.out.println("TEMPERATURE : Forecasted Temperature: " + forecastTemp);
 		Double tempDiff = forecastTemp - currentTemp;
 		if (tempDiff < 0) {
@@ -34,7 +34,7 @@ public class ProcessTempLines implements Serializable {
 		 */
 
 		Double diffAccuracy = 0.0;
-		Double currentExternalTemp = ExternalData.getCurrentExternalTemp();
+		Double currentExternalTemp = SparkProcess.getCurrentExternalTemp();
 		Double forcastAccurate = 0.0;
 		Double pipeLowerThreshold = 40.0;
 		// Double pipeUpperThreshold = 60.0;
