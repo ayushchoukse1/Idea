@@ -20,6 +20,7 @@ import org.apache.spark.streaming.kafka.KafkaUtils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducerTest;
 
 import scala.Tuple2;
 
@@ -30,7 +31,7 @@ public final class BreakInputLines {
 	static double forecastTemp = 0;
 
 	public static void main(String[] argsold) throws Exception {
-		MqttConsumerToKafkaProducer obj = new MqttConsumerToKafkaProducer();
+		//MqttConsumerToKafkaProducer obj = new MqttConsumerToKafkaProducer();
 		MqttConsumerToKafkaProducerTest obj1 = new MqttConsumerToKafkaProducerTest();
 		obj1.start();
 		ProcessUtility.fillLocator();

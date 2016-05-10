@@ -8,8 +8,6 @@ import org.codehaus.jettison.json.JSONObject;
 
 public class ProcessLightLines implements java.io.Serializable {
 
-
-
 	public void processLightString(String string) throws Exception {
 
 		// 1. Convert string to json
@@ -27,7 +25,6 @@ public class ProcessLightLines implements java.io.Serializable {
 		// 5.2 If state changed from Green --> Red
 		// update timestamp to new timestamp, update Ontime for light, update
 		// initialState.
-		
 
 		JSONObject jobj = new JSONObject(string);
 		String name = jobj.getString("name");

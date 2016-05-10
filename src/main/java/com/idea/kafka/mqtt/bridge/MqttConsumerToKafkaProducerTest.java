@@ -1,4 +1,4 @@
-package com.idea.spark;
+package com.idea.kafka.mqtt.bridge;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
