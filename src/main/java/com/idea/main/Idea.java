@@ -5,7 +5,7 @@ import com.idea.adapters.weather.producers.weather.ForecastIOProducer;
 import com.idea.kafka.mqtt.bridge.KafkaConsumer;
 import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer;
 import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducerTest;
-import com.idea.spark.BreakInputLines;
+import com.idea.spark.SparkProcess;
 
 public class Idea {
 	public static void main(String[] args){
@@ -52,7 +52,7 @@ public class Idea {
 		Thread t5 = new Thread(new Runnable() {
 			public void run() {
 				try {
-					BreakInputLines.start();
+					SparkProcess.start();
 				} catch (Exception e) {
 					System.out.println("Error in BreakInputLines : " + e.getMessage());
 				}

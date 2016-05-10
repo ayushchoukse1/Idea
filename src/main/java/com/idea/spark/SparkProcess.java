@@ -24,7 +24,7 @@ import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducerTest;
 
 import scala.Tuple2;
 
-public final class BreakInputLines {
+public final class SparkProcess {
 
 	static ProcessTempLines processTempLinesObject = new ProcessTempLines();
 	static ProcessLightLines processLightLinesObject = new ProcessLightLines();
