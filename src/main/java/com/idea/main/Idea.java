@@ -72,6 +72,9 @@ public class Idea {
 		//t1.start();
 		
 		//start the kafka consumer
+		t1.start();
+		t2.start();
+		t3.start();
 		t4.start();
 
 		//start the active weather data collector
