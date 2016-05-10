@@ -45,7 +45,7 @@ public class Idea {
 				try {
 					TestKafkaProducer.start();
 				} catch (Exception e) {
-					System.out.println("Error in MQttConsumerToKafkaProducerTest : " + e.getMessage());
+					System.out.println("Error in TestKafkaProducer : " + e.getMessage());
 				}
 			}
 		});

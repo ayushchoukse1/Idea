@@ -29,137 +29,69 @@ public final class SparkProcess {
 	static ProcessTempLines processTempLinesObject = new ProcessTempLines();
 	static ProcessLightLines processLightLinesObject = new ProcessLightLines();
 	static double forecastTemp = 0;
-//
-//	public static void main(String[] argsold) throws Exception {
-//		//MqttConsumerToKafkaProducer obj = new MqttConsumerToKafkaProducer();
-////		MqttConsumerToKafkaProducerTest obj1 = new MqttConsumerToKafkaProducerTest();
-////		obj1.start();
-//		ProcessUtility.fillLocator();
-//		String zkHosts = "localhost";
-//		String listenTopics = "topic";
-//		String listenerName = "testListener";
-//		SparkConf sparkConf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]")
-//				.set("spark.executor.memory", "1g");
-//		JavaStreamingContext jssc = new JavaStreamingContext(sparkConf, new Duration(500));
-//
-//		/*
-//		 * Setting the spark executor memory and local[2] are very important to
-//		 * avoid the following error: Initial job has not accepted any
-//		 * resources; check your cluster UI to ensure that workers are
-//		 * registered and have sufficient resources
-//		 * 
-//		 */
-//
-//		int numThreads = 5;
-//		final AtomicLong dataCounter = new AtomicLong(0);
-//		Map<String, Integer> topicMap = new HashMap<String, Integer>();
-//
-//		String[] topics = listenTopics.split(",");
-//		for (String topic : topics) {
-//			topicMap.put(topic, numThreads);
-//		}
-//		JavaPairReceiverInputDStream<String, String> messages = KafkaUtils.createStream(jssc, zkHosts, listenerName,
-//				topicMap);
-//		JavaDStream<String> lines = messages.map(new Function<Tuple2<String, String>, String>() {
-//			public String call(Tuple2<String, String> tuple2) {
-//				return tuple2._2();
-//			}
-//		});
-//
-//		// Separate Light lines from all the input messages
-//		JavaDStream<String> lightLines = lines.filter(new Function<String, Boolean>() {
-//			public Boolean call(String messages) {
-//				return messages.contains("Lighting");
-//			}
-//		});
-//
-//		// Separate Temperature lines from all the input messages
-//		JavaDStream<String> tempLines = lines.filter(new Function<String, Boolean>() {
-//			public Boolean call(String messages) {
-//				return messages.contains("temperature");
-//			}
-//		});
-//		readTempRDD(tempLines);
-//		readLightRDD(lightLines);
-//		ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
-//		exec.scheduleAtFixedRate(new Runnable() {
-//			@Override
-//			public void run() {
-//				System.out.println("TEST : persistLightData Running");
-//				PersistData.persistLightData();
-//			}
-//		}, 5, 15, TimeUnit.SECONDS);
-//		jssc.start();
-//		jssc.awaitTermination();
-//
-//	}
 
-	
-	public static void start(){
-			//MqttConsumerToKafkaProducer obj = new MqttConsumerToKafkaProducer();
-//			MqttConsumerToKafkaProducerTest obj1 = new MqttConsumerToKafkaProducerTest();
-//			obj1.start();
-			ProcessUtility.fillLocator();
-			String zkHosts = "localhost";
-			String listenTopics = "topic";
-			String listenerName = "testListener";
-			SparkConf sparkConf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]")
-					.set("spark.executor.memory", "1g");
-			JavaStreamingContext jssc = new JavaStreamingContext(sparkConf, new Duration(500));
+	public static void start() {
 
-			/*
-			 * Setting the spark executor memory and local[2] are very important to
-			 * avoid the following error: Initial job has not accepted any
-			 * resources; check your cluster UI to ensure that workers are
-			 * registered and have sufficient resources
-			 * 
-			 */
+		ProcessUtility.fillLocator();
+		String zkHosts = "localhost";
+		String listenTopics = "topic";
+		String listenerName = "testListener";
+		SparkConf sparkConf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]")
+				.set("spark.executor.memory", "1g");
+		JavaStreamingContext jssc = new JavaStreamingContext(sparkConf, new Duration(500));
 
-			int numThreads = 5;
-			final AtomicLong dataCounter = new AtomicLong(0);
-			Map<String, Integer> topicMap = new HashMap<String, Integer>();
+		/*
+		 * Setting the spark executor memory and local[2] are very important to
+		 * avoid the following error: Initial job has not accepted any
+		 * resources; check your cluster UI to ensure that workers are
+		 * registered and have sufficient resources
+		 * 
+		 */
 
-			String[] topics = listenTopics.split(",");
-			for (String topic : topics) {
-				topicMap.put(topic, numThreads);
+		int numThreads = 5;
+		final AtomicLong dataCounter = new AtomicLong(0);
+		Map<String, Integer> topicMap = new HashMap<String, Integer>();
+
+		String[] topics = listenTopics.split(",");
+		for (String topic : topics) {
+			topicMap.put(topic, numThreads);
+		}
+		JavaPairReceiverInputDStream<String, String> messages = KafkaUtils.createStream(jssc, zkHosts, listenerName,
+				topicMap);
+		JavaDStream<String> lines = messages.map(new Function<Tuple2<String, String>, String>() {
+			public String call(Tuple2<String, String> tuple2) {
+				return tuple2._2();
 			}
-			JavaPairReceiverInputDStream<String, String> messages = KafkaUtils.createStream(jssc, zkHosts, listenerName,
-					topicMap);
-			JavaDStream<String> lines = messages.map(new Function<Tuple2<String, String>, String>() {
-				public String call(Tuple2<String, String> tuple2) {
-					return tuple2._2();
-				}
-			});
+		});
 
-			// Separate Light lines from all the input messages
-			JavaDStream<String> lightLines = lines.filter(new Function<String, Boolean>() {
-				public Boolean call(String messages) {
-					return messages.contains("Lighting");
-				}
-			});
+		// Separate Light lines from all the input messages
+		JavaDStream<String> lightLines = lines.filter(new Function<String, Boolean>() {
+			public Boolean call(String messages) {
+				return messages.contains("Lighting");
+			}
+		});
 
-			// Separate Temperature lines from all the input messages
-			JavaDStream<String> tempLines = lines.filter(new Function<String, Boolean>() {
-				public Boolean call(String messages) {
-					return messages.contains("temperature");
-				}
-			});
-			readTempRDD(tempLines);
-			readLightRDD(lightLines);
-			ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
-			exec.scheduleAtFixedRate(new Runnable() {
-				@Override
-				public void run() {
-					System.out.println("TEST : persistLightData Running");
-					PersistData.persistLightData();
-				}
-			}, 5, 15, TimeUnit.SECONDS);
-			jssc.start();
-			jssc.awaitTermination();
+		// Separate Temperature lines from all the input messages
+		JavaDStream<String> tempLines = lines.filter(new Function<String, Boolean>() {
+			public Boolean call(String messages) {
+				return messages.contains("temperature");
+			}
+		});
+		readTempRDD(tempLines);
+		readLightRDD(lightLines);
+		ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
+		exec.scheduleAtFixedRate(new Runnable() {
+			@Override
+			public void run() {
+				System.out.println("TEST : persistLightData Running");
+				PersistData.persistLightData();
+			}
+		}, 5, 15, TimeUnit.SECONDS);
+		jssc.start();
+		jssc.awaitTermination();
 
-		
 	}
-	
+
 	public static void readTempRDD(JavaDStream<String> dStream1) {
 		System.out.println("Analyzing Temperature data");
 		forecastTemp = ExternalData.getForecastTemp();
