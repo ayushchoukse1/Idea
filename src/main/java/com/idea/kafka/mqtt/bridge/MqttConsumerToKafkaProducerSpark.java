@@ -1,4 +1,4 @@
-package com.idea.spark;
+package com.idea.kafka.mqtt.bridge;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ import kafka.producer.ProducerConfig;
  * @author shazin
  *
  */
-public class MqttConsumerToKafkaProducerSpark implements Runnable {
+public class MqttConsumerToKafkaProducerSpark {
 
 	private static final String MQTT_BROKER_TOPICS = "mqttbrokertopics";
 	private static final String MQTT_BROKER_PORT = "mqttbrokerport";
@@ -39,8 +39,7 @@ public class MqttConsumerToKafkaProducerSpark implements Runnable {
 	private static final String BROKER_LIST = "brokerlist";
 	private static final String[] args = null;
 
-	@Override
-	public void run() {
+	public static void start() {
 		Options options = new Options();
 		Logger.getRootLogger().setLevel(Level.OFF);
 		options.addOption(BROKER_LIST, true, "Kafka Brokers List");
@@ -117,11 +116,6 @@ public class MqttConsumerToKafkaProducerSpark implements Runnable {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
-
-	public void start() {
-		Thread t = new Thread(this);
-		t.start();
 	}
 
 }
