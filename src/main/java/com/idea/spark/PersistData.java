@@ -19,7 +19,7 @@ public class PersistData {
 			ProcessUtility.mongo = new MongoClient("localhost", 27017);
 			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
 			ProcessUtility.table = ProcessUtility.db.getCollection("lights");
-		} catch (UnknownHostException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		BasicDBObject query = new BasicDBObject();
@@ -60,7 +60,7 @@ public class PersistData {
 			ProcessUtility.mongo = new MongoClient("localhost", 27017);
 			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
 			ProcessUtility.table = ProcessUtility.db.getCollection("tempRecomms");
-		} catch (UnknownHostException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		BasicDBObject newDoc = new BasicDBObject();
@@ -78,7 +78,7 @@ public class PersistData {
 			ProcessUtility.mongo = new MongoClient("localhost", 27017);
 			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
 			ProcessUtility.table = ProcessUtility.db.getCollection("tempActions");
-		} catch (UnknownHostException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		BasicDBObject newDoc = new BasicDBObject();
