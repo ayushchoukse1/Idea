@@ -4,7 +4,7 @@ import com.idea.adapters.weather.producers.weather.ForecastIOProducer;
 import com.idea.kafka.mqtt.bridge.KafkaConsumer;
 import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducer;
 import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducerSpark;
-import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducerTest;
+import com.idea.kafka.mqtt.bridge.TestKafkaProducer;
 import com.idea.spark.SparkProcess;
 
 public class Idea {
@@ -43,7 +43,7 @@ public class Idea {
 		Thread t4 = new Thread(new Runnable() {
 			public void run() {
 				try {
-					MqttConsumerToKafkaProducerTest.start();
+					TestKafkaProducer.start();
 				} catch (Exception e) {
 					System.out.println("Error in MQttConsumerToKafkaProducerTest : " + e.getMessage());
 				}

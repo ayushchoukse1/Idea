@@ -27,7 +27,7 @@ import kafka.producer.ProducerConfig;
  * @author shazin
  *
  */
-public class MqttConsumerToKafkaProducerTest {
+public class TestKafkaProducer {
 
 	private static final String MQTT_BROKER_TOPICS = "mqttbrokertopics";
 	private static final String MQTT_BROKER_PORT = "mqttbrokerport";

@@ -20,7 +20,7 @@ import org.apache.spark.streaming.kafka.KafkaUtils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.idea.kafka.mqtt.bridge.MqttConsumerToKafkaProducerTest;
+import com.idea.kafka.mqtt.bridge.TestKafkaProducer;
 
 import scala.Tuple2;
 
