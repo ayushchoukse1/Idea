@@ -54,7 +54,7 @@ public class Idea {
 				try {
 					SparkProcess.start();
 				} catch (Exception e) {
-					System.out.println("Error in BreakInputLines : " + e.getMessage());
+					System.out.println("Error in SparkProcess : " + e.getMessage());
 				}
 			}
 		});

@@ -30,7 +30,7 @@ import kafka.producer.ProducerConfig;
  * @author shazin
  *
  */
-public class MqttConsumerToKafkaProducer implements Runnable {
+public class MqttConsumerToKafkaProducerSpark implements Runnable {
 
 	private static final String MQTT_BROKER_TOPICS = "mqttbrokertopics";
 	private static final String MQTT_BROKER_PORT = "mqttbrokerport";
