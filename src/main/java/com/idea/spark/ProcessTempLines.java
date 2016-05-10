@@ -7,14 +7,18 @@ import org.codehaus.jettison.json.JSONObject;
 public class ProcessTempLines implements Serializable {
 
 	public void readTempRDD(String string) throws Exception {
+
 		System.out.println("TEMPERATURE : Checking temperature lines");
+
 		JSONObject jsonObj = new JSONObject(string);
 		String deviceID = jsonObj.getString("deviceId");
 		String location = ProcessUtility.thermostatLocator.get(deviceID);
 		Double currentTemp = jsonObj.getDouble("temperature");
 		Double forecastTemp = ExternalData.getForecastTemp();
-		System.out.println("TEMPERATURE : Forecasted Temperature: " + forecastTemp);
 		Double tempDiff = forecastTemp - currentTemp;
+
+		System.out.println("TEMPERATURE : Forecasted Temperature: " + forecastTemp);
+
 		if (tempDiff < 0) {
 			// its becoming cold so increase the temperature
 			System.out.println("TEMPERATURE : Device: " + location + " is at: " + currentTemp
@@ -37,13 +41,16 @@ public class ProcessTempLines implements Serializable {
 		Double currentExternalTemp = ExternalData.getCurrentExternalTemp();
 		Double forcastAccurate = 0.0;
 		Double pipeLowerThreshold = 40.0;
-		// Double pipeUpperThreshold = 60.0;
+
 		if (location == "Cottage - Outdoors") {
+
+			String action = null;
 			diffAccuracy = currentExternalTemp - currentTemp;
 			forcastAccurate = forecastTemp - diffAccuracy;
+
 			System.out.println("TEMPERATURE : Water Heater CurTemp: " + currentTemp + " CurExtTemp: "
 					+ currentExternalTemp + " forecastTemp: " + forecastTemp + " ForAccTemp: " + forcastAccurate);
-			String action = null;
+
 			if (forcastAccurate <= pipeLowerThreshold && (!ProcessUtility.heater.isState())) {
 				action = "Water heater is switched on";
 				ProcessUtility.heater.setState(true);
@@ -51,6 +58,7 @@ public class ProcessTempLines implements Serializable {
 				action = "Water heater is switched off";
 				ProcessUtility.heater.setState(false);
 			}
+
 			if (action != null) {
 				System.out.println("TEMPERATURE : Action = " + action);
 				PersistData.persistTempAction(action, deviceID);

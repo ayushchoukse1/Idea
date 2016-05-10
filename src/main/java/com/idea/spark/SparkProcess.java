@@ -49,13 +49,14 @@ public final class SparkProcess {
 		 */
 
 		int numThreads = 5;
-		final AtomicLong dataCounter = new AtomicLong(0);
 		Map<String, Integer> topicMap = new HashMap<String, Integer>();
 
 		String[] topics = listenTopics.split(",");
+
 		for (String topic : topics) {
 			topicMap.put(topic, numThreads);
 		}
+
 		JavaPairReceiverInputDStream<String, String> messages = KafkaUtils.createStream(jssc, zkHosts, listenerName,
 				topicMap);
 		JavaDStream<String> lines = messages.map(new Function<Tuple2<String, String>, String>() {
@@ -77,25 +78,24 @@ public final class SparkProcess {
 				return messages.contains("temperature");
 			}
 		});
+
 		readTempRDD(tempLines);
 		readLightRDD(lightLines);
+
 		ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
 		exec.scheduleAtFixedRate(new Runnable() {
 			@Override
 			public void run() {
-				System.out.println("TEST : persistLightData Running");
+				System.out.println("TEST : persistLightData Running every 15 seconds");
 				PersistData.persistLightData();
 			}
 		}, 5, 15, TimeUnit.SECONDS);
+
 		jssc.start();
 		jssc.awaitTermination();
-
 	}
 
 	public static void readTempRDD(JavaDStream<String> dStream1) {
-		System.out.println("Analyzing Temperature data");
-		forecastTemp = ExternalData.getForecastTemp();
-		System.out.println("Forecasted Temp: " + forecastTemp);
 		dStream1.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
 			public Void call(JavaRDD<String> rdd) throws Exception {
@@ -107,6 +107,7 @@ public final class SparkProcess {
 						return string;
 					}
 				});
+				
 				List<String> ls = rowRDD.collect();
 				ObjectMapper mapper = new ObjectMapper();
 				return null;
@@ -130,14 +131,6 @@ public final class SparkProcess {
 				});
 				List<String> ls = rowRDD.collect();
 				ObjectMapper mapper = new ObjectMapper();
-				for (int i = 0; i < ls.size(); i++) {
-
-					/*
-					 * Printing the RDD's as JSON Object
-					 */
-					Object json = mapper.readValue(ls.get(i), Object.class);
-					mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
-				}
 				return null;
 			}
 		});
