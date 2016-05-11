@@ -12,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 import org.glassfish.grizzly.http.util.TimeStamp;
 
 import com.mongodb.BasicDBObject;
+import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.MongoClient;
 
@@ -111,29 +112,62 @@ public class PersistData {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
 		BasicDBObject newDoc = new BasicDBObject();
+		
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
 		newDoc.put("deviceID", deviceID);
 		newDoc.put("location", location);
 		newDoc.put("diff", diff);
 		newDoc.put("recommendation", recomm);
 		newDoc.put("timestamp", currentTime);
-		ProcessUtility.table.insert(newDoc);
+		
+		BasicDBObject query = new BasicDBObject();
+		BasicDBObject retreivalObj = null;
+		BasicDBObject updateObj = null;
+		DBCursor cursor = null;
+		query.put("deviceID", deviceID);
+		cursor = ProcessUtility.table.find(query);
+		if (cursor.count() == 0) {
+			ProcessUtility.table.insert(newDoc);
+		} else {
+			retreivalObj = (BasicDBObject) cursor.next();
+			updateObj = new BasicDBObject();
+			updateObj.put("$set", newDoc);
+			ProcessUtility.table.update(query, updateObj);
+		}
+		
 	}
 
 	public static void persistTempAction(String action, String deviceID) {
+		DBCollection collection = null;
 		try {
 			ProcessUtility.mongo = new MongoClient("localhost", 27017);
 			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
-			ProcessUtility.table = ProcessUtility.db.getCollection("tempActions");
+			collection = ProcessUtility.db.getCollection("tempActions");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		BasicDBObject newDoc = new BasicDBObject();
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
-		newDoc.put("DeviceID", deviceID);
-		newDoc.put("Action", action);
-		newDoc.put("Timestamp", currentTime);
-		ProcessUtility.table.insert(newDoc);
+		newDoc.put("deviceID", deviceID);
+		newDoc.put("action", action);
+		newDoc.put("timestamp", currentTime);
+		
+		BasicDBObject query = new BasicDBObject();
+		BasicDBObject updateObj = null;
+		DBCursor cursor = null;
+		query.put("deviceID", deviceID);
+		cursor = collection.find(query);
+		if (cursor.count() == 0) {
+			System.out.println("TEST : First Time Insert");
+			collection.insert(newDoc);
+		} else {
+			System.out.println("TEST : UPDATE");
+			updateObj = new BasicDBObject();
+			updateObj.put("$set", newDoc);
+			collection.update(query, updateObj);
+		}
+		
 	}
 }

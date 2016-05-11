@@ -14,11 +14,12 @@ public class ExternalData {
 	static long sunsetTime;
 	static Timestamp current = new Timestamp((new java.util.Date()).getTime());
 	static long currentDate = (current.getTime()) / 1000;
-
+	static Double forecastTemp = 0.0;
 	public static void setSunTime(){
 		
 		sunsetTime = getSunsetTime();
 		sunriseTime = getSunriseTime();
+		forecastTemp = getForecastTemp();
 	}
 	
 	public static long getSunsetTime() {
@@ -74,10 +75,11 @@ public class ExternalData {
 			JSONArray arr = jsonObj.getJSONArray("data");
 			forecastTemp = arr.getJSONObject(3).getDouble("temperature");
 		} catch (Exception e) {
-			e.printStackTrace();
+			return 56.1;
+			
 		}
 		return forecastTemp;
-		// return 56;
+		 
 	}
 
 	public static double getCurrentExternalTemp() {
@@ -90,7 +92,7 @@ public class ExternalData {
 			JSONArray arr = jsonObj.getJSONArray("data");
 			forecastTemp = arr.getJSONObject(0).getDouble("temperature");
 		} catch (Exception e) {
-			e.printStackTrace();
+			 return 60;
 		}
 		return forecastTemp;
 		// return 60;
