@@ -13,6 +13,7 @@ public class ProcessUtility {
 	public static MongoClient mongo = null;
 	public static DB db = null;
 	public static DBCollection table = null;
+	public static DBCollection newLightsTable = null;
 	public static HashMap<String, Lighting> lightsMap = new HashMap<String, Lighting>();
 	public static HashMap<String, String> thermostatLocator = new HashMap();
 	public static WaterHeater heater;

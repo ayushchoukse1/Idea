@@ -10,11 +10,17 @@ import com.idea.adapters.weather.forecastio.service.ForecastIOService;
 public class ExternalData {
 
 	private static final String location = "1600+Amphitheatre+Parkway,+Mountain+View,+CA";
-	private static long sunriseTime;
-	private static long sunsetTime;
+	static long sunriseTime;
+	static long sunsetTime;
 	static Timestamp current = new Timestamp((new java.util.Date()).getTime());
 	static long currentDate = (current.getTime()) / 1000;
 
+	public static void setSunTime(){
+		
+		sunsetTime = getSunsetTime();
+		sunriseTime = getSunriseTime();
+	}
+	
 	public static long getSunsetTime() {
 		ForecastIOService fs = new ForecastIOService();
 		try {

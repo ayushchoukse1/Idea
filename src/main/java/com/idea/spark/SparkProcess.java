@@ -79,7 +79,7 @@ public final class SparkProcess {
 			}
 		});
 
-		readTempRDD(tempLines);
+		//readTempRDD(tempLines);
 		readLightRDD(lightLines);
 
 		ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
@@ -116,6 +116,7 @@ public final class SparkProcess {
 	}
 
 	public static void readLightRDD(JavaDStream<String> dStream) {
+		ExternalData.setSunTime();
 		dStream.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
 			public Void call(JavaRDD<String> rdd) throws Exception {

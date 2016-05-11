@@ -71,9 +71,10 @@ public class ProcessLightLines implements java.io.Serializable {
 					 * State changed from Green to Red update timestamp to new
 					 * timestamp, update Ontime for light, update initialState.
 					 */
-					System.out.println("LIGHTS : BEFORE Light update: " + light.getName() + " with onTime: "
-							+ light.getOnTime() + " with wasteTime: " + light.getWasteTime() + " with initialState: "
-							+ light.getIntialState() + " with timestamp: " + light.getTimestamp());
+//					System.out.println("LIGHTS : BEFORE Light update: " + light.getName() + " with onTime: "
+//							+ light.getOnTime() + " with wasteTime: " + light.getWasteTime() + " with initialState: "
+//							+ light.getIntialState() + " with timestamp: " + light.getTimestamp());
+					
 					// The total time for which the light was on.
 					long currentTime = timestamp.getTime();
 					long initialTime = (light.getTimestamp().getTime());
@@ -88,12 +89,12 @@ public class ProcessLightLines implements java.io.Serializable {
 					light.setIntialState(currentState);
 
 					// calculating waste
-					long sunriseTime = ExternalData.getSunriseTime();
-					long sunsetTime = ExternalData.getSunsetTime();
+					long sunriseTime = ExternalData.sunriseTime;
+					long sunsetTime = ExternalData.sunsetTime;
 					long oldWasteTime = light.getWasteTime().getTime();
 
-					System.out.println("LIGHTS : sunriseTime: " + new Timestamp(sunriseTime) + " sunsetTime : "
-							+ new Timestamp(sunsetTime));
+//					System.out.println("LIGHTS : sunriseTime: " + new Timestamp(sunriseTime) + " sunsetTime : "
+//							+ new Timestamp(sunsetTime));
 
 					if (initialTime > sunriseTime && currentTime < sunsetTime) {
 						oldWasteTime += diff;
@@ -105,9 +106,10 @@ public class ProcessLightLines implements java.io.Serializable {
 						oldWasteTime = oldWasteTime + (sunsetTime - sunriseTime);
 					}
 					light.setWasteTime(new Timestamp(oldWasteTime));
-					System.out.println("LIGHTS : AFTER Light update: " + light.getName() + " with onTime: "
-							+ light.getOnTime() + " with wasteTime: " + light.getWasteTime() + " with initialState: "
-							+ light.getIntialState() + " with timestamp: " + light.getTimestamp());
+					
+//					System.out.println("LIGHTS : AFTER Light update: " + light.getName() + " with onTime: "
+//							+ light.getOnTime() + " with wasteTime: " + light.getWasteTime() + " with initialState: "
+//							+ light.getIntialState() + " with timestamp: " + light.getTimestamp());
 				}
 			}
 		}
