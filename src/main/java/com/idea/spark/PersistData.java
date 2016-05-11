@@ -113,11 +113,11 @@ public class PersistData {
 		}
 		BasicDBObject newDoc = new BasicDBObject();
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
-		newDoc.put("Timestamp", currentTime);
-		newDoc.put("DeviceID", deviceID);
-		newDoc.put("Location", location);
-		newDoc.put("Diff", diff);
-		newDoc.put("Recommendation", recomm);
+		newDoc.put("deviceID", deviceID);
+		newDoc.put("location", location);
+		newDoc.put("diff", diff);
+		newDoc.put("recommendation", recomm);
+		newDoc.put("timestamp", currentTime);
 		ProcessUtility.table.insert(newDoc);
 	}
 
@@ -131,9 +131,9 @@ public class PersistData {
 		}
 		BasicDBObject newDoc = new BasicDBObject();
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
-		newDoc.put("Timestamp", currentTime);
 		newDoc.put("DeviceID", deviceID);
 		newDoc.put("Action", action);
+		newDoc.put("Timestamp", currentTime);
 		ProcessUtility.table.insert(newDoc);
 	}
 }

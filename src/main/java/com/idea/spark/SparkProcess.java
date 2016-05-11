@@ -79,8 +79,8 @@ public final class SparkProcess {
 			}
 		});
 
-		//readTempRDD(tempLines);
-		readLightRDD(lightLines);
+		readTempRDD(tempLines);
+		//readLightRDD(lightLines);
 
 		ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
 		exec.scheduleAtFixedRate(new Runnable() {

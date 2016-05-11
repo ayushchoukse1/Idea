@@ -16,21 +16,28 @@ public class ProcessTempLines implements Serializable {
 		Double currentTemp = jsonObj.getDouble("temperature");
 		Double forecastTemp = ExternalData.getForecastTemp();
 		Double tempDiff = forecastTemp - currentTemp;
-
+		String recomm = null;
 		System.out.println("TEMPERATURE : Forecasted Temperature: " + forecastTemp);
 
 		if (tempDiff < 0) {
 			// its becoming cold so increase the temperature
 			System.out.println("TEMPERATURE : Device: " + location + " is at: " + currentTemp
 					+ "F should decrease the temperature by " + Math.abs(tempDiff) + "F");
+			 recomm = "Decrease the temperature by " + Math.abs(tempDiff) + "F";
+			PersistData.persistTempRecomm(recomm, deviceID, location, tempDiff);
 		} else if (tempDiff > 0) {
 			// its becoming hotter
 			System.out.println("TEMPERATURE : Device at " + location + " is at: " + currentTemp
 					+ "F should increase the temperature by " + Math.abs(tempDiff) + "F");
+			recomm = "Increase the temperature by " + Math.abs(tempDiff) + "F";
+			
 		} else {
 			System.out.println("TEMPERATURE : Temperature remains same");
 		}
-
+		
+		if(recomm != null){
+			PersistData.persistTempRecomm(recomm, deviceID, location, tempDiff);	
+		}
 		/*
 		 * Find the difference between outdoors thermostat temp and the actual
 		 * current temp. This give us the difference in temperature between city
