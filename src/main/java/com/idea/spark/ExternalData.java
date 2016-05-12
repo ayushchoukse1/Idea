@@ -15,11 +15,13 @@ public class ExternalData {
 	static Timestamp current = new Timestamp((new java.util.Date()).getTime());
 	static long currentDate = (current.getTime()) / 1000;
 	static Double forecastTemp = 0.0;
+	static Double forecastTempCurr = 0.0;
 	public static void setSunTime(){
 		
 		sunsetTime = getSunsetTime();
 		sunriseTime = getSunriseTime();
 		forecastTemp = getForecastTemp();
+		forecastTempCurr= getCurrentExternalTemp();
 	}
 	
 	public static long getSunsetTime() {

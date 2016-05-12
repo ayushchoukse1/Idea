@@ -80,7 +80,7 @@ public final class SparkProcess {
 		});
 
 		readTempRDD(tempLines);
-		//readLightRDD(lightLines);
+		readLightRDD(lightLines);
 
 		ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
 		exec.scheduleAtFixedRate(new Runnable() {
@@ -89,7 +89,7 @@ public final class SparkProcess {
 				System.out.println("TEST : persistLightData Running every 15 seconds");
 				PersistData.persistLightData();
 			}
-		}, 5, 15, TimeUnit.SECONDS);
+		}, 5, 3600, TimeUnit.SECONDS);
 
 		jssc.start();
 		jssc.awaitTermination();
