@@ -48,6 +48,8 @@ public class MqttConsumerToKafkaProducer {
 		KafkaProducer kafkaProducerSpark = new KafkaProducer();
 		kafkaProducerSpark.setTopic("sparktopic");
 		
+		
+		
 		MQTT mqtt = new MQTT();
 		mqtt.setHost("whipple.dyndns-home.com", 1883);
 
@@ -90,13 +92,17 @@ public class MqttConsumerToKafkaProducer {
 			Timestamp originalTimeStamp = new Timestamp(System.currentTimeMillis());
 			Calendar calender = Calendar.getInstance();
 			calender.setTimeInMillis(originalTimeStamp.getTime());
-			calender.add(Calendar.SECOND, -5);
+			
 			//jobj.put("TimeStamp", new Timestamp(calender.getTime().getTime()));
 			//strPayload = jobj.toString();
-			System.out.println("Test data: " + strPayload);
+			//System.out.println("Test data: " + strPayload);
 			//publish message
 			kafkaProducer.publishMessage(strPayload);
 			kafkaProducerSpark.publishMessage(strPayload);
+			
+			
+			
+			
 			//SparkProcess.start();
 		}
 

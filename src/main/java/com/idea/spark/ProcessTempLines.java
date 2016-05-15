@@ -37,6 +37,7 @@ public class ProcessTempLines implements Serializable {
 			System.out.println("TEMPERATURE : Device: " + location + " is at: " + currentTemp
 					+ "F should decrease the temperature by " + Math.abs(tempDiff) + "F");
 			 recomm = "Decrease the temperature by " + Math.abs(tempDiff) + "F";
+			 System.out.println(recomm+" " +deviceID+" " +location+" " + tempDiff+" " + title+" " +currentTemp);
 			PersistData.persistTempRecomm(recomm, deviceID, location, tempDiff, title, currentTemp);
 		} else if (tempDiff > 0) {
 			// its becoming hotter
@@ -49,6 +50,7 @@ public class ProcessTempLines implements Serializable {
 		}
 		
 		if(recomm != null){
+			System.out.println(recomm+" " +deviceID+" " +location+" " + tempDiff+" " + title+" " +currentTemp);
 			PersistData.persistTempRecomm(recomm, deviceID, location, tempDiff, title, currentTemp);	
 		}
 		/*

@@ -80,7 +80,7 @@ public class Idea {
 		t2.start();
 		t3.start();
 		
-		
+		t4.start();
 		//start the active weather data collector
 		t6.start();			
 

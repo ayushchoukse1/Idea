@@ -36,18 +36,18 @@ public class TestKafkaProducer {
 	private static final String BROKER_LIST = "brokerlist";
 	private static final String[] args = null;
 	private static String[] type1 = {
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch E\",\"state\":\"Red\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Aspen\",\"state\":\"Green\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family W\",\"state\":\"Red\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family TV\",\"state\":\"Green\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch W\",\"state\":\"Red\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room E\",\"state\":\"Green\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room NW\",\"state\":\"Red\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room SW\",\"state\":\"Green\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family E\",\"state\":\"Red\"}",
-//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Horse Picture\",\"state\":\"Green\"}",
-			//"{\"deviceId\":\"28:db:b1:1f:06:00:00:d3\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
-			//		+ (new Random().nextInt((50 - 5) + 1) + 5) + ",\"temperature\":75.43}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch E\",\"state\":\"Red\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Aspen\",\"state\":\"Green\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family W\",\"state\":\"Red\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family TV\",\"state\":\"Green\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch W\",\"state\":\"Red\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room E\",\"state\":\"Green\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room NW\",\"state\":\"Red\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room SW\",\"state\":\"Green\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family E\",\"state\":\"Red\"}",
+			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Horse Picture\",\"state\":\"Green\"}",
+			"{\"deviceId\":\"28:db:b1:1f:06:00:00:d3\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
+					+ (new Random().nextInt((50 - 5) + 1) + 5) + ",\"temperature\":75.43}",
 			"{\"deviceId\":\"28:26:1c:60:07:00:00:ad\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
 					+ (new Random().nextInt((50 - 5) + 10) + 5) + ",\"temperature\":75.43}"
 //					,
@@ -130,7 +130,7 @@ public class TestKafkaProducer {
 			props.put("serializer.class", cmd.getOptionValue(SERIALIZER_CLASS, "kafka.serializer.StringEncoder"));
 			config = new ProducerConfig(props);
 			producer = new Producer<String, String>(config);
-			String topicsArg = cmd.getOptionValue(MQTT_BROKER_TOPICS, "topic");
+			String topicsArg = cmd.getOptionValue(MQTT_BROKER_TOPICS, "sparkTopicTest");
 			List<Topic> topicsList = new ArrayList<Topic>();
 			String[] topics = topicsArg.split(",");
 			boolean exit = false;
@@ -175,24 +175,24 @@ public class TestKafkaProducer {
 			Calendar calender = Calendar.getInstance();
 			calender.setTimeInMillis(originalTimeStamp.getTime());
 			jobj.put("TimeStamp", new Timestamp(calender.getTime().getTime()));
-			KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>("topic", jobj.toString());
+			KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>("sparkTopicTest", jobj.toString());
 			producer.send(kafkaMessage);
 			Thread.sleep(1000 * 1);
 		}
 
-		KeyedMessage<String, String> kafkaMessage1 = new KeyedMessage<String, String>("topic", str1);
+		KeyedMessage<String, String> kafkaMessage1 = new KeyedMessage<String, String>("sparkTopicTest", str1);
 		producer.send(kafkaMessage1);
 		Thread.sleep(500);
-		KeyedMessage<String, String> kafkaMessage2 = new KeyedMessage<String, String>("topic", str2);
+		KeyedMessage<String, String> kafkaMessage2 = new KeyedMessage<String, String>("sparkTopicTest", str2);
 		producer.send(kafkaMessage2);
 		Thread.sleep(500);
-		KeyedMessage<String, String> kafkaMessage3 = new KeyedMessage<String, String>("topic", str3);
+		KeyedMessage<String, String> kafkaMessage3 = new KeyedMessage<String, String>("sparkTopicTest", str3);
 		producer.send(kafkaMessage3);
 		Thread.sleep(500);
-		KeyedMessage<String, String> kafkaMessage4 = new KeyedMessage<String, String>("topic", str4);
+		KeyedMessage<String, String> kafkaMessage4 = new KeyedMessage<String, String>("sparkTopicTest", str4);
 		producer.send(kafkaMessage4);
 		Thread.sleep(500);
-		KeyedMessage<String, String> kafkaMessage5 = new KeyedMessage<String, String>("topic", str5);
+		KeyedMessage<String, String> kafkaMessage5 = new KeyedMessage<String, String>("sparkTopicTest", str5);
 		producer.send(kafkaMessage5);
 		printGreen(type2, type1);
 	}
@@ -238,23 +238,23 @@ public class TestKafkaProducer {
 			Calendar calender = Calendar.getInstance();
 			calender.setTimeInMillis(originalTimeStamp.getTime());
 			jobj.put("TimeStamp", new Timestamp(calender.getTime().getTime()));
-			KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>("topic", jobj.toString());
+			KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>("sparkTopicTest", jobj.toString());
 			producer.send(kafkaMessage);
 			Thread.sleep(1000 * 1);
 		}
-		KeyedMessage<String, String> kafkaMessage1 = new KeyedMessage<String, String>("topic", str1);
+		KeyedMessage<String, String> kafkaMessage1 = new KeyedMessage<String, String>("sparkTopicTest", str1);
 		producer.send(kafkaMessage1);
 		Thread.sleep(500);
-		KeyedMessage<String, String> kafkaMessage2 = new KeyedMessage<String, String>("topic", str2);
+		KeyedMessage<String, String> kafkaMessage2 = new KeyedMessage<String, String>("sparkTopicTest", str2);
 		producer.send(kafkaMessage2);
 		Thread.sleep(500);
-		KeyedMessage<String, String> kafkaMessage3 = new KeyedMessage<String, String>("topic", str3);
+		KeyedMessage<String, String> kafkaMessage3 = new KeyedMessage<String, String>("sparkTopicTest", str3);
 		producer.send(kafkaMessage3);
 		Thread.sleep(500);
-		KeyedMessage<String, String> kafkaMessage4 = new KeyedMessage<String, String>("topic", str4);
+		KeyedMessage<String, String> kafkaMessage4 = new KeyedMessage<String, String>("sparkTopicTest", str4);
 		producer.send(kafkaMessage4);
 		Thread.sleep(500);
-		KeyedMessage<String, String> kafkaMessage5 = new KeyedMessage<String, String>("topic", str5);
+		KeyedMessage<String, String> kafkaMessage5 = new KeyedMessage<String, String>("sparkTopicTest", str5);
 		producer.send(kafkaMessage5);
 		printRed(type1, type2);
 	}

@@ -35,7 +35,7 @@ public final class SparkProcess {
 		System.out.println("Welcome to spark streaming...");
 		ProcessUtility.fillLocator();
 		String zkHosts = "localhost";
-		String listenTopics = "sparktopic";
+		String listenTopics = "sparkTopic";
 		String listenerName = "testListener";
 		SparkConf sparkConf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]")
 				.set("spark.executor.memory", "1g");
@@ -91,17 +91,17 @@ public final class SparkProcess {
 		exec.scheduleAtFixedRate(new Runnable() {
 			@Override
 			public void run() {
-				System.out.println("TEST : persistLightData Running every 15 seconds");
+				System.out.println("TEST : persistLightData Running every 10 seconds");
 				PersistData.persistLightData();
 			}
-		}, 5, 3600, TimeUnit.SECONDS);
+		}, 5, 15, TimeUnit.SECONDS);
 
 		jssc.start();
 		jssc.awaitTermination();
 	}
 
 	public static void readTempRDD(JavaDStream<String> dStream1) {
-		System.out.println("Test in readTempRDD");
+		//System.out.println("Test in readTempRDD");
 		dStream1.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
 			public Void call(JavaRDD<String> rdd) throws Exception {
@@ -110,7 +110,8 @@ public final class SparkProcess {
 					
 					@Override
 					public String call(String string) throws Exception {
-						System.out.println("Test:  Calling processTempString method");
+						//System.out.println("Test:  Calling processTempString method");
+						System.out.println(string);
 						processTempLinesObject.readTempRDD(string);
 						return string;
 					}
@@ -126,7 +127,7 @@ public final class SparkProcess {
 	public static void readLightRDD(JavaDStream<String> dStream) {
 		ExternalData.setSunTime();
 		
-		System.out.println("Test in readLightRDD");
+		System.out.println("Test : readLightRDD Running");
 		dStream.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
 			public Void call(JavaRDD<String> rdd) throws Exception {
@@ -138,7 +139,7 @@ public final class SparkProcess {
 					
 					@Override
 					public String call(String string) throws Exception {
-						System.out.println("Test:  Calling processLightString method");
+						System.out.println(string);
 						processLightLinesObject.processLightString(string);
 						return string;
 					}

@@ -25,13 +25,13 @@ public class ProcessLightLines implements java.io.Serializable {
 		// 5.2 If state changed from Green --> Red
 		// update timestamp to new timestamp, update Ontime for light, update
 		// initialState.
-		System.out.println("Test: Processing Light lines");
+		//System.out.println("Test: Processing Light lines");
 		String name = null;
 		String currentState = null;
 		Timestamp timestamp = null;
 		try {
 			JSONObject jobj = new JSONObject(string);
-			System.out.println("Test Light String: " + string);
+			//System.out.println("Test Light String: " + string);
 			name = jobj.getString("name");
 			currentState = jobj.getString("state");
 			//timestamp = Timestamp.valueOf(jobj.getString("TimeStamp"));
@@ -51,7 +51,7 @@ public class ProcessLightLines implements java.io.Serializable {
 		temp.set(Calendar.HOUR_OF_DAY, 0);
 		Timestamp onTime = new Timestamp(temp.getTimeInMillis());
 		Timestamp wasteTime = new Timestamp(temp.getTimeInMillis());
-		System.out.println("Test Light found: " + name);
+		//System.out.println("Test Light found: " + name);
 		if (name != null && !ProcessUtility.lightsMap.containsKey(name)) {
 			Lighting light = new Lighting();
 			light.setName(name);
@@ -64,12 +64,14 @@ public class ProcessLightLines implements java.io.Serializable {
 					+ " with wasteTime: " + light.getWasteTime() + " with initialState: " + light.getIntialState()
 					+ " with timestamp: " + light.getTimestamp());
 		} else {
+			
 			Lighting light = ProcessUtility.lightsMap.get(name);
 			String initialState = light.getIntialState();
+			
 			if (!initialState.equals(currentState)) {
-
+				System.out.println("if1");
 				if (initialState.equals("Red") && currentState.equals("Green")) {
-
+					
 					/*
 					 * State changed from Red to Green update initialState, and
 					 * store the timeStamp
@@ -80,7 +82,7 @@ public class ProcessLightLines implements java.io.Serializable {
 					light.setIntialState(currentState);
 
 				} else if (initialState.equals("Green") && currentState.equals("Red")) {
-
+					
 					/*
 					 * State changed from Green to Red update timestamp to new
 					 * timestamp, update Ontime for light, update initialState.

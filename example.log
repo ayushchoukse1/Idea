@@ -1,344 +1,387 @@
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.DefaultServlet-34564452
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.DefaultServlet-34564452
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@cfdae24
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/static,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/static,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/static,null} - org.spark-project.jetty.servlet.ServletHandler@cfdae24 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/static,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@40cdd385
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@40cdd385
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@70e1ebe
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@171ddf95
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@171ddf95
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-5a0c5f0e
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-5a0c5f0e
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@171ddf95
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/threadDump/json,null} - org.spark-project.jetty.servlet.ServletHandler@171ddf95 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@70e1ebe
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@70e1ebe
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@6d0421ec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/executors/threadDump,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@6279e92b
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@6279e92b
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-4c7c062
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-4c7c062
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@6279e92b
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/executors/threadDump,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/threadDump,null} - org.spark-project.jetty.servlet.ServletHandler@6279e92b as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/executors/threadDump,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@6d0421ec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@6d0421ec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@4b2abbc7
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/executors/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@4db37eac
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@4db37eac
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-15225f86
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-15225f86
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@4db37eac
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/executors/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/json,null} - org.spark-project.jetty.servlet.ServletHandler@4db37eac as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/executors/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@4b2abbc7
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@4b2abbc7
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@210cc103
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/executors,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@5139484a
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@5139484a
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-4dc26aee
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-4dc26aee
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@5139484a
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/executors,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors,null} - org.spark-project.jetty.servlet.ServletHandler@5139484a as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/executors,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@210cc103
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@210cc103
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@4475c2b0
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/environment/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@e4f6bca
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@e4f6bca
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-704ea23d
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-704ea23d
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@e4f6bca
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/environment/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/environment/json,null} - org.spark-project.jetty.servlet.ServletHandler@e4f6bca as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/environment/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@4475c2b0
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@4475c2b0
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@1316a3c5
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/environment,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@723babca
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@723babca
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-74b19ac4
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-74b19ac4
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@723babca
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/environment,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/environment,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/environment,null} - org.spark-project.jetty.servlet.ServletHandler@723babca as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/environment,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@1316a3c5
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@1316a3c5
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@3a9a1ac7
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3305f26b
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3305f26b
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-3aa1f645
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-3aa1f645
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3305f26b
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/rdd/json,null} - org.spark-project.jetty.servlet.ServletHandler@3305f26b as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@3a9a1ac7
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@3a9a1ac7
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@4ba5d73a
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/storage/rdd,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@47f31b42
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@47f31b42
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-44d55ed1
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-44d55ed1
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@47f31b42
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/storage/rdd,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/rdd,null} - org.spark-project.jetty.servlet.ServletHandler@47f31b42 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/storage/rdd,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@4ba5d73a
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@4ba5d73a
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@210ec750
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/storage/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@1a7cce81
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@1a7cce81
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-1d823734
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-1d823734
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@1a7cce81
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/storage/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/json,null} - org.spark-project.jetty.servlet.ServletHandler@1a7cce81 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/storage/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@210ec750
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@210ec750
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@577fdb5a
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/storage,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3828e1
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3828e1
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-6df1ab4
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-6df1ab4
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3828e1
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/storage,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage,null} - org.spark-project.jetty.servlet.ServletHandler@3828e1 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/storage,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@577fdb5a
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@577fdb5a
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@215a1283
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/pool/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@2a9bd324
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@2a9bd324
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-49e5ba38
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-49e5ba38
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@2a9bd324
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/pool/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/pool/json,null} - org.spark-project.jetty.servlet.ServletHandler@2a9bd324 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/pool/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@215a1283
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@215a1283
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@3ed259e
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/pool,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@6b76d498
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@6b76d498
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-299b90fc
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-299b90fc
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@6b76d498
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/pool,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/pool,null} - org.spark-project.jetty.servlet.ServletHandler@6b76d498 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/pool,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@3ed259e
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@3ed259e
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@138ca164
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/stage/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@5cd8d0cf
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@5cd8d0cf
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-27747798
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-27747798
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@5cd8d0cf
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/stage/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/stage/json,null} - org.spark-project.jetty.servlet.ServletHandler@5cd8d0cf as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/stage/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@138ca164
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@138ca164
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@55247eec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/stage,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@3df2ff61
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@3df2ff61
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-601001c6
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-601001c6
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@3df2ff61
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/stage,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/stage,null} - org.spark-project.jetty.servlet.ServletHandler@3df2ff61 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/stage,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@55247eec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@55247eec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@3f03b2c2
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@199b16e4
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@199b16e4
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-7c4c7be2
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-7c4c7be2
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@199b16e4
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/json,null} - org.spark-project.jetty.servlet.ServletHandler@199b16e4 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@3f03b2c2
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@3f03b2c2
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@60ce07ec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/stages,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@692bd64a
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@692bd64a
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-3caf6195
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-3caf6195
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@692bd64a
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/stages,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages,null} - org.spark-project.jetty.servlet.ServletHandler@692bd64a as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/stages,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@60ce07ec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@60ce07ec
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@76761307
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/jobs/job/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@42147bf3
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@42147bf3
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-700245bc
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-700245bc
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@42147bf3
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/jobs/job/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/jobs/job/json,null} - org.spark-project.jetty.servlet.ServletHandler@42147bf3 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/jobs/job/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@76761307
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@76761307
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@30fb46c8
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/jobs/job,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@d352f11
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@d352f11
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-4ed1ce4c
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-4ed1ce4c
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@d352f11
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/jobs/job,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/jobs/job,null} - org.spark-project.jetty.servlet.ServletHandler@d352f11 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/jobs/job,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@30fb46c8
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@30fb46c8
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@29cedb8c
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/jobs/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@112c3d86
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@112c3d86
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-49ed9d50
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-49ed9d50
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@112c3d86
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/jobs/json,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/jobs/json,null} - org.spark-project.jetty.servlet.ServletHandler@112c3d86 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/jobs/json,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@29cedb8c
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@29cedb8c
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.GzipHandler@43caac81
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping o.s.j.s.ServletContextHandler{/jobs,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.servlet.ServletHandler@2060bea4
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.servlet.ServletHandler@2060bea4
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.apache.spark.ui.JettyUtils$$anon$1-78861614
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.apache.spark.ui.JettyUtils$$anon$1-78861614
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.servlet.ServletHandler@2060bea4
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping o.s.j.s.ServletContextHandler{/jobs,null}
-INFO Thread-9 org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs,null}
-DEBUG Thread-9 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/jobs,null} - org.spark-project.jetty.servlet.ServletHandler@2060bea4 as handler
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED o.s.j.s.ServletContextHandler{/jobs,null}
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.GzipHandler@43caac81
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.GzipHandler@43caac81
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.ContextHandlerCollection@4b135c6e
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.Server@415917f7
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.ErrorHandler@6f85f6a5
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.ErrorHandler@6f85f6a5
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.ErrorHandler@6f85f6a5
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping qtp2001119456{8<=8<=8/254,0}
-DEBUG cluster-ClusterId{value='5738d41ae5203708e75332eb', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d3f3e5203708e7533258', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d438e5203708e7533362', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d3f3e5203708e7533258', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.3 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d438e5203708e7533362', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.3 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d41ae5203708e75332eb', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.3 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d3e9e5203708e7533221', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d443e5203708e753338a', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d443e5203708e753338a', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.3 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d3e9e5203708e7533221', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.3 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d4b1e5203708e7533506', description='null'}-localhost:27017 org.mongodb.driver.connection - Closing connection connectionId{localValue:3327}
-DEBUG cluster-ClusterId{value='5738d4b1e5203708e7533506', description='null'}-localhost:27017 org.mongodb.driver.connection - Closing connection connectionId{localValue:3327}
-DEBUG cluster-ClusterId{value='5738d3fce5203708e753327f', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d424e5203708e7533313', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d41ae5203708e75332ec', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d44ce5203708e75333b9', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d406e5203708e75332a7', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d411e5203708e75332cf', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d424e5203708e7533314', description='null'}-localhost:27017 org.mongodb.driver.cluster - Checking status of localhost:27017
-DEBUG cluster-ClusterId{value='5738d3fce5203708e753327f', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.4 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d424e5203708e7533313', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.4 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d41ae5203708e75332ec', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.4 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d44ce5203708e75333b9', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.4 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d406e5203708e75332a7', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.4 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d411e5203708e75332cf', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.4 ms, state=CONNECTED}]
-DEBUG cluster-ClusterId{value='5738d424e5203708e7533314', description='null'}-localhost:27017 org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=0.3 ms, state=CONNECTED}]
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED qtp2001119456{8<=0<=0/254,4}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.Server@415917f7
-INFO Thread-9 org.apache.spark.ui.SparkUI - Stopped Spark web UI at http://192.168.99.1:4040
-INFO Thread-9 org.apache.spark.scheduler.DAGScheduler - Stopping DAGScheduler
-INFO Thread-9 org.apache.spark.scheduler.DAGScheduler - ResultStage 293 (foreachRDD at SparkProcess.java:105) failed in 20.385 s
-DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopExecutor,true) from Actor[akka://sparkDriver/temp/$a8b]
-DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopExecutor,true)
-DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (1.591405 ms) AkkaMessage(StopExecutor,true) from Actor[akka://sparkDriver/temp/$a8b]
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.Server@7a725a79
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping SocketConnector@0.0.0.0:54844
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED null/null
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED SocketConnector@0.0.0.0:0
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.HandlerList@242c9c27
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.HandlerList@242c9c27
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.DefaultHandler@1eab546f
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.DefaultHandler@1eab546f
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.DefaultHandler@1eab546f
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping org.spark-project.jetty.server.handler.ResourceHandler@5e1539f9
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.handler.ResourceHandler@5e1539f9
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.ResourceHandler@5e1539f9
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.handler.HandlerList@242c9c27
-DEBUG Thread-9 org.spark-project.jetty.server.handler.AbstractHandler - stopping org.spark-project.jetty.server.Server@7a725a79
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - stopping qtp796254351{8<=7<=8/254,0}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED qtp796254351{8<=0<=0/254,5}
-DEBUG Thread-9 org.spark-project.jetty.util.component.AbstractLifeCycle - STOPPED org.spark-project.jetty.server.Server@7a725a79
-DEBUG sparkDriver-akka.actor.default-dispatcher-4 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopMapOutputTracker,true) from Actor[akka://sparkDriver/temp/$b8b]
-DEBUG sparkDriver-akka.actor.default-dispatcher-4 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopMapOutputTracker,true)
-INFO sparkDriver-akka.actor.default-dispatcher-4 org.apache.spark.MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
-DEBUG sparkDriver-akka.actor.default-dispatcher-4 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (1.280399 ms) AkkaMessage(StopMapOutputTracker,true) from Actor[akka://sparkDriver/temp/$b8b]
-INFO Thread-9 org.apache.spark.storage.MemoryStore - MemoryStore cleared
-INFO Thread-9 org.apache.spark.storage.BlockManager - BlockManager stopped
-DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopBlockManagerMaster,true) from Actor[akka://sparkDriver/temp/$c8b]
-DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopBlockManagerMaster,true)
-DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (0.24522 ms) AkkaMessage(StopBlockManagerMaster,true) from Actor[akka://sparkDriver/temp/$c8b]
-INFO Thread-9 org.apache.spark.storage.BlockManagerMaster - BlockManagerMaster stopped
-DEBUG sparkDriver-akka.actor.default-dispatcher-14 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(StopCoordinator,false) from Actor[akka://sparkDriver/deadLetters]
-DEBUG sparkDriver-akka.actor.default-dispatcher-14 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(StopCoordinator,false)
-INFO sparkDriver-akka.actor.default-dispatcher-14 org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
-DEBUG sparkDriver-akka.actor.default-dispatcher-14 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (1.781333 ms) AkkaMessage(StopCoordinator,false) from Actor[akka://sparkDriver/deadLetters]
-INFO Thread-9 org.apache.spark.SparkContext - Successfully stopped SparkContext
-INFO Thread-9 org.apache.spark.util.ShutdownHookManager - Shutdown hook called
-INFO Thread-9 org.apache.spark.util.ShutdownHookManager - Deleting directory /private/var/folders/2x/jlp8m86j2_l3yfbbmt_5lv3r0000gn/T/spark-1998782d-9138-4652-b91f-bb090eb0a110
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@6375700e + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-2a1307ff as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/pool/json,null} + org.spark-project.jetty.servlet.ServletHandler@6375700e as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@6375700e
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-2a1307ff}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-2a1307ff=org.apache.spark.ui.JettyUtils$$anon$1-2a1307ff}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@6375700e
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@6375700e
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-2a1307ff
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-2a1307ff
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@2b8dbad1
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@2b8dbad1
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@2a3dd9cc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/storage,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@51edbadf + org.apache.spark.ui.JettyUtils$$anon$1-4396159d as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@51edbadf + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-4396159d as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage,null} + org.spark-project.jetty.servlet.ServletHandler@51edbadf as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@51edbadf
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-4396159d}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-4396159d=org.apache.spark.ui.JettyUtils$$anon$1-4396159d}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@51edbadf
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@51edbadf
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/storage,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-4396159d
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-4396159d
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/storage,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@2a3dd9cc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@2a3dd9cc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@39cc10c8
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/storage/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@47779e19 + org.apache.spark.ui.JettyUtils$$anon$1-7b52a92d as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@47779e19 + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-7b52a92d as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/json,null} + org.spark-project.jetty.servlet.ServletHandler@47779e19 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@47779e19
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-7b52a92d}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-7b52a92d=org.apache.spark.ui.JettyUtils$$anon$1-7b52a92d}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@47779e19
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@47779e19
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/storage/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-7b52a92d
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-7b52a92d
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/storage/json,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@39cc10c8
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@39cc10c8
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@8b60610
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/storage/rdd,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@3f9d4edd + org.apache.spark.ui.JettyUtils$$anon$1-34439f52 as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@3f9d4edd + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-34439f52 as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/rdd,null} + org.spark-project.jetty.servlet.ServletHandler@3f9d4edd as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@3f9d4edd
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-34439f52}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-34439f52=org.apache.spark.ui.JettyUtils$$anon$1-34439f52}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@3f9d4edd
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@3f9d4edd
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/storage/rdd,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-34439f52
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-34439f52
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/storage/rdd,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@8b60610
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@8b60610
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@4eab6ee5
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@7720bc20 + org.apache.spark.ui.JettyUtils$$anon$1-478a5eba as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@7720bc20 + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-478a5eba as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/storage/rdd/json,null} + org.spark-project.jetty.servlet.ServletHandler@7720bc20 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@7720bc20
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-478a5eba}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-478a5eba=org.apache.spark.ui.JettyUtils$$anon$1-478a5eba}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@7720bc20
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@7720bc20
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-478a5eba
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-478a5eba
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@4eab6ee5
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@4eab6ee5
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@a9c2d45
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/environment,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@4ba7cb59 + org.apache.spark.ui.JettyUtils$$anon$1-52892839 as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@4ba7cb59 + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-52892839 as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/environment,null} + org.spark-project.jetty.servlet.ServletHandler@4ba7cb59 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@4ba7cb59
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-52892839}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-52892839=org.apache.spark.ui.JettyUtils$$anon$1-52892839}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@4ba7cb59
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@4ba7cb59
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/environment,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-52892839
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-52892839
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/environment,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@a9c2d45
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@a9c2d45
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@530f268e
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/environment/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@305b0362 + org.apache.spark.ui.JettyUtils$$anon$1-7c69c6b as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@305b0362 + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-7c69c6b as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/environment/json,null} + org.spark-project.jetty.servlet.ServletHandler@305b0362 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@305b0362
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-7c69c6b}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-7c69c6b=org.apache.spark.ui.JettyUtils$$anon$1-7c69c6b}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@305b0362
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@305b0362
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/environment/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-7c69c6b
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-7c69c6b
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/environment/json,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@530f268e
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@530f268e
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@6b312c79
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/executors,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@65655812 + org.apache.spark.ui.JettyUtils$$anon$1-7ef92665 as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@65655812 + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-7ef92665 as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors,null} + org.spark-project.jetty.servlet.ServletHandler@65655812 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@65655812
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-7ef92665}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-7ef92665=org.apache.spark.ui.JettyUtils$$anon$1-7ef92665}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@65655812
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@65655812
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/executors,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-7ef92665
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-7ef92665
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/executors,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@6b312c79
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@6b312c79
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@7ef8abbc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/executors/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@17d62922 + org.apache.spark.ui.JettyUtils$$anon$1-21597666 as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@17d62922 + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-21597666 as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/json,null} + org.spark-project.jetty.servlet.ServletHandler@17d62922 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@17d62922
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-21597666}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-21597666=org.apache.spark.ui.JettyUtils$$anon$1-21597666}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@17d62922
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@17d62922
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/executors/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-21597666
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-21597666
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/executors/json,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@7ef8abbc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@7ef8abbc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@15654723
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@62ded582 + org.apache.spark.ui.JettyUtils$$anon$1-39400c0e as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@62ded582 + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-39400c0e as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/threadDump,null} + org.spark-project.jetty.servlet.ServletHandler@62ded582 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@62ded582
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-39400c0e}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-39400c0e=org.apache.spark.ui.JettyUtils$$anon$1-39400c0e}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@62ded582
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@62ded582
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-39400c0e
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-39400c0e
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@15654723
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@15654723
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@3f743857
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@af69aa8 + org.apache.spark.ui.JettyUtils$$anon$1-ebdcf4d as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@af69aa8 + [/]=>org.apache.spark.ui.JettyUtils$$anon$1-ebdcf4d as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/executors/threadDump/json,null} + org.spark-project.jetty.servlet.ServletHandler@af69aa8 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@af69aa8
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$1-ebdcf4d}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$1-ebdcf4d=org.apache.spark.ui.JettyUtils$$anon$1-ebdcf4d}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@af69aa8
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@af69aa8
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$1-ebdcf4d
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$1-ebdcf4d
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@3f743857
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@3f743857
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@5d449924
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/static,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@451ce62c + org.spark-project.jetty.servlet.DefaultServlet-6cc651a0 as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@451ce62c + [/]=>org.spark-project.jetty.servlet.DefaultServlet-6cc651a0 as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/static,null} + org.spark-project.jetty.servlet.ServletHandler@451ce62c as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@451ce62c
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.spark-project.jetty.servlet.DefaultServlet-6cc651a0}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.spark-project.jetty.servlet.DefaultServlet-6cc651a0=org.spark-project.jetty.servlet.DefaultServlet-6cc651a0}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@451ce62c
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@451ce62c
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/static,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.DefaultServlet-6cc651a0
+DEBUG Thread-5 org.spark-project.jetty.servlet.DefaultServlet - resource base = jar:file:/Users/surbhisharma/.m2/repository/org/apache/spark/spark-core_2.10/1.5.1/spark-core_2.10-1.5.1.jar!/org/apache/spark/ui/static
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.DefaultServlet-6cc651a0
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/static,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@5d449924
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@5d449924
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@66da6c7b
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@63255894 + org.apache.spark.ui.JettyUtils$$anon$2-42195d19 as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@63255894 + [/]=>org.apache.spark.ui.JettyUtils$$anon$2-42195d19 as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/,null} + org.spark-project.jetty.servlet.ServletHandler@63255894 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@63255894
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$2-42195d19}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$2-42195d19=org.apache.spark.ui.JettyUtils$$anon$2-42195d19}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@63255894
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@63255894
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$2-42195d19
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$2-42195d19
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@66da6c7b
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@66da6c7b
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@593973dc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/api,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@7743e3b7 + com.sun.jersey.spi.container.servlet.ServletContainer-f3fd9b as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@7743e3b7 + [/*]=>com.sun.jersey.spi.container.servlet.ServletContainer-f3fd9b as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/api,null} + org.spark-project.jetty.servlet.ServletHandler@7743e3b7 as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@7743e3b7
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/*=com.sun.jersey.spi.container.servlet.ServletContainer-f3fd9b}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={com.sun.jersey.spi.container.servlet.ServletContainer-f3fd9b=com.sun.jersey.spi.container.servlet.ServletContainer-f3fd9b}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@7743e3b7
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@7743e3b7
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/api,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting com.sun.jersey.spi.container.servlet.ServletContainer-f3fd9b
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED com.sun.jersey.spi.container.servlet.ServletContainer-f3fd9b
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/api,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@593973dc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@593973dc
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.GzipHandler@47914e2c
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@495e142d + org.apache.spark.ui.JettyUtils$$anon$2-6a01711e as servlet
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container org.spark-project.jetty.servlet.ServletHandler@495e142d + [/]=>org.apache.spark.ui.JettyUtils$$anon$2-6a01711e as servletMapping
+DEBUG Thread-5 org.spark-project.jetty.util.component.Container - Container o.s.j.s.ServletContextHandler{/stages/stage/kill,null} + org.spark-project.jetty.servlet.ServletHandler@495e142d as handler
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.servlet.ServletHandler@495e142d
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - filterNameMap={}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - pathFilters=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletFilterMap=null
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletPathMap={/=org.apache.spark.ui.JettyUtils$$anon$2-6a01711e}
+DEBUG Thread-5 org.spark-project.jetty.servlet.ServletHandler - servletNameMap={org.apache.spark.ui.JettyUtils$$anon$2-6a01711e=org.apache.spark.ui.JettyUtils$$anon$2-6a01711e}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.servlet.ServletHandler@495e142d
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.servlet.ServletHandler@495e142d
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.apache.spark.ui.JettyUtils$$anon$2-6a01711e
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.apache.spark.ui.JettyUtils$$anon$2-6a01711e
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.GzipHandler@47914e2c
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.GzipHandler@47914e2c
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.ContextHandlerCollection@3ee57243
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.ContextHandlerCollection@3ee57243
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.Server@3289cd65
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting qtp1879216825{8<=0<=0/254,-1}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED qtp1879216825{8<=7<=8/254,0}
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.handler.ErrorHandler@6b51b6ac
+DEBUG Thread-5 org.spark-project.jetty.server.handler.AbstractHandler - starting org.spark-project.jetty.server.handler.ErrorHandler@6b51b6ac
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.handler.ErrorHandler@6b51b6ac
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:4040
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting null/null
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - starting org.spark-project.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@22f9a2aa
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@22f9a2aa
+INFO Thread-5 org.spark-project.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:4040
+DEBUG qtp1879216825-88 Selector0 org.spark-project.jetty.io.nio - Starting Thread[qtp1879216825-88 Selector0,5,main] on org.spark-project.jetty.io.nio.SelectorManager$1@1970c365
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:4040
+DEBUG Thread-5 org.spark-project.jetty.util.component.AbstractLifeCycle - STARTED org.spark-project.jetty.server.Server@3289cd65
+INFO Thread-5 org.apache.spark.util.Utils - Successfully started service 'SparkUI' on port 4040.
+INFO Thread-5 org.apache.spark.ui.SparkUI - Started SparkUI at http://192.168.99.1:4040
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(ExpireDeadHosts,true) from Actor[akka://sparkDriver/temp/$a]
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(ExpireDeadHosts,true)
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (8.391592 ms) AkkaMessage(ExpireDeadHosts,true) from Actor[akka://sparkDriver/temp/$a]
+WARN Thread-5 org.apache.spark.metrics.MetricsSystem - Using default name DAGScheduler for source because spark.app.id is not set.
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(TaskSchedulerIsSet,true) from Actor[akka://sparkDriver/temp/$b]
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(TaskSchedulerIsSet,true)
+DEBUG sparkDriver-akka.actor.default-dispatcher-3 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (0.289767 ms) AkkaMessage(TaskSchedulerIsSet,true) from Actor[akka://sparkDriver/temp/$b]
+INFO Thread-5 org.apache.spark.executor.Executor - Starting executor ID driver on host localhost
+DEBUG Thread-5 io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - Java version: 8
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - Javassist: unavailable
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/2x/jlp8m86j2_l3yfbbmt_5lv3r0000gn/T (java.io.tmpdir)
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG Thread-5 io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG Thread-5 io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+DEBUG Thread-5 io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG Thread-5 io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG Thread-5 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG Thread-5 io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xc9f83080e2f1d2a9 (took 1 ms)
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154b0e6621f033d after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154b0e6621f033c after 0ms
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154b0e6621f033b after 0ms
+DEBUG Thread-5 io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+DEBUG Thread-5 io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG Thread-5 io.netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+DEBUG Thread-5 io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+DEBUG Thread-5 org.apache.spark.network.server.TransportServer - Shuffle server started on port :59275
+INFO Thread-5 org.apache.spark.util.Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 59275.
+INFO Thread-5 org.apache.spark.network.netty.NettyBlockTransferService - Server created on 59275
+INFO Thread-5 org.apache.spark.storage.BlockManagerMaster - Trying to register BlockManager
+DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] received message AkkaMessage(RegisterBlockManager(BlockManagerId(driver, localhost, 59275),1030823608,AkkaRpcEndpointRef(Actor[akka://sparkDriver/user/BlockManagerEndpoint1#905797188])),true) from Actor[akka://sparkDriver/temp/$c]
+DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - Received RPC message: AkkaMessage(RegisterBlockManager(BlockManagerId(driver, localhost, 59275),1030823608,AkkaRpcEndpointRef(Actor[akka://sparkDriver/user/BlockManagerEndpoint1#905797188])),true)
+INFO sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.storage.BlockManagerMasterEndpoint - Registering block manager localhost:59275 with 983.1 MB RAM, BlockManagerId(driver, localhost, 59275)
+DEBUG sparkDriver-akka.actor.default-dispatcher-2 org.apache.spark.rpc.akka.AkkaRpcEnv$$anonfun$actorRef$lzycompute$1$1$$anon$1 - [actor] handled message (5.580381 ms) AkkaMessage(RegisterBlockManager(BlockManagerId(driver, localhost, 59275),1030823608,AkkaRpcEndpointRef(Actor[akka://sparkDriver/user/BlockManagerEndpoint1#905797188])),true) from Actor[akka://sparkDriver/temp/$c]
+INFO Thread-5 org.apache.spark.storage.BlockManagerMaster - Registered BlockManager
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Handling 1 events
+INFO Thread-0 kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 0 for 1 topic(s) Set(mytopic)
+DEBUG Thread-0 kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 408300 (requested -1), SO_SNDBUF = 114324 (requested 102400), connectTimeoutMs = 10000.
+INFO Thread-0 kafka.producer.SyncProducer - Connected to localhost:9092 for producing
+INFO Thread-0 kafka.producer.SyncProducer - Disconnecting from localhost:9092
+DEBUG Thread-0 kafka.client.ClientUtils$ - Successfully fetched metadata for 1 topic(s) Set(mytopic)
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mytopic
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [mytopic,0] has leader 0
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [mytopic,1] has leader 0
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mytopic are 0,1
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mytopic,1]
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG Thread-0 kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 408300 (requested -1), SO_SNDBUF = 114324 (requested 102400), connectTimeoutMs = 10000.
+INFO Thread-0 kafka.producer.SyncProducer - Connected to localhost:9092 for producing
+DEBUG ConsumerFetcherThread-testgroup_Surbhis-MacBook-Pro.local-1463346605068-9a4cc014-0-0 kafka.consumer.PartitionTopicInfo - updated fetch offset of (mytopic:1: fetched offset = 5457: consumed offset = 5456) to 5457
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2 for topics [mytopic,1] to broker 0 on localhost:9092
+DEBUG mytopic-0 kafka.consumer.PartitionTopicInfo - reset consume offset of mytopic:1: fetched offset = 5457: consumed offset = 5457 to 5457
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Handling 1 events
+INFO Thread-0 kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 0 for 1 topic(s) Set(sparktopic)
+DEBUG Thread-0 kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 408300 (requested -1), SO_SNDBUF = 114324 (requested 102400), connectTimeoutMs = 10000.
+INFO Thread-0 kafka.producer.SyncProducer - Connected to localhost:9092 for producing
+INFO Thread-0 kafka.producer.SyncProducer - Disconnecting from localhost:9092
+DEBUG Thread-0 kafka.client.ClientUtils$ - Successfully fetched metadata for 1 topic(s) Set(sparktopic)
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic sparktopic
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [sparktopic,0] has leader 0
+DEBUG Thread-0 kafka.producer.BrokerPartitionInfo - Partition [sparktopic,1] has leader 0
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: sparktopic are 0,1
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [sparktopic,1]
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2 for topics [sparktopic,1] to broker 0 on localhost:9092
+DEBUG Thread-0 kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 408300 (requested -1), SO_SNDBUF = 114324 (requested 102400), connectTimeoutMs = 10000.
+INFO Thread-0 kafka.producer.SyncProducer - Connected to localhost:9092 for producing
+DEBUG Thread-0 kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2 for topics [sparktopic,1] to broker 0 on localhost:9092
+ERROR mytopic-0 com.idea.kairosdb.ConsumerThreadTemp - Failed to parse message: [B@6513308a

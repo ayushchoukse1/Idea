@@ -9,9 +9,12 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.hadoop.mapred.lib.db.DBConfiguration;
 import org.glassfish.grizzly.http.util.TimeStamp;
 
+import com.idea.mongodb.MongoDBConnection;
 import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.MongoClient;
@@ -20,13 +23,15 @@ public class PersistData {
 
 	public static void persistLightData() {
 		// Hashmap will be stored in MongoDB here
-		System.out.println("Test: presisting light data in mongo");
+		//System.out.println("Test: presisting light data in mongo");
+		DBCollection table = null;
+		DBCollection newLightsTable = null;
+		DB db = null;
 		try {
-			ProcessUtility.mongo = new MongoClient("localhost", 27017);
-			ProcessUtility.db = ProcessUtility.mongo.getDB("idea");
-			ProcessUtility.table = ProcessUtility.db.getCollection("lights");
-			ProcessUtility.newLightsTable = ProcessUtility.db.getCollection("newlights");
-			if(ProcessUtility.mongo == null || ProcessUtility.db == null)
+			db = MongoDBConnection.getDBConnection();
+			table = db.getCollection("lights");
+			newLightsTable = db.getCollection("newlights");
+			if(db == null)
 				System.out.println("Mongo Null ***");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -39,11 +44,11 @@ public class PersistData {
 		long wasteTime = 0;
 		long timeStamp = 0;
 		String bulbName = null;
-		System.out.println("Mongo confg ok...");
+		//System.out.println("Mongo confg ok...");
 		Iterator itr = ProcessUtility.lightsMap.entrySet().iterator();
 		while (itr.hasNext()) {
 			
-			System.out.println("In iterator");
+			//System.out.println("In iterator");
 			// find the bulb entry in mongo
 			Map.Entry<String, Lighting> pair = (Map.Entry) itr.next();
 			bulbName = pair.getKey();
@@ -64,7 +69,7 @@ public class PersistData {
 			newDoc.put("wasteTime", wasteTime);
 			newDoc.put("timestamp", timeStamp);
 
-			ProcessUtility.table.insert(newDoc);
+			table.insert(newDoc);
 			
 			/* Storing in "newlights" Collection in mongodb */
 
@@ -95,25 +100,30 @@ public class PersistData {
 			newLightsDoc.put("timestamp", timeStamp);
 
 			query.put("name", bulbName);
-			cursor = ProcessUtility.newLightsTable.find(query);
+			cursor = newLightsTable.find(query);
 
 			if (cursor.count() == 0) {
-				ProcessUtility.newLightsTable.insert(newLightsDoc);
+				newLightsTable.insert(newLightsDoc);
 			} else {
 				retreivalObj = (BasicDBObject) cursor.next();
 				updateObj = new BasicDBObject();
 				updateObj.put("$set", newLightsDoc);
-				ProcessUtility.newLightsTable.update(query, updateObj);
+				newLightsTable.update(query, updateObj);
 			}
 			System.out.println("MONGO : Stored in mongodb " + newLightsDoc.toJson());
 		}
 	}
 
 	public static void persistTempRecomm(String recomm, String deviceID, String location, Double diff, String title, double currentTemp) {
+		DBCollection table = null;
+		
+		DB db = null;
 		try {
-			ProcessUtility.mongo = new MongoClient("localhost", 27017);
-			ProcessUtility.db = ProcessUtility.mongo.getDB("idea");
-			ProcessUtility.table = ProcessUtility.db.getCollection("tempRecomms");
+			db = MongoDBConnection.getDBConnection();
+			table = db.getCollection("tempRecomms");
+			
+			if(db == null)
+				System.out.println("Mongo Null ***");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -135,24 +145,29 @@ public class PersistData {
 		BasicDBObject updateObj = null;
 		DBCursor cursor = null;
 		query.put("deviceID", deviceID);
-		cursor = ProcessUtility.table.find(query);
+		cursor = table.find(query);
 		if (cursor.count() == 0) {
-			ProcessUtility.table.insert(newDoc);
+			table.insert(newDoc);
 		} else {
 			retreivalObj = (BasicDBObject) cursor.next();
 			updateObj = new BasicDBObject();
 			updateObj.put("$set", newDoc);
-			ProcessUtility.table.update(query, updateObj);
+			table.update(query, updateObj);
 		}
 		
 	}
 
 	public static void persistTempAction(String action, String deviceID, String title, double currentTemp) {
-		DBCollection collection = null;
+		
+		DBCollection table = null;
+		
+		DB db = null;
 		try {
-			ProcessUtility.mongo = new MongoClient("localhost", 27017);
-			ProcessUtility.db = ProcessUtility.mongo.getDB("idea");
-			collection = ProcessUtility.db.getCollection("tempActions");
+			db = MongoDBConnection.getDBConnection();
+			table = db.getCollection("tempActions");
+			
+			if(db == null)
+				System.out.println("Mongo Null ***");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -168,15 +183,15 @@ public class PersistData {
 		BasicDBObject updateObj = null;
 		DBCursor cursor = null;
 		query.put("deviceID", deviceID);
-		cursor = collection.find(query);
+		cursor = table.find(query);
 		if (cursor.count() == 0) {
 			System.out.println("TEST : First Time Insert");
-			collection.insert(newDoc);
+			table.insert(newDoc);
 		} else {
 			System.out.println("TEST : UPDATE");
 			updateObj = new BasicDBObject();
 			updateObj.put("$set", newDoc);
-			collection.update(query, updateObj);
+			table.update(query, updateObj);
 		}
 		
 	}
