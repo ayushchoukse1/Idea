@@ -63,6 +63,7 @@ public class PersistData {
 			// keep a document ready with the name add the time diff later
 			BasicDBObject newDoc = new BasicDBObject();
 			newDoc.put("name", bulbName);
+			newDoc.put("deviceId", pair.getValue().getLightID());
 			newDoc.put("onTime", onTime);
 			newDoc.put("onTimeHour", new SimpleDateFormat("HH:mm:ss").format(new Date(onTime)));
 			newDoc.put("wasteTimeHour", new SimpleDateFormat("HH:mm:ss").format(new Date(wasteTime)));
@@ -90,6 +91,7 @@ public class PersistData {
 
 			BasicDBObject newLightsDoc = new BasicDBObject();
 			newLightsDoc.put("name", bulbName);
+			newLightsDoc.put("deviceId", pair.getValue().getLightID());
 			newLightsDoc.put("onTimeInPercent", onTimePercent);
 			newLightsDoc.put("onTimeUsageInWatts", onTimeUsageWatts);
 			newLightsDoc.put("onTimeInHours", new SimpleDateFormat("HH:mm:ss").format(new Date(onTime)));
@@ -114,7 +116,7 @@ public class PersistData {
 		}
 	}
 
-	public static void persistTempRecomm(String recomm, String deviceID, String location, Double diff, String title, double currentTemp) {
+	public static void persistTempRecomm(String recomm, String deviceId, String location, Double diff, String title, double currentTemp) {
 		DBCollection table = null;
 		
 		DB db = null;
@@ -132,7 +134,7 @@ public class PersistData {
 		
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
 		
-		newDoc.put("deviceID", deviceID);
+		newDoc.put("deviceId", deviceId);
 		newDoc.put("location", location);
 		newDoc.put("diff", diff);
 		newDoc.put("recommendation", recomm);
@@ -144,7 +146,7 @@ public class PersistData {
 		BasicDBObject retreivalObj = null;
 		BasicDBObject updateObj = null;
 		DBCursor cursor = null;
-		query.put("deviceID", deviceID);
+		query.put("deviceId", deviceId);
 		cursor = table.find(query);
 		if (cursor.count() == 0) {
 			table.insert(newDoc);
@@ -157,7 +159,7 @@ public class PersistData {
 		
 	}
 
-	public static void persistTempAction(String action, String deviceID, String title, double currentTemp) {
+	public static void persistTempAction(String action, String deviceId, String title, double currentTemp) {
 		
 		DBCollection table = null;
 		
@@ -173,7 +175,7 @@ public class PersistData {
 		}
 		BasicDBObject newDoc = new BasicDBObject();
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
-		newDoc.put("deviceID", deviceID);
+		newDoc.put("deviceId", deviceId);
 		newDoc.put("action", action);
 		newDoc.put("timestamp", currentTime);
 		newDoc.put("title", title);
@@ -182,7 +184,7 @@ public class PersistData {
 		BasicDBObject query = new BasicDBObject();
 		BasicDBObject updateObj = null;
 		DBCursor cursor = null;
-		query.put("deviceID", deviceID);
+		query.put("deviceId", deviceId);
 		cursor = table.find(query);
 		if (cursor.count() == 0) {
 			System.out.println("TEST : First Time Insert");

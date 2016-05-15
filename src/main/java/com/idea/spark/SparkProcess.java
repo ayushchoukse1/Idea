@@ -35,7 +35,7 @@ public final class SparkProcess {
 		System.out.println("Welcome to spark streaming...");
 		ProcessUtility.fillLocator();
 		String zkHosts = "localhost";
-		String listenTopics = "sparkTopic";
+		String listenTopics = "sparkTopicTest";
 		String listenerName = "testListener";
 		SparkConf sparkConf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]")
 				.set("spark.executor.memory", "1g");
