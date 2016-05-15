@@ -45,6 +45,7 @@ public class ProcessLightLines implements java.io.Serializable {
 			light.setWasteTime(wasteTime);
 			light.setTimestamp(timestamp);
 			light.setIntialState(currentState);
+			light.setLightID(name.toLowerCase().replace(" ", "_"));
 			ProcessUtility.lightsMap.put(name, light);
 			System.out.println("LIGHTS : Light added: " + light.getName() + " with onTime: " + light.getOnTime()
 					+ " with wasteTime: " + light.getWasteTime() + " with initialState: " + light.getIntialState()
@@ -113,5 +114,9 @@ public class ProcessLightLines implements java.io.Serializable {
 				}
 			}
 		}
+	}
+	public String getLightID(String name){
+		return name.toLowerCase().replace(" ", "_");
+		
 	}
 }

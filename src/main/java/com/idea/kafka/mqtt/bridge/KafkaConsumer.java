@@ -50,8 +50,8 @@ public class KafkaConsumer  {
 		//zookeeper = "localhost:2181"
 		props.put("zookeeper.connect", zookeeper);
 		props.put("group.id", groupId);
-		props.put("zookeeper.session.timeout.ms", "400");
-		props.put("zookeeper.sync.timeout.ms", "300");
+		props.put("zookeeper.session.timeout.ms", "4000");
+		props.put("zookeeper.sync.timeout.ms", "3000");
 		props.put("auto.commit.interval.ms", "1000");
 		ConsumerConfig conConfig = new ConsumerConfig(props);
 		return Consumer.createJavaConsumerConnector(conConfig);

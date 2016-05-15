@@ -10,18 +10,31 @@ public class Lighting {
 	private Timestamp wasteTime;
 	private String intialState;
 	private String name;
+	private String deviceID;
+	
+	
 
-	public Lighting(Timestamp timestamp, Timestamp onTime, Timestamp wasteTime, String intialState, String name) {
+	public Lighting(Timestamp timestamp, Timestamp onTime, Timestamp wasteTime, String intialState, String name,
+			String lightID) {
 		super();
 		this.timestamp = timestamp;
 		this.onTime = onTime;
 		this.wasteTime = wasteTime;
 		this.intialState = intialState;
 		this.name = name;
+		this.deviceID = name.toLowerCase().replace(" ", "_");
 	}
 
 	public Lighting() {
 
+	}
+	
+	public String getLightID() {
+		return deviceID;
+	}
+
+	public void setLightID(String lightID) {
+		this.deviceID = lightID;
 	}
 
 	public Timestamp getWasteTime() {

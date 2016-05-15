@@ -53,6 +53,7 @@ public class PersistData {
 			// keep a document ready with the name add the time diff later
 			BasicDBObject newDoc = new BasicDBObject();
 			newDoc.put("name", bulbName);
+			newDoc.put("deviceId", pair.getValue().getLightID());
 			newDoc.put("onTime", onTime);
 			newDoc.put("onTimeHour", new SimpleDateFormat("HH:mm:ss").format(new Date(onTime)));
 			newDoc.put("wasteTimeHour", new SimpleDateFormat("HH:mm:ss").format(new Date(wasteTime)));
@@ -80,6 +81,7 @@ public class PersistData {
 
 			BasicDBObject newLightsDoc = new BasicDBObject();
 			newLightsDoc.put("name", bulbName);
+			newLightsDoc.put("deviceId", pair.getValue().getLightID());
 			newLightsDoc.put("onTimeInPercent", onTimePercent);
 			newLightsDoc.put("onTimeUsageInWatts", onTimeUsageWatts);
 			newLightsDoc.put("onTimeInHours", new SimpleDateFormat("HH:mm:ss").format(new Date(onTime)));
@@ -116,7 +118,7 @@ public class PersistData {
 		BasicDBObject newDoc = new BasicDBObject();
 		
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
-		newDoc.put("deviceID", deviceID);
+		newDoc.put("deviceId", deviceID);
 		newDoc.put("location", location);
 		newDoc.put("diff", diff);
 		newDoc.put("recommendation", recomm);
@@ -126,7 +128,7 @@ public class PersistData {
 		BasicDBObject retreivalObj = null;
 		BasicDBObject updateObj = null;
 		DBCursor cursor = null;
-		query.put("deviceID", deviceID);
+		query.put("deviceId", deviceID);
 		cursor = ProcessUtility.table.find(query);
 		if (cursor.count() == 0) {
 			ProcessUtility.table.insert(newDoc);
@@ -150,14 +152,14 @@ public class PersistData {
 		}
 		BasicDBObject newDoc = new BasicDBObject();
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
-		newDoc.put("deviceID", deviceID);
+		newDoc.put("deviceId", deviceID);
 		newDoc.put("action", action);
 		newDoc.put("timestamp", currentTime);
 		
 		BasicDBObject query = new BasicDBObject();
 		BasicDBObject updateObj = null;
 		DBCursor cursor = null;
-		query.put("deviceID", deviceID);
+		query.put("deviceId", deviceID);
 		cursor = collection.find(query);
 		if (cursor.count() == 0) {
 			System.out.println("TEST : First Time Insert");

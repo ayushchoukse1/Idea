@@ -69,9 +69,11 @@ public class Idea {
 				}
 			}
 		});
-		
-		//start the active weather data collector
-		t4.start();
+//		t1.start();
+//		t2.start();
+//		t3.start();
+//		//start the active weather data collector
+		t5.start();
 
 		
 		//start the active weather data collector

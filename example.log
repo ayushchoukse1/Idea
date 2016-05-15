@@ -1,0 +1,287 @@
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 345][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-345: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-345: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 345][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 346][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-346: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-346: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 346][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 347][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x154acd52f87000e after 1ms
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-347: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-347: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 347][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 348][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-348: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-348: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 348][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 349][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-349: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-349: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 349][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 350][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-350: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-350: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 350][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 351][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-351: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-351: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 351][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 352][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-352: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-352: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 352][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 353][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-353: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-353: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 353][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 354][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-354: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-354: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 354][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 355][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-355: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-355: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 355][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 356][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-356: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-356: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 356][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 357][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-357: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-357: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 357][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 358][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-358: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-358: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 358][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG Thread-1-SendThread(localhost:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x154acd52f87000d, packet:: clientPath:null serverPath:null finished:false header:: 60,5  replyHeader:: 60,235,0  request:: '/consumers/testgroup/offsets/mytopic/0,#313235,-1  response:: s{78,235,1463188339818,1463189344325,35,0,0,0,3,0,78} 
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 359][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-359: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-359: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 359][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 360][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-360: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-360: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 360][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 361][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-361: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-361: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 361][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 362][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-362: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-362: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 362][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 363][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-363: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-363: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 363][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 364][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-364: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-364: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 364][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 365][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-365: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-365: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 365][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 366][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-366: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-366: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 366][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 367][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-367: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-367: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 367][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 368][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-368: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-368: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 368][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 369][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-369: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-369: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 369][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 370][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-370: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-370: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 370][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG mytopic-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 371][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8888
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-371: Shutdown connection
+DEBUG mytopic-0 org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG mytopic-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-371: Close connection
+DEBUG mytopic-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 371][route: {}->http://localhost:8888][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+INFO mytopic-0 kafka.utils.VerifiableProperties - Verifying properties
+INFO mytopic-0 kafka.utils.VerifiableProperties - Property metadata.broker.list is overridden to localhost:9092
+INFO mytopic-0 kafka.utils.VerifiableProperties - Property request.required.acks is overridden to 1
+INFO mytopic-0 kafka.utils.VerifiableProperties - Property serializer.class is overridden to kafka.serializer.StringEncoder
+DEBUG mytopic-0 kafka.producer.async.DefaultEventHandler - Handling 1 events
+INFO mytopic-0 kafka.client.ClientUtils$ - Fetching metadata from broker id:0,host:localhost,port:9092 with correlation id 0 for 1 topic(s) Set(mongoDB)
+DEBUG mytopic-0 kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 530904 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 10000.
+INFO mytopic-0 kafka.producer.SyncProducer - Connected to localhost:9092 for producing
+INFO mytopic-0 kafka.producer.SyncProducer - Disconnecting from localhost:9092
+DEBUG mytopic-0 kafka.client.ClientUtils$ - Successfully fetched metadata for 1 topic(s) Set(mongoDB)
+DEBUG mytopic-0 kafka.producer.BrokerPartitionInfo - Getting broker partition info for topic mongoDB
+DEBUG mytopic-0 kafka.producer.BrokerPartitionInfo - Partition [mongoDB,0] has leader 0
+DEBUG mytopic-0 kafka.producer.async.DefaultEventHandler - Broker partitions registered for topic: mongoDB are 0
+DEBUG mytopic-0 kafka.producer.async.DefaultEventHandler - Sending 1 messages with no compression to [mongoDB,0]
+DEBUG mytopic-0 kafka.producer.async.DefaultEventHandler - Producer sending messages with correlation id 2 for topics [mongoDB,0] to broker 0 on Spark-home:9092
+DEBUG mytopic-0 kafka.network.BlockingChannel - Created socket with SO_TIMEOUT = 10000 (requested 10000), SO_RCVBUF = 530904 (requested -1), SO_SNDBUF = 102400 (requested 102400), connectTimeoutMs = 10000.
+INFO mytopic-0 kafka.producer.SyncProducer - Connected to Spark-home:9092 for producing
+DEBUG mytopic-0 kafka.producer.async.DefaultEventHandler - Producer sent messages with correlation id 2 for topics [mongoDB,0] to broker 0 on Spark-home:9092
