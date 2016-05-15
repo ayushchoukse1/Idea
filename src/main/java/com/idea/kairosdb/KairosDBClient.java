@@ -26,6 +26,7 @@ public class KairosDBClient extends HttpClient{
 		if(kairosClient == null){
 			try {
 				kairosClient = new KairosDBClient("http://localhost:8888/");
+				
 				//kairosClient = new HttpClient("http://localhost:8080/");
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
@@ -45,13 +46,18 @@ public class KairosDBClient extends HttpClient{
 	}
 	
 	public static void storeMetrics(MetricBuilder metric) {
+		//System.out.println("Test: Metric - " + metric.toString());
 		try {
 			if (metric != null) {
+				//System.out.println("Test: Kairos before instance"+ getInstance().toString());
 				Response resp = getInstance().pushMetrics(metric);
-				System.out.println(resp.getStatusCode() + " --- " + resp.getErrors());
+				//System.out.println("Test: Kairos instance"+ getInstance().toString());
+				//System.out.println("Test: pushMetric output - "+ getInstance().pushMetrics(metric).toString());
+				//System.out.println(resp.getStatusCode() + " --- " + resp.getErrors());
 			}
 		} catch (Exception e) {
-			System.out.println("Error while storing data : " + e.getMessage());
+			System.out.println("Test:   Error while storing data : " + e.getMessage());
+			
 		}
 
 	}

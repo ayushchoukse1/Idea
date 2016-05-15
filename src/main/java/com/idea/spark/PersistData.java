@@ -20,11 +20,14 @@ public class PersistData {
 
 	public static void persistLightData() {
 		// Hashmap will be stored in MongoDB here
+		System.out.println("Test: presisting light data in mongo");
 		try {
 			ProcessUtility.mongo = new MongoClient("localhost", 27017);
-			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
+			ProcessUtility.db = ProcessUtility.mongo.getDB("idea");
 			ProcessUtility.table = ProcessUtility.db.getCollection("lights");
 			ProcessUtility.newLightsTable = ProcessUtility.db.getCollection("newlights");
+			if(ProcessUtility.mongo == null || ProcessUtility.db == null)
+				System.out.println("Mongo Null ***");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -36,9 +39,11 @@ public class PersistData {
 		long wasteTime = 0;
 		long timeStamp = 0;
 		String bulbName = null;
+		System.out.println("Mongo confg ok...");
 		Iterator itr = ProcessUtility.lightsMap.entrySet().iterator();
 		while (itr.hasNext()) {
-
+			
+			System.out.println("In iterator");
 			// find the bulb entry in mongo
 			Map.Entry<String, Lighting> pair = (Map.Entry) itr.next();
 			bulbName = pair.getKey();
@@ -60,7 +65,7 @@ public class PersistData {
 			newDoc.put("timestamp", timeStamp);
 
 			ProcessUtility.table.insert(newDoc);
-
+			
 			/* Storing in "newlights" Collection in mongodb */
 
 			Calendar zeroTime = Calendar.getInstance();
@@ -104,10 +109,10 @@ public class PersistData {
 		}
 	}
 
-	public static void persistTempRecomm(String recomm, String deviceID, String location, Double diff) {
+	public static void persistTempRecomm(String recomm, String deviceID, String location, Double diff, String title, double currentTemp) {
 		try {
 			ProcessUtility.mongo = new MongoClient("localhost", 27017);
-			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
+			ProcessUtility.db = ProcessUtility.mongo.getDB("idea");
 			ProcessUtility.table = ProcessUtility.db.getCollection("tempRecomms");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -116,11 +121,14 @@ public class PersistData {
 		BasicDBObject newDoc = new BasicDBObject();
 		
 		Timestamp currentTime = new Timestamp((new java.util.Date()).getTime());
+		
 		newDoc.put("deviceID", deviceID);
 		newDoc.put("location", location);
 		newDoc.put("diff", diff);
 		newDoc.put("recommendation", recomm);
 		newDoc.put("timestamp", currentTime);
+		newDoc.put("title", title);
+		newDoc.put("currentTemp", currentTemp);
 		
 		BasicDBObject query = new BasicDBObject();
 		BasicDBObject retreivalObj = null;
@@ -139,11 +147,11 @@ public class PersistData {
 		
 	}
 
-	public static void persistTempAction(String action, String deviceID) {
+	public static void persistTempAction(String action, String deviceID, String title, double currentTemp) {
 		DBCollection collection = null;
 		try {
 			ProcessUtility.mongo = new MongoClient("localhost", 27017);
-			ProcessUtility.db = ProcessUtility.mongo.getDB("ideadb");
+			ProcessUtility.db = ProcessUtility.mongo.getDB("idea");
 			collection = ProcessUtility.db.getCollection("tempActions");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -153,6 +161,8 @@ public class PersistData {
 		newDoc.put("deviceID", deviceID);
 		newDoc.put("action", action);
 		newDoc.put("timestamp", currentTime);
+		newDoc.put("title", title);
+		newDoc.put("currentTemp", currentTemp);
 		
 		BasicDBObject query = new BasicDBObject();
 		BasicDBObject updateObj = null;

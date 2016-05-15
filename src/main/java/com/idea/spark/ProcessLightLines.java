@@ -25,11 +25,24 @@ public class ProcessLightLines implements java.io.Serializable {
 		// 5.2 If state changed from Green --> Red
 		// update timestamp to new timestamp, update Ontime for light, update
 		// initialState.
-
-		JSONObject jobj = new JSONObject(string);
-		String name = jobj.getString("name");
-		String currentState = jobj.getString("state");
-		Timestamp timestamp = Timestamp.valueOf(jobj.getString("TimeStamp"));
+		System.out.println("Test: Processing Light lines");
+		String name = null;
+		String currentState = null;
+		Timestamp timestamp = null;
+		try {
+			JSONObject jobj = new JSONObject(string);
+			System.out.println("Test Light String: " + string);
+			name = jobj.getString("name");
+			currentState = jobj.getString("state");
+			//timestamp = Timestamp.valueOf(jobj.getString("TimeStamp"));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if(timestamp == null)
+		{
+			timestamp = new Timestamp((new java.util.Date()).getTime());
+		}
 		Calendar temp = Calendar.getInstance();
 		temp.set(Calendar.HOUR, 0);
 		temp.set(Calendar.MINUTE, 0);
@@ -38,7 +51,8 @@ public class ProcessLightLines implements java.io.Serializable {
 		temp.set(Calendar.HOUR_OF_DAY, 0);
 		Timestamp onTime = new Timestamp(temp.getTimeInMillis());
 		Timestamp wasteTime = new Timestamp(temp.getTimeInMillis());
-		if (!ProcessUtility.lightsMap.containsKey(name)) {
+		System.out.println("Test Light found: " + name);
+		if (name != null && !ProcessUtility.lightsMap.containsKey(name)) {
 			Lighting light = new Lighting();
 			light.setName(name);
 			light.setOnTime(onTime);

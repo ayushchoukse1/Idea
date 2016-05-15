@@ -14,17 +14,30 @@ public class ProcessTempLines implements Serializable {
 		String deviceID = jsonObj.getString("deviceId");
 		String location = ProcessUtility.thermostatLocator.get(deviceID);
 		Double currentTemp = jsonObj.getDouble("temperature");
-		Double forecastTemp = ExternalData.forecastTemp;
-		Double tempDiff = forecastTemp - currentTemp;
+		Double forecastTempCA = ExternalData.getForecastTemp("1600+Amphitheatre+Parkway,+Mountain+View,+CA");
+		Double forecastTempCO = ExternalData.getForecastTemp("30+E+Pikes+Peak+Ave,+Colorado+Springs,+CO");
+		Double forecastTemp = 0.0;
+		Double tempDiff = 0.0;
+		if(deviceID.contains("28:4d:4a:60:07:00:00:9f"))
+			{
+				tempDiff = forecastTempCO - currentTemp;
+				forecastTemp = forecastTempCO;
+			}
+		else 
+			{
+				tempDiff= forecastTempCA - currentTemp;
+				forecastTemp = forecastTempCA;
+			}
 		String recomm = null;
-		System.out.println("TEMPERATURE : Forecasted Temperature: " + forecastTemp);
+		String title = "The forecasted temperature is " + forecastTemp + "F";
+		System.out.println("TEMPERATURE : Forecasted Temperature: " + forecastTempCA);
 
 		if (tempDiff < 0) {
 			// its becoming cold so increase the temperature
 			System.out.println("TEMPERATURE : Device: " + location + " is at: " + currentTemp
 					+ "F should decrease the temperature by " + Math.abs(tempDiff) + "F");
 			 recomm = "Decrease the temperature by " + Math.abs(tempDiff) + "F";
-			PersistData.persistTempRecomm(recomm, deviceID, location, tempDiff);
+			PersistData.persistTempRecomm(recomm, deviceID, location, tempDiff, title, currentTemp);
 		} else if (tempDiff > 0) {
 			// its becoming hotter
 			System.out.println("TEMPERATURE : Device at " + location + " is at: " + currentTemp
@@ -36,7 +49,7 @@ public class ProcessTempLines implements Serializable {
 		}
 		
 		if(recomm != null){
-			PersistData.persistTempRecomm(recomm, deviceID, location, tempDiff);	
+			PersistData.persistTempRecomm(recomm, deviceID, location, tempDiff, title, currentTemp);	
 		}
 		/*
 		 * Find the difference between outdoors thermostat temp and the actual
@@ -53,10 +66,10 @@ public class ProcessTempLines implements Serializable {
 
 			String action = null;
 			diffAccuracy = currentExternalTemp - currentTemp;
-			forcastAccurate = forecastTemp - diffAccuracy;
+			forcastAccurate = forecastTempCA - diffAccuracy;
 
 			System.out.println("TEMPERATURE : Water Heater CurTemp: " + currentTemp + " CurExtTemp: "
-					+ currentExternalTemp + " forecastTemp: " + forecastTemp + " ForAccTemp: " + forcastAccurate);
+					+ currentExternalTemp + " forecastTemp: " + forecastTempCA + " ForAccTemp: " + forcastAccurate);
 
 			if (forcastAccurate <= pipeLowerThreshold && (!ProcessUtility.heater.isState())) {
 				action = "Water heater is switched on";
@@ -68,7 +81,7 @@ public class ProcessTempLines implements Serializable {
 
 			if (action != null) {
 				System.out.println("TEMPERATURE : Action = " + action);
-				PersistData.persistTempAction(action, deviceID);
+				PersistData.persistTempAction(action, deviceID, title, currentTemp);
 			}
 		}
 

@@ -14,7 +14,7 @@ import kafka.message.MessageAndMetadata;
 public class ConsumerThreadTemp implements Runnable {
 	public static final Logger LOG = LoggerFactory.getLogger(ConsumerThreadTemp.class);
 	private static final Charset UTF8 = Charset.forName("UTF-8");
-
+	private KafkaProducer producer = new KafkaProducer();
 	private final String m_topic;
 	private final KafkaStream<byte[], byte[]> m_stream;
 	private final int m_threadNumber;
@@ -45,8 +45,7 @@ public class ConsumerThreadTemp implements Runnable {
 					m_topicParser.parseTopic(m_topic, jsonObject);
 					//Produce to be consumed by the mongoDB consumer
 					if(!this.m_topic.equals("mongoDB")){
-		            	KafkaProducer producer = new KafkaProducer();
-		        		producer.setTopic("mongoDB");
+		            	producer.setTopic("mongoDB");
 		        		producer.publishMessage(jsonObject.toString());
 					}
 

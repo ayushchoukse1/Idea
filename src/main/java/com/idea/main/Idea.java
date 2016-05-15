@@ -13,6 +13,7 @@ public class Idea {
 		Thread t1 = new Thread(new Runnable() {
 			public void run() {
 				try {
+					System.out.println("Calling producer");
 					MqttConsumerToKafkaProducer.start();
 				} catch (Exception e) {
 					System.out.println("Error in MQttConsumerToKafkaProducer : " + e.getMessage());
@@ -24,6 +25,7 @@ public class Idea {
 		Thread t2 = new Thread(new Runnable() {
 			public void run() {
 				try {
+					System.out.println("Calling consumer");
 					KafkaConsumer.start();
 				} catch (Exception e) {
 					System.out.println("Error in KafkaConsumer : " + e.getMessage());
@@ -35,6 +37,7 @@ public class Idea {
 		Thread t3 = new Thread(new Runnable() {
 			public void run() {
 				try {
+					System.out.println("Calling forecast");
 					ForecastIOProducer.start();
 				} catch (Exception e) {
 					System.out.println("Error in ForecastIOProducer : " + e.getMessage());
@@ -71,8 +74,12 @@ public class Idea {
 		});
 		
 		//start the active weather data collector
-		t4.start();
+		//t4.start();
 
+		t1.start();
+		t2.start();
+		t3.start();
+		
 		
 		//start the active weather data collector
 		t6.start();			

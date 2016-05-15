@@ -36,22 +36,25 @@ public class TestKafkaProducer {
 	private static final String BROKER_LIST = "brokerlist";
 	private static final String[] args = null;
 	private static String[] type1 = {
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch E\",\"state\":\"Red\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Aspen\",\"state\":\"Green\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family W\",\"state\":\"Red\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family TV\",\"state\":\"Green\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch W\",\"state\":\"Red\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room E\",\"state\":\"Green\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room NW\",\"state\":\"Red\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room SW\",\"state\":\"Green\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family E\",\"state\":\"Red\"}",
-			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Horse Picture\",\"state\":\"Green\"}",
-			"{\"deviceId\":\"28:db:b1:1f:06:00:00:d3\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
-					+ (new Random().nextInt((50 - 5) + 1) + 5) + ",\"temperature\":75.43}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch E\",\"state\":\"Red\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Aspen\",\"state\":\"Green\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family W\",\"state\":\"Red\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family TV\",\"state\":\"Green\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch W\",\"state\":\"Red\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room E\",\"state\":\"Green\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room NW\",\"state\":\"Red\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Round Room SW\",\"state\":\"Green\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family E\",\"state\":\"Red\"}",
+//			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Horse Picture\",\"state\":\"Green\"}",
+			//"{\"deviceId\":\"28:db:b1:1f:06:00:00:d3\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
+			//		+ (new Random().nextInt((50 - 5) + 1) + 5) + ",\"temperature\":75.43}",
 			"{\"deviceId\":\"28:26:1c:60:07:00:00:ad\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
-					+ (new Random().nextInt((50 - 5) + 10) + 5) + ",\"temperature\":75.43}",
-			"{\"deviceId\":\"28:ff:2c:31:44:04:00:c2\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
-					+ (new Random().nextInt((50 - 5) + 15) + 5) + ",\"temperature\":75.43}" };
+					+ (new Random().nextInt((50 - 5) + 10) + 5) + ",\"temperature\":75.43}"
+//					,
+//			"{\"deviceId\":\"28:ff:2c:31:44:04:00:c2\",\"deviceType\":\"DS18B20\",\"celciusTemperature\":"
+//					+ (new Random().nextInt((50 - 5) + 15) + 5) + ",\"temperature\":75.43}" 
+					};
+	
 	private static String[] type2 = {
 			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Family Couch E\",\"state\":\"Green\"}",
 			"{\"client\":\"I.D.E.A. Lighting\",\"command\":\"Lighting State\",\"name\":\"Aspen\",\"state\":\"Red\"}",

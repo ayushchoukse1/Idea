@@ -17,10 +17,9 @@ public class ExternalData {
 	static Double forecastTemp = 0.0;
 	static Double forecastTempCurr = 0.0;
 	public static void setSunTime(){
-		
 		sunsetTime = getSunsetTime();
 		sunriseTime = getSunriseTime();
-		forecastTemp = getForecastTemp();
+		//forecastTemp = getForecastTemp();
 		forecastTempCurr= getCurrentExternalTemp();
 	}
 	
@@ -67,11 +66,11 @@ public class ExternalData {
 		return sunriseTime * 1000;
 	}
 
-	public static double getForecastTemp() {
+	public static double getForecastTemp(String loc) {
 		ForecastIOService fs = new ForecastIOService();
 		Double forecastTemp = 0.0;
 		try {
-			String forecast = fs.getWeatherForecast("1600+Amphitheatre+Parkway,+Mountain+View,+CA");
+			String forecast = fs.getWeatherForecast(loc);
 			JSONObject jsonObj = new JSONObject(forecast);
 			jsonObj = jsonObj.getJSONObject("hourly");
 			JSONArray arr = jsonObj.getJSONArray("data");

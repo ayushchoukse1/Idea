@@ -13,7 +13,7 @@ public class MongoDBConnection {
 
 	private static void initializeDBConnection() {
 		try {
-			MongoClientURI uri = new MongoClientURI("mongodb://root:password@localhost:27017/idea");
+			MongoClientURI uri = new MongoClientURI("mongodb://root1:password@localhost:27017/idea");
 			MongoClient mongoClient = new MongoClient(uri);
 			dbConn = mongoClient.getDB("idea");
 		} catch (Exception e) {

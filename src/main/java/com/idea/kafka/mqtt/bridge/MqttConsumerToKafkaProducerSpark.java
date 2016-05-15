@@ -39,9 +39,11 @@ public class MqttConsumerToKafkaProducerSpark {
 	private static final String BROKER_LIST = "brokerlist";
 	private static final String[] args = null;
 
+	final static Logger logger = Logger.getLogger(MqttConsumerToKafkaProducer.class);
+	
 	public static void start() {
 		Options options = new Options();
-		Logger.getRootLogger().setLevel(Level.OFF);
+		
 		options.addOption(BROKER_LIST, true, "Kafka Brokers List");
 		options.addOption(SERIALIZER_CLASS, true, "Kafka Serializer Class");
 		options.addOption(MQTT_BROKER_HOST, true, "MQTT Broker Host");

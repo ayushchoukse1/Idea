@@ -31,10 +31,11 @@ public final class SparkProcess {
 	static double forecastTemp = 0;
 
 	public static void start() {
-
+		
+		System.out.println("Welcome to spark streaming...");
 		ProcessUtility.fillLocator();
 		String zkHosts = "localhost";
-		String listenTopics = "topic";
+		String listenTopics = "sparktopic";
 		String listenerName = "testListener";
 		SparkConf sparkConf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]")
 				.set("spark.executor.memory", "1g");
@@ -71,6 +72,8 @@ public final class SparkProcess {
 				return messages.contains("Lighting");
 			}
 		});
+		
+		//System.out.println("Test: Light lines separated");
 
 		// Separate Temperature lines from all the input messages
 		JavaDStream<String> tempLines = lines.filter(new Function<String, Boolean>() {
@@ -78,8 +81,10 @@ public final class SparkProcess {
 				return messages.contains("temperature");
 			}
 		});
+		//System.out.println("Test: Temperature lines separated");
 
 		readTempRDD(tempLines);
+		//lines.print();
 		readLightRDD(lightLines);
 
 		ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
@@ -96,13 +101,16 @@ public final class SparkProcess {
 	}
 
 	public static void readTempRDD(JavaDStream<String> dStream1) {
+		System.out.println("Test in readTempRDD");
 		dStream1.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
 			public Void call(JavaRDD<String> rdd) throws Exception {
+				//System.out.println("Test: In call temp");
 				JavaRDD<String> rowRDD = rdd.map(new Function<String, String>() {
-
+					
 					@Override
 					public String call(String string) throws Exception {
+						System.out.println("Test:  Calling processTempString method");
 						processTempLinesObject.readTempRDD(string);
 						return string;
 					}
@@ -117,15 +125,20 @@ public final class SparkProcess {
 
 	public static void readLightRDD(JavaDStream<String> dStream) {
 		ExternalData.setSunTime();
+		
+		System.out.println("Test in readLightRDD");
 		dStream.foreachRDD(new Function<JavaRDD<String>, Void>() {
 			@Override
 			public Void call(JavaRDD<String> rdd) throws Exception {
+				//System.out.println("Test: In call light");
 				JavaRDD<String> rowRDD = rdd.map(new Function<String, String>() {
 					/*
 					 * Make modifications to the String here.
 					 */
+					
 					@Override
 					public String call(String string) throws Exception {
+						System.out.println("Test:  Calling processLightString method");
 						processLightLinesObject.processLightString(string);
 						return string;
 					}
